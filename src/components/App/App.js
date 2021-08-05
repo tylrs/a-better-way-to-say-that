@@ -1,6 +1,5 @@
 import './App.css';
 import React, {useState, useEffect} from 'react';
-import Form from '../Form/Form'
 import PanelContainer from '../PanelContainer/PanelContainer'
 import { NavLink } from 'react-router-dom';
 
@@ -13,7 +12,6 @@ const App = () => {
       </header>
       <h4>1, 2, 3, 4</h4>
       <section>
-        <Form />
         <PanelContainer />
       </section>
     </main>
