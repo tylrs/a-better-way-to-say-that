@@ -4,7 +4,7 @@ import Panel from '../Panel/Panel'
 import Form from '../Form/Form'
 
 
-const PanelContainer = ({result}) => {
+const PanelContainer = ({result, handleSubmit}) => {
     let panel2 = [
         {type: 'text', content: 'Wow your sentence was:'},
         {type: 'result', content: result[0]},
