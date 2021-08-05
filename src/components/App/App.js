@@ -11,9 +11,7 @@ const App = () => {
         <NavLink to ='/my-sentences'>My Best Sentences</NavLink>
       </header>
       <h4>1, 2, 3, 4</h4>
-      <section>
-        <PanelContainer />
-      </section>
+      <PanelContainer />
     </main>
   );
 }
