@@ -8,7 +8,9 @@ const PanelContainer = () => {
     return (
         <section className='panel-container'>
             <Form />
-            
+            <Panel />
+            <Panel />
+            <Panel />
         </section>
     )
 }
