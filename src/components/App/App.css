@@ -1,0 +1,11 @@
+main {
+  height: 100vh;
+}
+
+.header {
+  border: 1px solid black;
+  display: flex;
+  height: 15vh;
+  justify-content: space-around;
+  align-items: center;
+}
