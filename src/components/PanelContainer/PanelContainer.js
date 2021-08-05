@@ -9,9 +9,9 @@ const PanelContainer = () => {
     return (
         <section className='panel-container'>
             <Form />
-            <Panel />
-            <Panel />
-            <Panel />
+            <Panel type='2'/>
+            <Panel type='3'/>
+            <Panel type='4'/>
         </section>
     )
 }
