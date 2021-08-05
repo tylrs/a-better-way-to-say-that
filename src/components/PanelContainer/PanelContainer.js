@@ -1,13 +1,15 @@
 import React from 'react'
 import Panel from '../Panel/Panel'
+import Form from '../Form/Form'
 
 
 const PanelContainer = () => {
  
     return (
-        <article>
+        <section className='panel-container'>
+            <Form />
             
-        </article>
+        </section>
     )
 }
 
