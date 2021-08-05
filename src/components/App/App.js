@@ -7,8 +7,8 @@ const App = () => {
   return (
     <main>
       <header>
-        <h1>A Better Way To Say That</h1>
-        <NavLink>My Best Sentences</NavLink>
+        <NavLink to='/'><h1>A Better Way To Say That</h1></NavLink>
+        <NavLink to ='/my-sentences'>My Best Sentences</NavLink>
       </header>
       <h4>1, 2, 3, 4</h4>
       <section>
