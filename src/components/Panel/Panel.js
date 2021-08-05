@@ -1,8 +1,9 @@
+import './Panel.css'
 import React from 'react'
 
 const Panel = () => {
     return (
-        <article>
+        <article className='panel'>
             <h2>Wow your sentence was</h2>
             <p>Positive</p>
             <hr />
