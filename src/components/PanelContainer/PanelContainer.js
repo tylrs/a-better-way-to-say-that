@@ -4,12 +4,12 @@ import Panel from '../Panel/Panel'
 import Form from '../Form/Form'
 
 
-const PanelContainer = (props) => {
+const PanelContainer = ({result}) => {
     let panel2 = [
         {type: 'text', content: 'Wow your sentence was:'},
-        {type: 'result', content: 'positive'},
+        {type: 'result', content: result[0]},
         {type: 'text', content: 'Here are the positive words in your sentence:'},
-        {type: 'result', content: 'bunny, happy'},
+        {type: 'result', content: [result[1], result[2]]},
         {type: 'text', content: 'How would you like to change your sentence?'},
         {type: 'button', content: 'More Positive'},
         {type: 'button', content: 'More Negative'},
@@ -17,7 +17,7 @@ const PanelContainer = (props) => {
     ]
     let panel3 = [
         {type: 'text', content: 'Here is your new sentence:'},
-        {type: 'result', content: props.result},
+        {type: 'result', content: result[0]},
         {type: 'button', content: 'Save this sentence'}
     ]
     let panel4 = [
@@ -29,9 +29,9 @@ const PanelContainer = (props) => {
     return (
         <section className='panel-container'>
             <Form />
-            <Panel type='2'/>
-            <Panel type='3'/>
-            <Panel type='4'/>
+            <Panel info={panel2}/>
+            <Panel info={panel3}/>
+            <Panel info={panel4}/>
         </section>
     )
 }
