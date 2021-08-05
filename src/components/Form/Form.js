@@ -1,12 +1,19 @@
 import '../Panel/Panel.css'
-import React from 'react'
+import React, {useState} from 'react'
 
-const Form = () => {
+const Form = ({handleSubmit}) => {
+    const [sentence, setSentence] = useState('')
+
     return (
         <form className='panel'>
             <label>Enter your sentence here</label>
-            <input type='text'></input>
-            <button>Submit</button>
+            <input 
+                type='text' 
+                placeholder='Enter Sentence Here'
+                value={sentence} 
+                onChange={(e) => setSentence(e.target.value)}
+            />
+            <button onClick={() => handleSubmit()}>Submit</button>
         </form>
     )
 }
