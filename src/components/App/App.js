@@ -10,7 +10,7 @@ const App = () => {
         <NavLink to='/'><h1>A Better Way To Say That</h1></NavLink>
         <NavLink to ='/my-sentences'>My Best Sentences</NavLink>
       </header>
-      <PanelContainer />
+      <PanelContainer result={['happy', 'bunny', 'angry']}/>
     </main>
   );
 }
