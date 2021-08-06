@@ -24,7 +24,9 @@ const App = () => {
   }
 
   const generateNewSentence = async(directionChange) => {
-    let newWords = submitWords(positiveWords, 'negative', 'positive')
+    let newPositiveWords, newNegativeWords;
+    if (positiveWords.length) newPositiveWords = submitWords(positiveWords, directionChange, 'positive')
+    if (negativeWords.length) newNegativeWords = submitWords(negativeWords, directionChange, 'negative')
   }
 
   return (
