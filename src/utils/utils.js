@@ -1,15 +1,17 @@
 export const cleanSentimentAnalysis = (result) => {
     const sentiment = convertToFullSentiment(result.score_tag)
-    const polarityTerms = result.sentence_list[0].segment_list[0].polarity_term_list.map(word => {
+    let positiveTerms = []
+    let negativeTerms = []
+    result.sentence_list[0].segment_list[0].polarity_term_list.forEach(word => {
         let wordSentiment = convertToFullSentiment(word.score_tag)
-        return {
-            text: word.text,
-            wordSentiment
-        }
+        wordSentiment.includes('positive') 
+        ? positiveTerms.push({text: word.text, wordSentiment})
+        : negativeTerms.push({text: word.text, wordSentiment})
     })
     return {
         sentiment,
-        polarityTerms,
+        positiveTerms,
+        negativeTerms,
         agreement: result.agreement
     }
 }
