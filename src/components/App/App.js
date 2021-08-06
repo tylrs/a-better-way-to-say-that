@@ -5,10 +5,15 @@ import { NavLink } from 'react-router-dom';
 import { submitSentence } from '../../utils/apicalls';
 
 const App = () => {
+  // const []
 
   const handleSubmit = async(sentence) => {
-    const result = await submitSentence(sentence)
-    console.log(result)
+    try {
+      const result = await submitSentence(sentence)
+      console.log(result)
+    } catch (err) {
+      console.log(err)
+    }
   }
 
   return (
