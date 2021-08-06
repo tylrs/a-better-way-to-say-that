@@ -19,6 +19,7 @@ const App = () => {
       const {sentiment, positiveTerms, negativeTerms} = await submitSentence(sentence)
       setTotalSentiment(sentiment)
       const {updatedPositiveTerms, updatedNegativeTerms} = findIndices(positiveTerms, negativeTerms, originalSentence)
+      console.log(updatedPositiveTerms, updatedNegativeTerms)
       setPositiveWords(updatedPositiveTerms)
       setNegativeWords(updatedNegativeTerms)
     } catch (err) {
