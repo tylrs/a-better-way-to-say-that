@@ -8,10 +8,10 @@ const PanelContainer = ({totalSentiment, positiveWords, negativeWords, handleSub
     let panel2 = [
         {type: 'text', content: 'Wow your sentence was:'},
         {type: 'result', content: totalSentiment},
-        {type: 'text', content: 'How would you like to change your sentence?'},
-        {type: 'button', content: 'More Positive'},
-        {type: 'button', content: 'More Negative'},
-        {type: 'button', content: 'Neutral'}
+        {type: 'text', content: 'Would you like your sentence to be more....'},
+        {type: 'button', content: 'positive', func: generateNewSentence},
+        {type: 'button', content: 'negative', func: generateNewSentence},
+        {type: 'button', content: 'neutral', func: generateNewSentence}
     ]
 
     let positiveSection = [
@@ -50,7 +50,7 @@ const PanelContainer = ({totalSentiment, positiveWords, negativeWords, handleSub
     let panel3 = [
         {type: 'text', content: 'Here is your new sentence:'},
         {type: 'result', content: 'Banana'},
-        {type: 'button', content: 'Save this sentence', func: generateNewSentence}
+        {type: 'button', content: 'Save this sentence'}
     ]
     let panel4 = [
         {type: 'text', content: 'You can now:'},
