@@ -1,0 +1,122 @@
+{
+    "status": {
+        "code": "0",
+        "msg": "OK",
+        "credits": "1",
+        "remaining_credits": "19966"
+    },
+    "model": "general_en",
+    "score_tag": "P",
+    "agreement": "DISAGREEMENT",
+    "subjectivity": "SUBJECTIVE",
+    "confidence": "84",
+    "irony": "IRONIC",
+    "sentence_list": [
+        {
+            "text": "I am happy sad mad glad laughing joyous",
+            "inip": "0",
+            "endp": "38",
+            "bop": "y",
+            "confidence": "94",
+            "score_tag": "P",
+            "agreement": "DISAGREEMENT",
+            "segment_list": [
+                {
+                    "text": "I am happy sad mad glad laughing joyous",
+                    "segment_type": "main",
+                    "inip": "0",
+                    "endp": "38",
+                    "confidence": "100",
+                    "score_tag": "P",
+                    "agreement": "DISAGREEMENT",
+                    "polarity_term_list": [
+                        {
+                            "text": "happy",
+                            "inip": "5",
+                            "endp": "9",
+                            "confidence": "100",
+                            "score_tag": "P"
+                        },
+                        {
+                            "text": "sad",
+                            "inip": "11",
+                            "endp": "13",
+                            "confidence": "100",
+                            "score_tag": "N"
+                        },
+                        {
+                            "text": "mad",
+                            "inip": "15",
+                            "endp": "17",
+                            "confidence": "100",
+                            "score_tag": "N"
+                        },
+                        {
+                            "text": "glad",
+                            "inip": "19",
+                            "endp": "22",
+                            "confidence": "100",
+                            "score_tag": "P"
+                        },
+                        {
+                            "text": "joyous",
+                            "inip": "33",
+                            "endp": "38",
+                            "confidence": "100",
+                            "score_tag": "P+"
+                        }
+                    ],
+                    "segment_list": [
+                        {
+                            "text": "laughing joyous",
+                            "segment_type": "main",
+                            "inip": "24",
+                            "endp": "38",
+                            "confidence": "100",
+                            "score_tag": "P+",
+                            "agreement": "AGREEMENT",
+                            "polarity_term_list": [
+                                {
+                                    "text": "joyous",
+                                    "inip": "33",
+                                    "endp": "38",
+                                    "confidence": "100",
+                                    "score_tag": "P+"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "mad glad",
+                            "segment_type": "main",
+                            "inip": "15",
+                            "endp": "22",
+                            "confidence": "100",
+                            "score_tag": "NEU",
+                            "agreement": "DISAGREEMENT",
+                            "polarity_term_list": [
+                                {
+                                    "text": "mad",
+                                    "inip": "15",
+                                    "endp": "17",
+                                    "confidence": "100",
+                                    "score_tag": "N"
+                                },
+                                {
+                                    "text": "glad",
+                                    "inip": "19",
+                                    "endp": "22",
+                                    "confidence": "100",
+                                    "score_tag": "P"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "sentimented_entity_list": [],
+            "sentimented_concept_list": []
+        }
+    ],
+    "sentimented_entity_list": [],
+    "sentimented_concept_list": []
+}
