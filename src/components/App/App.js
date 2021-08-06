@@ -26,7 +26,7 @@ const App = () => {
         <NavLink to='/'><h1>A Better Way To Say That</h1></NavLink>
         <NavLink to ='/my-sentences'>My Best Sentences</NavLink>
       </header>
-      <PanelContainer handleSubmit={handleSubmit} result={['happy', 'bunny', 'angry']}/>
+      <PanelContainer handleSubmit={handleSubmit} totalSentiment={totalSentiment} polarityWords={polarityWords}/>
     </main>
   );
 }
