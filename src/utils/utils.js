@@ -40,6 +40,17 @@ const convertToFullSentiment = (tag) => {
     return fullSentiment;
 }
 
-export const randomizer = (max) => {
+export const findNewWord = (result, directionChange, wordType) => {
+    console.log(directionChange, wordType)
+    let newWordType;
+    directionChange !== wordType ? newWordType = 'ants' : newWordType = 'syns'
+
+    let random1 = randomizer(result[0].meta[newWordType].length)
+    let random2 = randomizer(result[0].meta[newWordType][random1].length)
+    let newWord = result[0].meta[newWordType][random1][random2]
+    console.log(newWord)
+}
+
+const randomizer = (max) => {
     return Math.floor(Math.random() * (max-1) + 1);
 }
