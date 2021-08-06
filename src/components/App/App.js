@@ -5,12 +5,16 @@ import { NavLink } from 'react-router-dom';
 import { submitSentence } from '../../utils/apicalls';
 
 const App = () => {
-  // const []
+  const [originalSentence, setOriginalSentence] = useState('')
+  const [totalSentiment, setTotalSentiment] = useState('')
+  const [polarityWords, setPolarityWords] = useState([])
 
   const handleSubmit = async(sentence) => {
+    setOriginalSentence(sentence)
     try {
-      const result = await submitSentence(sentence)
-      console.log(result)
+      const {sentiment, polarityTerms} = await submitSentence(sentence)
+      setTotalSentiment(sentiment)
+      setPolarityWords(polarityTerms)
     } catch (err) {
       console.log(err)
     }
