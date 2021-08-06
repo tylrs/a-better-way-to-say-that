@@ -8,7 +8,7 @@ const PanelContainer = ({totalSentiment, polarityWords, handleSubmit}) => {
     let panel2 = [
         {type: 'text', content: 'Wow your sentence was:'},
         {type: 'result', content: totalSentiment},
-        {type: 'text', content: 'Here are the positive words in your sentence:'},
+        {type: 'text', content: `Here are the ${totalSentiment} words in your sentence:`},
         {type: 'words', content: polarityWords},
         {type: 'text', content: 'How would you like to change your sentence?'},
         {type: 'button', content: 'More Positive'},
