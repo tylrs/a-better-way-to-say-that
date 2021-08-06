@@ -7,14 +7,16 @@ import { submitSentence } from '../../utils/apicalls';
 const App = () => {
   const [originalSentence, setOriginalSentence] = useState('')
   const [totalSentiment, setTotalSentiment] = useState('')
-  const [polarityWords, setPolarityWords] = useState([])
+  const [positiveWords, setPositiveWords] = useState([])
+  const [negativeWords, setNegativeWords] = useState([])
 
   const handleSubmit = async(sentence) => {
     setOriginalSentence(sentence)
     try {
-      const {sentiment, polarityTerms} = await submitSentence(sentence)
+      const {sentiment, positiveTerms, negativeTerms} = await submitSentence(sentence)
       setTotalSentiment(sentiment)
-      setPolarityWords(polarityTerms)
+      setPositiveWords(positiveTerms)
+      setNegativeWords(negativeTerms)
     } catch (err) {
       console.log(err)
     }
@@ -26,7 +28,7 @@ const App = () => {
         <NavLink to='/'><h1>A Better Way To Say That</h1></NavLink>
         <NavLink to ='/my-sentences'>My Best Sentences</NavLink>
       </header>
-      <PanelContainer handleSubmit={handleSubmit} totalSentiment={totalSentiment} polarityWords={polarityWords}/>
+      <PanelContainer handleSubmit={handleSubmit} totalSentiment={totalSentiment} positiveWords={positiveWords} negativeWords={negativeWords}/>
     </main>
   );
 }

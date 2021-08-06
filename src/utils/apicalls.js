@@ -1,278 +1,127 @@
 import { cleanSentimentAnalysis } from "./utils";
 
 const sampleResult = {
-    "status": {
-        "code": "0",
-        "msg": "OK",
-        "credits": "1",
-        "remaining_credits": "19972"
-    },
-    "model": "general_en",
-    "score_tag": "P",
-    "agreement": "AGREEMENT",
-    "subjectivity": "SUBJECTIVE",
-    "confidence": "100",
-    "irony": "NONIRONIC",
-    "sentence_list": [
-        {
-            "text": "love happy friends of course yes laughter joy",
-            "inip": "0",
-            "endp": "44",
-            "bop": "y",
-            "confidence": "100",
-            "score_tag": "P",
-            "agreement": "AGREEMENT",
-            "segment_list": [
-                {
-                    "text": "love happy friends of course yes laughter joy",
-                    "segment_type": "main",
-                    "inip": "0",
-                    "endp": "44",
-                    "confidence": "100",
-                    "score_tag": "P",
-                    "agreement": "AGREEMENT",
-                    "polarity_term_list": [
-                        {
-                            "text": "love",
-                            "inip": "0",
-                            "endp": "3",
-                            "confidence": "100",
-                            "score_tag": "P",
-                            "sentimented_concept_list": [
-                                {
-                                    "form": "love",
-                                    "id": "4389870a4a",
-                                    "variant": "love",
-                                    "inip": "0",
-                                    "endp": "3",
-                                    "type": "Top>Person",
-                                    "score_tag": "P"
-                                },
-                                {
-                                    "form": "love",
-                                    "id": "d6a74cda8b",
-                                    "variant": "love",
-                                    "inip": "0",
-                                    "endp": "3",
-                                    "type": "Top>Person",
-                                    "score_tag": "P"
-                                },
-                                {
-                                    "form": "friend",
-                                    "id": "2f1f98e4bb",
-                                    "variant": "friends",
-                                    "inip": "11",
-                                    "endp": "17",
-                                    "type": "Top>Person",
-                                    "score_tag": "P"
-                                }
-                            ]
-                        },
-                        {
-                            "text": "happy",
-                            "inip": "5",
-                            "endp": "9",
-                            "confidence": "100",
-                            "score_tag": "P",
-                            "sentimented_concept_list": [
-                                {
-                                    "form": "love",
-                                    "id": "4389870a4a",
-                                    "variant": "love",
-                                    "inip": "0",
-                                    "endp": "3",
-                                    "type": "Top>Person",
-                                    "score_tag": "P"
-                                },
-                                {
-                                    "form": "love",
-                                    "id": "d6a74cda8b",
-                                    "variant": "love",
-                                    "inip": "0",
-                                    "endp": "3",
-                                    "type": "Top>Person",
-                                    "score_tag": "P"
-                                },
-                                {
-                                    "form": "friend",
-                                    "id": "2f1f98e4bb",
-                                    "variant": "friends",
-                                    "inip": "11",
-                                    "endp": "17",
-                                    "type": "Top>Person",
-                                    "score_tag": "P"
-                                }
-                            ]
-                        },
-                        {
-                            "text": "friend",
-                            "inip": "11",
-                            "endp": "17",
-                            "confidence": "100",
-                            "score_tag": "P",
-                            "sentimented_concept_list": [
-                                {
-                                    "form": "love",
-                                    "id": "4389870a4a",
-                                    "variant": "love",
-                                    "inip": "0",
-                                    "endp": "3",
-                                    "type": "Top>Person",
-                                    "score_tag": "P"
-                                },
-                                {
-                                    "form": "love",
-                                    "id": "d6a74cda8b",
-                                    "variant": "love",
-                                    "inip": "0",
-                                    "endp": "3",
-                                    "type": "Top>Person",
-                                    "score_tag": "P"
-                                },
-                                {
-                                    "form": "friend",
-                                    "id": "2f1f98e4bb",
-                                    "variant": "friends",
-                                    "inip": "11",
-                                    "endp": "17",
-                                    "type": "Top>Person",
-                                    "score_tag": "P"
-                                }
-                            ]
-                        },
-                        {
-                            "text": "joy",
-                            "inip": "42",
-                            "endp": "44",
-                            "confidence": "100",
-                            "score_tag": "P",
-                            "sentimented_concept_list": [
-                                {
-                                    "form": "love",
-                                    "id": "4389870a4a",
-                                    "variant": "love",
-                                    "inip": "0",
-                                    "endp": "3",
-                                    "type": "Top>Person",
-                                    "score_tag": "P"
-                                },
-                                {
-                                    "form": "love",
-                                    "id": "d6a74cda8b",
-                                    "variant": "love",
-                                    "inip": "0",
-                                    "endp": "3",
-                                    "type": "Top>Person",
-                                    "score_tag": "P"
-                                },
-                                {
-                                    "form": "friend",
-                                    "id": "2f1f98e4bb",
-                                    "variant": "friends",
-                                    "inip": "11",
-                                    "endp": "17",
-                                    "type": "Top>Person",
-                                    "score_tag": "P"
-                                }
-                            ]
-                        }
-                    ],
-                    "segment_list": [
-                        {
-                            "text": "happy friends",
-                            "segment_type": "main",
-                            "inip": "5",
-                            "endp": "17",
-                            "confidence": "100",
-                            "score_tag": "P",
-                            "agreement": "AGREEMENT",
-                            "polarity_term_list": [
-                                {
-                                    "text": "happy",
-                                    "inip": "5",
-                                    "endp": "9",
-                                    "confidence": "100",
-                                    "score_tag": "P",
-                                    "sentimented_concept_list": [
-                                        {
-                                            "form": "friend",
-                                            "id": "2f1f98e4bb",
-                                            "variant": "friends",
-                                            "inip": "11",
-                                            "endp": "17",
-                                            "type": "Top>Person",
-                                            "score_tag": "P"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "text": "friend",
-                                    "inip": "11",
-                                    "endp": "17",
-                                    "confidence": "100",
-                                    "score_tag": "P",
-                                    "sentimented_concept_list": [
-                                        {
-                                            "form": "friend",
-                                            "id": "2f1f98e4bb",
-                                            "variant": "friends",
-                                            "inip": "11",
-                                            "endp": "17",
-                                            "type": "Top>Person",
-                                            "score_tag": "P"
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "sentimented_entity_list": [],
-            "sentimented_concept_list": [
-                {
-                    "form": "friend",
-                    "id": "2f1f98e4bb",
-                    "type": "Top>Person",
-                    "score_tag": "P"
-                },
-                {
-                    "form": "love",
-                    "id": "4389870a4a",
-                    "type": "Top>Person",
-                    "score_tag": "P"
-                },
-                {
-                    "form": "love",
-                    "id": "d6a74cda8b",
-                    "type": "Top>Person",
-                    "score_tag": "P"
-                }
-            ]
-        }
-    ],
-    "sentimented_entity_list": [],
-    "sentimented_concept_list": [
-        {
-            "form": "friend",
-            "id": "2f1f98e4bb",
-            "type": "Top>Person",
-            "score_tag": "P"
+        "status": {
+            "code": "0",
+            "msg": "OK",
+            "credits": "1",
+            "remaining_credits": "19966"
         },
-        {
-            "form": "love",
-            "id": "4389870a4a",
-            "type": "Top>Person",
-            "score_tag": "P"
-        },
-        {
-            "form": "love",
-            "id": "d6a74cda8b",
-            "type": "Top>Person",
-            "score_tag": "P"
-        }
-    ]
-}
+        "model": "general_en",
+        "score_tag": "P",
+        "agreement": "DISAGREEMENT",
+        "subjectivity": "SUBJECTIVE",
+        "confidence": "84",
+        "irony": "IRONIC",
+        "sentence_list": [
+            {
+                "text": "I am happy sad mad glad laughing joyous",
+                "inip": "0",
+                "endp": "38",
+                "bop": "y",
+                "confidence": "94",
+                "score_tag": "P",
+                "agreement": "DISAGREEMENT",
+                "segment_list": [
+                    {
+                        "text": "I am happy sad mad glad laughing joyous",
+                        "segment_type": "main",
+                        "inip": "0",
+                        "endp": "38",
+                        "confidence": "100",
+                        "score_tag": "P",
+                        "agreement": "DISAGREEMENT",
+                        "polarity_term_list": [
+                            {
+                                "text": "happy",
+                                "inip": "5",
+                                "endp": "9",
+                                "confidence": "100",
+                                "score_tag": "P"
+                            },
+                            {
+                                "text": "sad",
+                                "inip": "11",
+                                "endp": "13",
+                                "confidence": "100",
+                                "score_tag": "N"
+                            },
+                            {
+                                "text": "mad",
+                                "inip": "15",
+                                "endp": "17",
+                                "confidence": "100",
+                                "score_tag": "N"
+                            },
+                            {
+                                "text": "glad",
+                                "inip": "19",
+                                "endp": "22",
+                                "confidence": "100",
+                                "score_tag": "P"
+                            },
+                            {
+                                "text": "joyous",
+                                "inip": "33",
+                                "endp": "38",
+                                "confidence": "100",
+                                "score_tag": "P+"
+                            }
+                        ],
+                        "segment_list": [
+                            {
+                                "text": "laughing joyous",
+                                "segment_type": "main",
+                                "inip": "24",
+                                "endp": "38",
+                                "confidence": "100",
+                                "score_tag": "P+",
+                                "agreement": "AGREEMENT",
+                                "polarity_term_list": [
+                                    {
+                                        "text": "joyous",
+                                        "inip": "33",
+                                        "endp": "38",
+                                        "confidence": "100",
+                                        "score_tag": "P+"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "mad glad",
+                                "segment_type": "main",
+                                "inip": "15",
+                                "endp": "22",
+                                "confidence": "100",
+                                "score_tag": "NEU",
+                                "agreement": "DISAGREEMENT",
+                                "polarity_term_list": [
+                                    {
+                                        "text": "mad",
+                                        "inip": "15",
+                                        "endp": "17",
+                                        "confidence": "100",
+                                        "score_tag": "N"
+                                    },
+                                    {
+                                        "text": "glad",
+                                        "inip": "19",
+                                        "endp": "22",
+                                        "confidence": "100",
+                                        "score_tag": "P"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "sentimented_entity_list": [],
+                "sentimented_concept_list": []
+            }
+        ],
+        "sentimented_entity_list": [],
+        "sentimented_concept_list": []
+    }
 
 export const submitSentence = async (sentence) => {
     // const formdata = new FormData();
