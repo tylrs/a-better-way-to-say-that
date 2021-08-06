@@ -3,7 +3,7 @@ import React, {useState, useEffect} from 'react';
 import PanelContainer from '../PanelContainer/PanelContainer'
 import { NavLink } from 'react-router-dom';
 import { submitSentence, submitWords } from '../../utils/apicalls';
-import { findIndices } from '../../utils/utils';
+import { findIndices, createNewSentence } from '../../utils/utils';
 
 const App = () => {
   const [originalSentence, setOriginalSentence] = useState('')
@@ -28,9 +28,13 @@ const App = () => {
   }
 
   const generateNewSentence = async(directionChange) => {
-    let newPositiveWords, newNegativeWords;
-    if (positiveWords.length) newPositiveWords = submitWords(positiveWords, directionChange, 'positive')
-    if (negativeWords.length) newNegativeWords = submitWords(negativeWords, directionChange, 'negative')
+    let newPositiveWords = []
+    let newNegativeWords = []
+    if (positiveWords.length) newPositiveWords = await submitWords(positiveWords, directionChange, 'positive')
+    if (negativeWords.length) newNegativeWords = await submitWords(negativeWords, directionChange, 'negative')
+    console.log(newPositiveWords, newNegativeWords)
+    const newSentence = createNewSentence(originalSentence, newPositiveWords, newNegativeWords)
+    setNewSentence(newSentence)
   }
 
   return (
