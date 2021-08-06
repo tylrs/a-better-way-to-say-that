@@ -34,7 +34,7 @@ const App = () => {
     if (negativeWords.length) newNegativeWords = await submitWords(negativeWords, directionChange, 'negative')
     console.log(newPositiveWords, newNegativeWords)
     const newSentence = await createNewSentence(originalSentence, newPositiveWords, newNegativeWords)
-    setOriginalSentence('')
+    // setOriginalSentence('')
     setNewSentence(newSentence)
     console.log(newSentence)
   }
@@ -51,6 +51,8 @@ const App = () => {
         positiveWords={positiveWords} 
         negativeWords={negativeWords}
         generateNewSentence = {generateNewSentence}
+        originalSentence = {originalSentence}
+        newSentence = {newSentence}
       />
     </main>
   );
