@@ -49,12 +49,17 @@ export const findNewWord = (result, directionChange, wordType) => {
     directionChange !== wordType ? newWordType = 'ants' : newWordType = 'syns'
 
     let random1 = randomizer(result[0].meta[newWordType].length)
+    console.log("This is the first random number>>>", random1)
     let random2 = randomizer(result[0].meta[newWordType][random1].length)
+    console.log("This is the second random number>>>", random2)
     let newWord = result[0].meta[newWordType][random1][random2]
     console.log(`This is the new word which is a ${newWordType}>>>>`,newWord)
     return newWord;
 }
 
 const randomizer = (max) => {
+    if (max === 1) {
+        return 0;
+    } 
     return Math.floor(Math.random() * (max-1) + 1);
 }
