@@ -2,15 +2,24 @@ import './App.css';
 import React, {useState, useEffect} from 'react';
 import PanelContainer from '../PanelContainer/PanelContainer'
 import { NavLink } from 'react-router-dom';
+import { submitSentence } from '../../utils/apicalls';
 
 const App = () => {
+
+  const handleSubmit = async(e, sentence) => {
+    e.preventDefault()
+    console.log(sentence)
+    const result = await submitSentence(sentence)
+    console.log(result)
+  }
+
   return (
     <main>
       <header className='header'>
         <NavLink to='/'><h1>A Better Way To Say That</h1></NavLink>
         <NavLink to ='/my-sentences'>My Best Sentences</NavLink>
       </header>
-      <PanelContainer result={['happy', 'bunny', 'angry']}/>
+      <PanelContainer handleSubmit={handleSubmit} result={['happy', 'bunny', 'angry']}/>
     </main>
   );
 }
