@@ -1,0 +1,95 @@
+{
+    "status": {
+        "code": "0",
+        "msg": "OK",
+        "credits": "1",
+        "remaining_credits": "19967"
+    },
+    "model": "general_en",
+    "score_tag": "P",
+    "agreement": "AGREEMENT",
+    "subjectivity": "OBJECTIVE",
+    "confidence": "100",
+    "irony": "NONIRONIC",
+    "sentence_list": [
+        {
+            "text": "Share the spice of life",
+            "inip": "0",
+            "endp": "22",
+            "bop": "y",
+            "confidence": "100",
+            "score_tag": "P",
+            "agreement": "AGREEMENT",
+            "segment_list": [
+                {
+                    "text": "Share the spice of life",
+                    "segment_type": "main",
+                    "inip": "0",
+                    "endp": "22",
+                    "confidence": "100",
+                    "score_tag": "P",
+                    "agreement": "AGREEMENT",
+                    "polarity_term_list": [
+                        {
+                            "text": "share@V",
+                            "inip": "0",
+                            "endp": "4",
+                            "confidence": "100",
+                            "score_tag": "P",
+                            "sentimented_concept_list": [
+                                {
+                                    "form": "stock",
+                                    "id": "eb91d05314",
+                                    "variant": "Share",
+                                    "inip": "0",
+                                    "endp": "4",
+                                    "type": "Top>OtherEntity>Rule",
+                                    "score_tag": "P"
+                                },
+                                {
+                                    "form": "spice",
+                                    "id": "c7901e5f54",
+                                    "variant": "spice",
+                                    "inip": "10",
+                                    "endp": "14",
+                                    "type": "Top>Product>Food>FruitOrVegetable",
+                                    "score_tag": "P"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "sentimented_entity_list": [],
+            "sentimented_concept_list": [
+                {
+                    "form": "spice",
+                    "id": "c7901e5f54",
+                    "type": "Top>Product>Food>FruitOrVegetable",
+                    "score_tag": "P"
+                },
+                {
+                    "form": "stock",
+                    "id": "eb91d05314",
+                    "type": "Top>OtherEntity>Rule",
+                    "score_tag": "P"
+                }
+            ]
+        }
+    ],
+    "sentimented_entity_list": [],
+    "sentimented_concept_list": [
+        {
+            "form": "spice",
+            "id": "c7901e5f54",
+            "type": "Top>Product>Food>FruitOrVegetable",
+            "score_tag": "P"
+        },
+        {
+            "form": "stock",
+            "id": "eb91d05314",
+            "type": "Top>OtherEntity>Rule",
+            "score_tag": "P"
+        }
+    ]
+}
