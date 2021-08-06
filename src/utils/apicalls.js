@@ -123,7 +123,7 @@ const sampleResult = {
         "sentimented_concept_list": []
     }
 
-let sampleResult2 = {
+const sampleResult2 = {
     "status": {
         "code": "0",
         "msg": "OK",
@@ -190,7 +190,64 @@ let sampleResult2 = {
     ]
 }
 
-const sampleThesaurus1 = [
+const sampleResult3 = {
+    "status": {
+        "code": "0",
+        "msg": "OK",
+        "credits": "1",
+        "remaining_credits": "19964"
+    },
+    "model": "general_en",
+    "score_tag": "NEU",
+    "agreement": "DISAGREEMENT",
+    "subjectivity": "SUBJECTIVE",
+    "confidence": "84",
+    "irony": "IRONIC",
+    "sentence_list": [
+        {
+            "text": "happy sad",
+            "inip": "0",
+            "endp": "8",
+            "bop": "y",
+            "confidence": "94",
+            "score_tag": "NEU",
+            "agreement": "DISAGREEMENT",
+            "segment_list": [
+                {
+                    "text": "happy sad",
+                    "segment_type": "main",
+                    "inip": "0",
+                    "endp": "8",
+                    "confidence": "100",
+                    "score_tag": "NEU",
+                    "agreement": "DISAGREEMENT",
+                    "polarity_term_list": [
+                        {
+                            "text": "happy",
+                            "inip": "0",
+                            "endp": "4",
+                            "confidence": "100",
+                            "score_tag": "P"
+                        },
+                        {
+                            "text": "sad",
+                            "inip": "6",
+                            "endp": "8",
+                            "confidence": "100",
+                            "score_tag": "N"
+                        }
+                    ]
+                }
+            ],
+            "sentimented_entity_list": [],
+            "sentimented_concept_list": []
+        }
+    ],
+    "sentimented_entity_list": [],
+    "sentimented_concept_list": []
+}
+
+const sampleThesaurusGlad = [
     {
         "meta": {
             "id": "glad",
@@ -2095,18 +2152,21 @@ export const submitSentence = async (sentence) => {
     // } catch (err) {
     //     throw Error(err)
     // }
-    return cleanSentimentAnalysis(sampleResult)
+    return cleanSentimentAnalysis(sampleResult3)
 }
 
 export const submitWords = async (words, directionChange, wordType) => {
-    console.log(words[1].text)
-    try {
-        // const response = await fetch(`https://dictionaryapi.com/api/v3/references/thesaurus/json/${words[1].text}?key=9691e0fb-dd4a-4c0f-b4e2-b340a964a4bb`)
-        // const result = await response.json()
-        // console.log(result)
-        let result = sampleThesaurus1
-        findNewWord(result, directionChange, wordType)
-    } catch {
-
-    }
+    let newWords = await Promise.all(words.map(async (word) => {
+        console.log("this is one of the selected words>>>>",  word.text)
+        try {
+            const response = await fetch(`https://dictionaryapi.com/api/v3/references/thesaurus/json/${word.text}?key=9691e0fb-dd4a-4c0f-b4e2-b340a964a4bb`)
+            const result = await response.json()
+            // console.log(result)
+            // let result = sampleThesaurusGlad
+            return findNewWord(result, directionChange, wordType)
+        } catch(err) {
+            console.log(err)
+        }
+    }))
+    console.log("LOOK AT THE NEW WORDS >>>>", newWords)
 }
