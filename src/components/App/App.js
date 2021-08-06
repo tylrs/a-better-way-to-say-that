@@ -6,9 +6,7 @@ import { submitSentence } from '../../utils/apicalls';
 
 const App = () => {
 
-  const handleSubmit = async(e, sentence) => {
-    e.preventDefault()
-    console.log(sentence)
+  const handleSubmit = async(sentence) => {
     const result = await submitSentence(sentence)
     console.log(result)
   }
