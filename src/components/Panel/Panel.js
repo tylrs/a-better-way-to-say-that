@@ -38,7 +38,15 @@ const Panel = ({info}) => {
     //     default: 
     //         panelContent = <p>Error</p>
     // }
-    let panelContent = info.map(({type, content}) => {
+    const generateWords = (content) => {
+        return content.map(word => {
+            return (
+                <p className={word.wordSentiment}>{word.text}</p>
+            )   
+        })
+    }
+    
+    const panelContent = info.map(({type, content}) => {
         let element;
         switch(type) {
             case 'text':
@@ -50,11 +58,16 @@ const Panel = ({info}) => {
             case 'button':
                 element = <button>{content}</button>
                 break;
+            case 'words':
+                element = generateWords(content)
+                break;   
             default:
                 element = <hr />    
         }
         return element;
     })
+
+
     return (
         <article className='panel'>
             {panelContent}
