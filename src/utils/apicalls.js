@@ -1,4 +1,4 @@
-import { cleanSentimentAnalysis } from "./utils";
+import { cleanSentimentAnalysis, findNewWord } from "./utils";
 
 const sampleResult = {
         "status": {
@@ -2101,9 +2101,11 @@ export const submitSentence = async (sentence) => {
 export const submitWords = async (words, directionChange, wordType) => {
     console.log(words[1].text)
     try {
-        const response = await fetch(`https://dictionaryapi.com/api/v3/references/thesaurus/json/${words[1].text}?key=9691e0fb-dd4a-4c0f-b4e2-b340a964a4bb`)
-        const result = await response.json()
-        console.log(result)
+        // const response = await fetch(`https://dictionaryapi.com/api/v3/references/thesaurus/json/${words[1].text}?key=9691e0fb-dd4a-4c0f-b4e2-b340a964a4bb`)
+        // const result = await response.json()
+        // console.log(result)
+        let result = sampleThesaurus1
+        findNewWord(result, directionChange, wordType)
     } catch {
 
     }
