@@ -63,3 +63,22 @@ const randomizer = (max) => {
     } 
     return Math.floor(Math.random() * (max-1) + 1);
 }
+
+export const findIndices = (positiveTerms, negativeTerms, originalSentence) => {
+    const allTerms = positiveTerms.concat(negativeTerms)
+    let splitOriginalSentence = originalSentence.split(' ')
+    // console.log(splitOriginalSentence)
+    let updatedPositiveTerms = []
+    let updatedNegativeTerms = []
+    allTerms.forEach(term => {
+       let index = splitOriginalSentence.indexOf(term.text)
+       if (index !== -1) term.originalIndex = index;
+       if (term.wordSentiment === 'positive') {
+        updatedPositiveTerms.push(term)
+       } else {
+        updatedNegativeTerms.push(term)
+       }
+    })
+    // console.log(updatedPositiveTerms, updatedNegativeTerms)
+    return {updatedPositiveTerms, updatedNegativeTerms};
+}
