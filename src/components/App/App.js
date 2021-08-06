@@ -3,6 +3,7 @@ import React, {useState, useEffect} from 'react';
 import PanelContainer from '../PanelContainer/PanelContainer'
 import { NavLink } from 'react-router-dom';
 import { submitSentence, submitWords } from '../../utils/apicalls';
+import { findIndices } from '../../utils/utils';
 
 const App = () => {
   const [originalSentence, setOriginalSentence] = useState('')
@@ -12,12 +13,14 @@ const App = () => {
   const [negativeWords, setNegativeWords] = useState([])
 
   const handleSubmit = async(sentence) => {
+    console.log("original sentence>>>>",sentence)
     setOriginalSentence(sentence)
     try {
       const {sentiment, positiveTerms, negativeTerms} = await submitSentence(sentence)
       setTotalSentiment(sentiment)
-      setPositiveWords(positiveTerms)
-      setNegativeWords(negativeTerms)
+      const {updatedPositiveTerms, updatedNegativeTerms} = findIndices(positiveTerms, negativeTerms, originalSentence)
+      setPositiveWords(updatedPositiveTerms)
+      setNegativeWords(updatedNegativeTerms)
     } catch (err) {
       console.log(err)
     }
