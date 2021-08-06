@@ -14,12 +14,12 @@ const App = () => {
 
   const handleSubmit = async(sentence) => {
     console.log("original sentence>>>>",sentence)
-    setOriginalSentence(sentence)
     try {
       const {sentiment, positiveTerms, negativeTerms} = await submitSentence(sentence)
+      setOriginalSentence(sentence)
       setTotalSentiment(sentiment)
-      const {updatedPositiveTerms, updatedNegativeTerms} = findIndices(positiveTerms, negativeTerms, originalSentence)
-      console.log(updatedPositiveTerms, updatedNegativeTerms)
+      const {updatedPositiveTerms, updatedNegativeTerms} = await findIndices(positiveTerms, negativeTerms, sentence)
+      console.log("These should have updated indices in them>>>", updatedPositiveTerms, updatedNegativeTerms)
       setPositiveWords(updatedPositiveTerms)
       setNegativeWords(updatedNegativeTerms)
     } catch (err) {
@@ -33,8 +33,10 @@ const App = () => {
     if (positiveWords.length) newPositiveWords = await submitWords(positiveWords, directionChange, 'positive')
     if (negativeWords.length) newNegativeWords = await submitWords(negativeWords, directionChange, 'negative')
     console.log(newPositiveWords, newNegativeWords)
-    const newSentence = createNewSentence(originalSentence, newPositiveWords, newNegativeWords)
+    const newSentence = await createNewSentence(originalSentence, newPositiveWords, newNegativeWords)
+    setOriginalSentence('')
     setNewSentence(newSentence)
+    console.log(newSentence)
   }
 
   return (
