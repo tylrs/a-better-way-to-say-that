@@ -4,6 +4,12 @@ import React, {useState} from 'react'
 const Form = ({handleSubmit}) => {
     const [sentence, setSentence] = useState('')
 
+    const handleClick = (e) => {
+        e.preventDefault()
+        handleSubmit(sentence)
+        setSentence('')
+    }
+
     return (
         <form className='panel'>
             <label>Enter your sentence here</label>
@@ -13,7 +19,7 @@ const Form = ({handleSubmit}) => {
                 value={sentence} 
                 onChange={(e) => setSentence(e.target.value)}
             />
-            <button onClick={(e) => handleSubmit(e, sentence)}>Submit</button>
+            <button onClick={(e) => handleClick(e)}>Submit</button>
         </form>
     )
 }
