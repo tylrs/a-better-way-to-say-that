@@ -39,3 +39,7 @@ const convertToFullSentiment = (tag) => {
     }
     return fullSentiment;
 }
+
+export const randomizer = (max) => {
+    return Math.floor(Math.random() * (max-1) + 1);
+}
