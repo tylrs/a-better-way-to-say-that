@@ -123,22 +123,89 @@ const sampleResult = {
         "sentimented_concept_list": []
     }
 
+let sampleResult2 = {
+    "status": {
+        "code": "0",
+        "msg": "OK",
+        "credits": "1",
+        "remaining_credits": "19965"
+    },
+    "model": "general_en",
+    "score_tag": "NONE",
+    "agreement": "AGREEMENT",
+    "subjectivity": "OBJECTIVE",
+    "confidence": "100",
+    "irony": "NONIRONIC",
+    "sentence_list": [
+        {
+            "text": "there is a cat",
+            "inip": "0",
+            "endp": "13",
+            "bop": "y",
+            "confidence": "100",
+            "score_tag": "NONE",
+            "agreement": "AGREEMENT",
+            "segment_list": [
+                {
+                    "text": "there is a cat",
+                    "segment_type": "secondary",
+                    "inip": "0",
+                    "endp": "13",
+                    "confidence": "100",
+                    "score_tag": "NONE",
+                    "agreement": "AGREEMENT",
+                    "polarity_term_list": [],
+                    "sentimented_concept_list": [
+                        {
+                            "form": "cat",
+                            "id": "af2c7e7b16",
+                            "variant": "cat",
+                            "inip": "11",
+                            "endp": "13",
+                            "type": "Top>LivingThing>Animal>Vertebrate>Mammal",
+                            "score_tag": "NONE"
+                        }
+                    ]
+                }
+            ],
+            "sentimented_entity_list": [],
+            "sentimented_concept_list": [
+                {
+                    "form": "cat",
+                    "id": "af2c7e7b16",
+                    "type": "Top>LivingThing>Animal>Vertebrate>Mammal",
+                    "score_tag": "NONE"
+                }
+            ]
+        }
+    ],
+    "sentimented_entity_list": [],
+    "sentimented_concept_list": [
+        {
+            "form": "cat",
+            "id": "af2c7e7b16",
+            "type": "Top>LivingThing>Animal>Vertebrate>Mammal",
+            "score_tag": "NONE"
+        }
+    ]
+}
+
 export const submitSentence = async (sentence) => {
-    // const formdata = new FormData();
-    // formdata.append("key", "269a10b0ae7249a4022c77a093494421");
-    // formdata.append("txt", `${sentence}`);
-    // formdata.append("lang", "en");  
-    // try {
-    //     const response = await fetch('https://api.meaningcloud.com/sentiment-2.1', {
-    //         method: 'POST',
-    //         body: formdata,
-    //         redirect: 'follow'
-    //      })
-    //     const result = await response.json()
-    //     console.log(result)
-    //     return cleanSentimentAnalysis(result)
-    // } catch (err) {
-    //     throw Error(err)
-    // }
-    return cleanSentimentAnalysis(sampleResult)
+    const formdata = new FormData();
+    formdata.append("key", "269a10b0ae7249a4022c77a093494421");
+    formdata.append("txt", `${sentence}`);
+    formdata.append("lang", "en");  
+    try {
+        const response = await fetch('https://api.meaningcloud.com/sentiment-2.1', {
+            method: 'POST',
+            body: formdata,
+            redirect: 'follow'
+         })
+        const result = await response.json()
+        console.log(result)
+        return cleanSentimentAnalysis(result)
+    } catch (err) {
+        throw Error(err)
+    }
+    // return cleanSentimentAnalysis(sampleResult)
 }
