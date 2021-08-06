@@ -49,6 +49,9 @@ const Panel = ({info}) => {
                 break;
             case 'button':
                 element = <button>{content}</button>
+                break;
+            default:
+                element = <hr />    
         }
         return element;
     })
