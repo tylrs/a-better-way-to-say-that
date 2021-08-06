@@ -10,7 +10,7 @@ const Panel = ({info}) => {
         })
     }
 
-    const panelContent = info.map(({type, content}) => {
+    const panelContent = info.map(({type, content, func}) => {
         let element;
         switch(type) {
             case 'text':
@@ -20,7 +20,7 @@ const Panel = ({info}) => {
                 element = <h3>{content}</h3>
                 break;
             case 'button':
-                element = <button>{content}</button>
+                element = <button onClick={() => func()}>{content}</button>
                 break;
             case 'words':
                 element = generateWords(content)
