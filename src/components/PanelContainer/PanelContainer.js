@@ -4,7 +4,7 @@ import Panel from '../Panel/Panel'
 import Form from '../Form/Form'
 
 
-const PanelContainer = ({totalSentiment, positiveWords, negativeWords, handleSubmit, generateNewSentence}) => {
+const PanelContainer = ({totalSentiment, positiveWords, negativeWords, handleSubmit, generateNewSentence, originalSentence, newSentence}) => {
     let panel2 = [
         {type: 'text', content: 'Wow your sentence was:'},
         {type: 'result', content: totalSentiment},
@@ -48,8 +48,10 @@ const PanelContainer = ({totalSentiment, positiveWords, negativeWords, handleSub
     }
 
     let panel3 = [
+        {type: 'text', content: 'Here is your original sentence:'},
+        {type: 'result', content: originalSentence},
         {type: 'text', content: 'Here is your new sentence:'},
-        {type: 'result', content: 'Banana'},
+        {type: 'result', content: newSentence},
         {type: 'button', content: 'Save this sentence'}
     ]
     let panel4 = [
