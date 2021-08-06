@@ -28,7 +28,7 @@ const PanelContainer = ({result, handleSubmit}) => {
 
     return (
         <section className='panel-container'>
-            <Form />
+            <Form handleSubmit={handleSubmit}/>
             <Panel info={panel2}/>
             <Panel info={panel3}/>
             <Panel info={panel4}/>

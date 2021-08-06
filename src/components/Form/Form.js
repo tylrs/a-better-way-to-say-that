@@ -13,7 +13,7 @@ const Form = ({handleSubmit}) => {
                 value={sentence} 
                 onChange={(e) => setSentence(e.target.value)}
             />
-            <button onClick={() => handleSubmit()}>Submit</button>
+            <button onClick={(e) => handleSubmit(e, sentence)}>Submit</button>
         </form>
     )
 }
