@@ -1,7 +1,7 @@
 import '../Panel/Panel.css'
 import React, {useState} from 'react'
 
-const Form = ({handleSubmit}) => {
+const Form = ({handleSubmit, panel, currentPanel}) => {
     const [sentence, setSentence] = useState('')
 
     const handleClick = (e) => {
@@ -11,7 +11,7 @@ const Form = ({handleSubmit}) => {
     }
 
     return (
-        <form className='panel'>
+        <form className={panel === currentPanel ? 'panel current-panel' : 'panel'}>
             <label>Enter your sentence here</label>
             <input 
                 type='text' 

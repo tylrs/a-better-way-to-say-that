@@ -1,7 +1,7 @@
 import './Panel.css'
 import React from 'react'
 
-const Panel = ({info}) => {
+const Panel = ({info, panel, currentPanel}) => {
     const generateWords = (content) => {
         return content.map(word => {
             return (
@@ -31,9 +31,9 @@ const Panel = ({info}) => {
         return element;
     })
 
-
+    console.log(panel, currentPanel)
     return (
-        <article className='panel'>
+        <article className={panel === currentPanel ? 'panel current-panel' : 'panel'}>
             {panelContent}
         </article>
     )
