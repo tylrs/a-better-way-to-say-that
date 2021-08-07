@@ -1,7 +1,7 @@
 import './App.css';
 import React, {useState, useEffect} from 'react';
 import PanelContainer from '../PanelContainer/PanelContainer'
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import { submitSentence, submitWords } from '../../utils/apicalls';
 import { findIndices, createNewSentence } from '../../utils/utils';
 
@@ -68,7 +68,7 @@ const App = () => {
   return (
     <main>
       <header className='header'>
-        <NavLink to='/'><h1>A Better Way To Say That</h1></NavLink>
+        <Link to='/' className='title'><h1>A Better Way To Say That</h1></Link>
         <NavLink to ='/my-sentences'>My Best Sentences</NavLink>
       </header>
       <PanelContainer 
