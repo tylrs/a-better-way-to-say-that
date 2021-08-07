@@ -17,10 +17,10 @@ const Panel = ({info, panel, currentPanel}) => {
                 element = <h2>{content}</h2>
                 break;
             case 'result': 
-                element = <h3 className={panel === currentPanel ? `result ${styling}` : ''}>{content}</h3>
+                element = <h3 className={panel === currentPanel && `result ${styling}`}>{content}</h3>
                 break;
             case 'button':
-                element = <button onClick={() => func(content, currentPanel)} className={panel === currentPanel ? 'current-panel' : ''}>{content}</button>
+                element = <button onClick={() => func(content, currentPanel)} className={panel === currentPanel && `current-panel ${styling}`}>{content}</button>
                 break;
             case 'words':
                 element = generateWords(content)
