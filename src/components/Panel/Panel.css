@@ -43,9 +43,16 @@
     text-transform: capitalize;
 }
 
-h2 {
+h2, label {
     color: white;
     font-size: 1rem;
+}
+
+textarea {
+    border: 0px;
+    height: 30%;
+    resize: none;
+    width: 90%;
 }
 
 @keyframes fadeIn {
