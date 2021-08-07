@@ -5,7 +5,7 @@ const Panel = ({info, panel, currentPanel}) => {
     const generateWords = (content) => {
         return content.map(word => {
             return (
-                <p className={word.wordSentiment}>{word.text}</p>
+                <p className={panel === currentPanel ? `result ${word.wordSentiment}` : word.wordSentiment}>{word.text}</p>
             )   
         })
     }
@@ -17,10 +17,10 @@ const Panel = ({info, panel, currentPanel}) => {
                 element = <h2>{content}</h2>
                 break;
             case 'result': 
-                element = <h3>{content}</h3>
+                element = <h3 className={panel === currentPanel ? 'result' : ''}>{content}</h3>
                 break;
             case 'button':
-                element = <button onClick={() => func(content, currentPanel)}>{content}</button>
+                element = <button onClick={() => func(content, currentPanel)} className={panel === currentPanel ? 'current-panel' : ''}>{content}</button>
                 break;
             case 'words':
                 element = generateWords(content)
