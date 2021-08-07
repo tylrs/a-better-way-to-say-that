@@ -20,7 +20,7 @@ const Panel = ({info, panel, currentPanel}) => {
                 element = <h3>{content}</h3>
                 break;
             case 'button':
-                element = <button onClick={() => func(content)}>{content}</button>
+                element = <button onClick={() => func(content, currentPanel)}>{content}</button>
                 break;
             case 'words':
                 element = generateWords(content)

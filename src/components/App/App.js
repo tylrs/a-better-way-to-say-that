@@ -43,8 +43,17 @@ const App = () => {
     setCurrentPanel('3')
   }
 
-  const switchPanels = () => {
-    setCurrentPanel('4')
+  const switchPanels = (content, currentPanel) => {
+    let newPanel = '4'
+    if (currentPanel === '4') {
+      newPanel = '1'
+      setOriginalSentence('')
+      setNewSentence('')
+      setPositiveWords([])
+      setNegativeWords([])
+      setTotalSentiment('')
+    }
+    setCurrentPanel(newPanel)
   }
 
   return (
