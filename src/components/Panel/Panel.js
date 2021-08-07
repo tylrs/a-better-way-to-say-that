@@ -10,14 +10,14 @@ const Panel = ({info, panel, currentPanel}) => {
         })
     }
 
-    const panelContent = info.map(({type, content, func}) => {
+    const panelContent = info.map(({type, content, styling, func}) => {
         let element;
         switch(type) {
             case 'text':
                 element = <h2>{content}</h2>
                 break;
             case 'result': 
-                element = <h3 className={panel === currentPanel ? 'result' : ''}>{content}</h3>
+                element = <h3 className={panel === currentPanel ? `result ${styling}` : ''}>{content}</h3>
                 break;
             case 'button':
                 element = <button onClick={() => func(content, currentPanel)} className={panel === currentPanel ? 'current-panel' : ''}>{content}</button>
