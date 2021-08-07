@@ -9,6 +9,7 @@ const App = () => {
   const [originalSentence, setOriginalSentence] = useState('')
   const [newSentence, setNewSentence] = useState('')
   const [totalSentiment, setTotalSentiment] = useState('')
+  const [newSentenceSentiment, setNewSentenceSentiment] = useState('')
   const [positiveWords, setPositiveWords] = useState([])
   const [negativeWords, setNegativeWords] = useState([])
   const [currentPanel, setCurrentPanel] = useState('1')
@@ -40,6 +41,7 @@ const App = () => {
     const newSentence = await createNewSentence(originalSentence, newPositiveWords, newNegativeWords)
     // setOriginalSentence('')
     setNewSentence(newSentence)
+    setNewSentenceSentiment(directionChange)
     console.log(newSentence)
     setCurrentPanel('3')
   }
@@ -53,6 +55,7 @@ const App = () => {
       setPositiveWords([])
       setNegativeWords([])
       setTotalSentiment('')
+      setNewSentenceSentiment('')
     }
     setCurrentPanel(newPanel)
   }
@@ -79,6 +82,7 @@ const App = () => {
         newSentence = {newSentence}
         switchPanels = {switchPanels}
         saveSentence = {saveSentence}
+        newSentenceSentiment = {newSentenceSentiment}
       />
     </main>
   );
