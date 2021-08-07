@@ -14,11 +14,12 @@ const Form = ({handleSubmit, panel, currentPanel}) => {
     return (
         <form className={panel === currentPanel ? 'panel current-panel' : 'panel'}>
             <label>Enter your sentence here</label>
-            <input 
+            <textarea 
                 type='text' 
                 placeholder='Enter Sentence Here'
                 value={sentence} 
                 onChange={(e) => setSentence(e.target.value)}
+                maxLength='50'
             />
             <button onClick={(e) => handleClick(e)}>Submit</button>
         </form>
