@@ -4,7 +4,7 @@ import Panel from '../Panel/Panel'
 import Form from '../Form/Form'
 
 
-const PanelContainer = ({totalSentiment, currentPanel, positiveWords, negativeWords, handleSubmit, generateNewSentence, originalSentence, newSentence, switchPanels}) => {
+const PanelContainer = ({totalSentiment, currentPanel, positiveWords, negativeWords, handleSubmit, generateNewSentence, originalSentence, newSentence, switchPanels, saveSentence}) => {
     let panel2 = [
         {type: 'text', content: 'Wow your sentence was:'},
         {type: 'result', content: totalSentiment},
@@ -59,7 +59,7 @@ const PanelContainer = ({totalSentiment, currentPanel, positiveWords, negativeWo
         {type: 'text', content: 'Your new sentence:'},
         {type: 'result', content: newSentence},
         {type: 'text', content: 'You can now:'},
-        {type: 'button', content: 'Save this sentence'},
+        {type: 'button', content: 'Save this sentence', func: saveSentence},
         {type: 'button', content: 'Try again with same sentence'},
         {type: 'button', content: 'Change a new sentence', func: switchPanels}
     ]

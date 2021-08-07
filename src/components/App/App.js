@@ -12,6 +12,7 @@ const App = () => {
   const [positiveWords, setPositiveWords] = useState([])
   const [negativeWords, setNegativeWords] = useState([])
   const [currentPanel, setCurrentPanel] = useState('1')
+  const [savedSentences, setSavedSentences] = useState([])
   const [timer, setTimer] = useState('')
 
   const handleSubmit = async(sentence) => {
@@ -56,6 +57,11 @@ const App = () => {
     setCurrentPanel(newPanel)
   }
 
+  const saveSentence = () => {
+    setSavedSentences([...savedSentences, newSentence])
+    console.log('sentence saved')
+  }
+
   return (
     <main>
       <header className='header'>
@@ -72,6 +78,7 @@ const App = () => {
         originalSentence = {originalSentence}
         newSentence = {newSentence}
         switchPanels = {switchPanels}
+        saveSentence = {saveSentence}
       />
     </main>
   );
