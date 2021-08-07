@@ -12,6 +12,7 @@ const App = () => {
   const [positiveWords, setPositiveWords] = useState([])
   const [negativeWords, setNegativeWords] = useState([])
   const [currentPanel, setCurrentPanel] = useState('1')
+  const [timer, setTimer] = useState('')
 
   const handleSubmit = async(sentence) => {
     console.log("original sentence>>>>",sentence)
@@ -42,6 +43,10 @@ const App = () => {
     setCurrentPanel('3')
   }
 
+  const switchPanels = () => {
+    setCurrentPanel('4')
+  }
+
   return (
     <main>
       <header className='header'>
@@ -57,6 +62,7 @@ const App = () => {
         generateNewSentence = {generateNewSentence}
         originalSentence = {originalSentence}
         newSentence = {newSentence}
+        switchPanels = {switchPanels}
       />
     </main>
   );
