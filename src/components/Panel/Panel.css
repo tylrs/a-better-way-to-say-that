@@ -7,4 +7,9 @@
     margin: 5%;
     padding: 2%;
     text-align: center;
+    visibility: hidden;
+}
+
+.current-panel {
+    visibility: visible;
 }

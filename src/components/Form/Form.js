@@ -1,4 +1,5 @@
 import '../Panel/Panel.css'
+
 import React, {useState} from 'react'
 
 const Form = ({handleSubmit, panel, currentPanel}) => {
