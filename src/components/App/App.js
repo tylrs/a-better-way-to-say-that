@@ -23,6 +23,7 @@ const App = () => {
       console.log("These should have updated indices in them>>>", updatedPositiveTerms, updatedNegativeTerms)
       setPositiveWords(updatedPositiveTerms)
       setNegativeWords(updatedNegativeTerms)
+      setCurrentPanel('2')
     } catch (err) {
       console.log(err)
     }
@@ -38,6 +39,7 @@ const App = () => {
     // setOriginalSentence('')
     setNewSentence(newSentence)
     console.log(newSentence)
+    setCurrentPanel('3')
   }
 
   return (
