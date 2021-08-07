@@ -11,7 +11,7 @@ const App = () => {
   const [totalSentiment, setTotalSentiment] = useState('')
   const [positiveWords, setPositiveWords] = useState([])
   const [negativeWords, setNegativeWords] = useState([])
-  const [currentPanel, setCurrentPanel] = useState(1)
+  const [currentPanel, setCurrentPanel] = useState('1')
 
   const handleSubmit = async(sentence) => {
     console.log("original sentence>>>>",sentence)

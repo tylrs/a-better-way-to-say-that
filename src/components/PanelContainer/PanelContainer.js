@@ -63,9 +63,9 @@ const PanelContainer = ({totalSentiment, currentPanel, positiveWords, negativeWo
     return (
         <section className='panel-container'>
             <Form handleSubmit={handleSubmit} panel='1' currentPanel={currentPanel}/>
-            <Panel info={panel2} panel='2'currentPanel={currentPanel}/>
-            <Panel info={panel3} panel='3'currentPanel={currentPanel}/>
-            <Panel info={panel4} panel='4'currentPanel={currentPanel}/>
+            <Panel info={panel2} panel='2' currentPanel={currentPanel}/>
+            <Panel info={panel3} panel='3' currentPanel={currentPanel}/>
+            <Panel info={panel4} panel='4' currentPanel={currentPanel}/>
         </section>
     )
 }
