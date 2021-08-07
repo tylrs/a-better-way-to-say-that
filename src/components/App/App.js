@@ -11,6 +11,7 @@ const App = () => {
   const [totalSentiment, setTotalSentiment] = useState('')
   const [positiveWords, setPositiveWords] = useState([])
   const [negativeWords, setNegativeWords] = useState([])
+  const [currentPanel, setCurrentPanel] = useState(1)
 
   const handleSubmit = async(sentence) => {
     console.log("original sentence>>>>",sentence)
@@ -47,6 +48,7 @@ const App = () => {
       </header>
       <PanelContainer 
         handleSubmit={handleSubmit} 
+        currentPanel = {currentPanel}
         totalSentiment={totalSentiment} 
         positiveWords={positiveWords} 
         negativeWords={negativeWords}
