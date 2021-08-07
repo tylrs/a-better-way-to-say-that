@@ -61,7 +61,7 @@ const PanelContainer = ({totalSentiment, currentPanel, positiveWords, negativeWo
         {type: 'text', content: 'You can now:'},
         {type: 'button', content: 'Save this sentence'},
         {type: 'button', content: 'Try again with same sentence'},
-        {type: 'button', content: 'Change a new sentence'}
+        {type: 'button', content: 'Change a new sentence', func: switchPanels}
     ]
 
     return (
