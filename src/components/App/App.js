@@ -4,6 +4,7 @@ import PanelContainer from '../PanelContainer/PanelContainer'
 import { NavLink, Link, Route, Switch } from 'react-router-dom';
 import { submitSentence, submitWords } from '../../utils/apicalls';
 import { findIndices, createNewSentence } from '../../utils/utils';
+import SavedSentences from '../SavedSentences/SavedSentences';
 
 const App = () => {
   const [originalSentence, setOriginalSentence] = useState('')
@@ -14,6 +15,7 @@ const App = () => {
   const [negativeWords, setNegativeWords] = useState([])
   const [currentPanel, setCurrentPanel] = useState('1')
   const [savedSentences, setSavedSentences] = useState([])
+  const [savedMessage, setSavedMessage] = useState('hidden')
   const [timer, setTimer] = useState('')
 
   const handleSubmit = async(sentence) => {
@@ -62,10 +64,12 @@ const App = () => {
 
   const saveSentence = () => {
     const newSavedSentence = {
-      newSentece,
-      newSentenceSentiment
+      sentence: newSentence,
+      sentenceSentiment: newSentenceSentiment
     }
     setSavedSentences([...savedSentences, newSavedSentence])
+    setSavedMessage('displayed')
+    setTimer(setTimeout(() => setSavedMessage('hidden'), 3000))
     console.log('sentence saved')
   }
 
@@ -89,11 +93,11 @@ const App = () => {
             switchPanels = {switchPanels}
             saveSentence = {saveSentence}
             newSentenceSentiment = {newSentenceSentiment}
+            savedMessage = {savedMessage}
           />
         }/>
         <Route from='/saved-sentences' render={() => 
-        
-        
+          <SavedSentences savedSentences={savedSentences}/>
         }/>
       </Switch>
     </main>
