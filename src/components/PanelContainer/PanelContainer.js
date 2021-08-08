@@ -23,6 +23,11 @@ const PanelContainer = ({totalSentiment, currentPanel, positiveWords, negativeWo
         {type: 'words', content: negativeWords}
     ]
 
+    let neutralSection = [
+        {type: 'text', content: 'You did not have any positive or negative words'},
+        {type: 'button', content: 'Start over', func: switchPanels}
+    ]
+
     if (positiveWords.length && negativeWords.length) {
         negativeSection.forEach((item, index) => {
             panel2.splice(index + 2, 0, item)
@@ -39,11 +44,12 @@ const PanelContainer = ({totalSentiment, currentPanel, positiveWords, negativeWo
             panel2.splice(index + 2, 0, item)
         })
     } else {
-        let neutralMessage = {
-            type: 'text',
-            content: 'You did not have any positive or negative words'
-        }
-        panel2.splice(2, 0, neutralMessage)
+        panel2 = [
+            {type: 'text', content: 'Sentence Analysis:'},
+            {type: 'result', content: totalSentiment, styling: totalSentiment},
+            {type: 'text', content: 'You did not have any positive or negative words'},
+            {type: 'button', content: 'Start over', func: switchPanels}
+        ]
     }
 
     let panel3 = [
