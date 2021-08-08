@@ -66,10 +66,11 @@ textarea {
     border: 0px;
     border-radius: 10px;
     color: white;
+    font-size: 1.5rem;
     height: 12%;
     resize: none;
     text-align: center;
-    padding-top: 20%;
+    padding-top: 10%;
     padding-left: 10%;
     padding-right: 10%;
     width: 70%;
