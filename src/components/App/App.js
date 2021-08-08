@@ -29,23 +29,27 @@ const App = () => {
       setPositiveWords(updatedPositiveTerms)
       setNegativeWords(updatedNegativeTerms)
       setCurrentPanel('2')
-    } catch (err) {
+    } catch(err) {
       console.log(err)
     }
   }
 
   const generateNewSentence = async(directionChange) => {
-    let newPositiveWords = []
-    let newNegativeWords = []
-    if (positiveWords.length) newPositiveWords = await submitWords(positiveWords, directionChange, 'positive')
-    if (negativeWords.length) newNegativeWords = await submitWords(negativeWords, directionChange, 'negative')
-    console.log(newPositiveWords, newNegativeWords)
-    const newSentence = await createNewSentence(originalSentence, newPositiveWords, newNegativeWords)
-    // setOriginalSentence('')
-    setNewSentence(newSentence)
-    setNewSentenceSentiment(directionChange)
-    console.log(newSentence)
-    setCurrentPanel('3')
+    try {
+      let newPositiveWords = []
+      let newNegativeWords = []
+      if (positiveWords.length) newPositiveWords = await submitWords(positiveWords, directionChange, 'positive')
+      if (negativeWords.length) newNegativeWords = await submitWords(negativeWords, directionChange, 'negative')
+      console.log(newPositiveWords, newNegativeWords)
+      const newSentence = await createNewSentence(originalSentence, newPositiveWords, newNegativeWords)
+      // setOriginalSentence('')
+      setNewSentence(newSentence)
+      setNewSentenceSentiment(directionChange)
+      console.log(newSentence)
+      setCurrentPanel('3')
+    } catch(err) {
+      console.log(err)
+    }
   }
 
   const switchPanels = (content, currentPanel) => {
