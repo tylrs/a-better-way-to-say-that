@@ -2,15 +2,19 @@ export const cleanSentimentAnalysis = (result) => {
     const sentiment = convertToFullSentiment(result.score_tag)
     let positiveTerms = []
     let negativeTerms = []
-    result.sentence_list[0].segment_list[0].polarity_term_list.forEach(word => {
-        let wordSentiment = convertToFullSentiment(word.score_tag)
-        if (word.text.includes('@')) {
-            word.text = word.text.replace('@V', 'ing')
-        }
-        wordSentiment.includes('positive') 
-        ? positiveTerms.push({text: word.text, wordSentiment})
-        : negativeTerms.push({text: word.text, wordSentiment})
+    result.sentence_list[0].segment_list.forEach(segment => {
+        segment.polarity_term_list.forEach(word => {
+            let wordSentiment = convertToFullSentiment(word.score_tag)
+            if (word.text.includes('@')) {
+                word.text = word.text.replace('@V', 'ing')
+            }
+            console.log(word);
+            wordSentiment.includes('positive') 
+            ? positiveTerms.push({text: word.text, wordSentiment})
+            : negativeTerms.push({text: word.text, wordSentiment})
+        })
     })
+    
     return {
         sentiment,
         positiveTerms,
@@ -23,7 +27,7 @@ const convertToFullSentiment = (tag) => {
     let fullSentiment;
     switch (tag) {
         case 'P+':
-            fullSentiment = 'very positive'
+            fullSentiment = 'positive'
             break;
         case 'P':
             fullSentiment = 'positive'
@@ -35,7 +39,7 @@ const convertToFullSentiment = (tag) => {
             fullSentiment = 'negative'
             break;
         case 'N+':
-            fullSentiment = 'very negative'
+            fullSentiment = 'negative'
             break;
         default:
             fullSentiment = 'without emotion'    
