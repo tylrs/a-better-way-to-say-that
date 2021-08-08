@@ -1,0 +1,315 @@
+[
+    {
+        "meta": {
+            "id": "ecstatic",
+            "uuid": "d1e2ca0e-5b78-48ce-baba-fa198dd9179d",
+            "src": "coll_thes",
+            "section": "alpha",
+            "target": {
+                "tuuid": "875a8cf9-9f2a-4023-a7f3-ef9deb551ccf",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "ecstatic",
+                "ecstatically"
+            ],
+            "syns": [
+                [
+                    "elated",
+                    "elevated",
+                    "enrapt",
+                    "enraptured",
+                    "entranced",
+                    "euphoric",
+                    "exhilarated",
+                    "giddy",
+                    "heady",
+                    "intoxicated",
+                    "rapt",
+                    "rapturous",
+                    "rhapsodic"
+                ]
+            ],
+            "ants": [
+                [
+                    "depressed"
+                ]
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "ecstatic"
+        },
+        "fl": "adjective",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "experiencing or marked by overwhelming usually pleasurable emotion "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "a football player who was {it}ecstatic{/it} upon receiving a full athletic scholarship to the college of his choice"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "elated"
+                                        },
+                                        {
+                                            "wd": "elevated"
+                                        },
+                                        {
+                                            "wd": "enrapt"
+                                        },
+                                        {
+                                            "wd": "enraptured"
+                                        },
+                                        {
+                                            "wd": "entranced"
+                                        },
+                                        {
+                                            "wd": "euphoric"
+                                        },
+                                        {
+                                            "wd": "exhilarated"
+                                        },
+                                        {
+                                            "wd": "giddy"
+                                        },
+                                        {
+                                            "wd": "heady"
+                                        },
+                                        {
+                                            "wd": "intoxicated"
+                                        },
+                                        {
+                                            "wd": "rapt"
+                                        },
+                                        {
+                                            "wd": "rapturous"
+                                        },
+                                        {
+                                            "wd": "rhapsodic",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "rhapsodical"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "enchanted"
+                                        },
+                                        {
+                                            "wd": "exultant"
+                                        },
+                                        {
+                                            "wd": "glorying"
+                                        },
+                                        {
+                                            "wd": "jubilant"
+                                        },
+                                        {
+                                            "wd": "rejoicing"
+                                        },
+                                        {
+                                            "wd": "triumphant"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "enthusiastic"
+                                        },
+                                        {
+                                            "wd": "excited"
+                                        },
+                                        {
+                                            "wd": "gung ho"
+                                        },
+                                        {
+                                            "wd": "thrilled"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "blissed-out"
+                                        },
+                                        {
+                                            "wd": "blissful"
+                                        },
+                                        {
+                                            "wd": "delighted"
+                                        },
+                                        {
+                                            "wd": "glad"
+                                        },
+                                        {
+                                            "wd": "gratified"
+                                        },
+                                        {
+                                            "wd": "happy"
+                                        },
+                                        {
+                                            "wd": "joyful"
+                                        },
+                                        {
+                                            "wd": "joyous"
+                                        },
+                                        {
+                                            "wd": "pleased"
+                                        },
+                                        {
+                                            "wd": "satisfied"
+                                        },
+                                        {
+                                            "wd": "tickled"
+                                        }
+                                    ]
+                                ],
+                                "phrase_list": [
+                                    [
+                                        {
+                                            "wd": "on cloud nine"
+                                        },
+                                        {
+                                            "wd": "over the moon"
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "blue"
+                                        },
+                                        {
+                                            "wd": "brokenhearted"
+                                        },
+                                        {
+                                            "wd": "crestfallen"
+                                        },
+                                        {
+                                            "wd": "dejected"
+                                        },
+                                        {
+                                            "wd": "despondent"
+                                        },
+                                        {
+                                            "wd": "disconsolate"
+                                        },
+                                        {
+                                            "wd": "disheartened"
+                                        },
+                                        {
+                                            "wd": "doleful"
+                                        },
+                                        {
+                                            "wd": "down"
+                                        },
+                                        {
+                                            "wd": "downcast"
+                                        },
+                                        {
+                                            "wd": "downhearted"
+                                        },
+                                        {
+                                            "wd": "forlorn"
+                                        },
+                                        {
+                                            "wd": "gloomy"
+                                        },
+                                        {
+                                            "wd": "glum"
+                                        },
+                                        {
+                                            "wd": "hangdog"
+                                        },
+                                        {
+                                            "wd": "heartbroken"
+                                        },
+                                        {
+                                            "wd": "heartsick"
+                                        },
+                                        {
+                                            "wd": "heartsore"
+                                        },
+                                        {
+                                            "wd": "inconsolable"
+                                        },
+                                        {
+                                            "wd": "joyless"
+                                        },
+                                        {
+                                            "wd": "low"
+                                        },
+                                        {
+                                            "wd": "low-spirited"
+                                        },
+                                        {
+                                            "wd": "melancholy"
+                                        },
+                                        {
+                                            "wd": "miserable"
+                                        },
+                                        {
+                                            "wd": "mournful"
+                                        },
+                                        {
+                                            "wd": "sad"
+                                        },
+                                        {
+                                            "wd": "saddened"
+                                        },
+                                        {
+                                            "wd": "sorrowful"
+                                        },
+                                        {
+                                            "wd": "sorry"
+                                        },
+                                        {
+                                            "wd": "unhappy"
+                                        },
+                                        {
+                                            "wd": "woebegone"
+                                        },
+                                        {
+                                            "wd": "woeful"
+                                        },
+                                        {
+                                            "wd": "wretched"
+                                        }
+                                    ]
+                                ],
+                                "ant_list": [
+                                    [
+                                        {
+                                            "wd": "depressed"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "experiencing or marked by overwhelming usually pleasurable emotion"
+        ]
+    }
+]
