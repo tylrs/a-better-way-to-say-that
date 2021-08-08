@@ -69,7 +69,7 @@ const App = () => {
     <main>
       <header className='header'>
         <Link to='/' className='title'><h1>A Better Way To Say That</h1></Link>
-        <NavLink to ='/my-sentences'>My Best Sentences</NavLink>
+        <NavLink to ='/my-sentences' className='saved-button'>My Best Sentences</NavLink>
       </header>
       <PanelContainer 
         handleSubmit={handleSubmit} 
