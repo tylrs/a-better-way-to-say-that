@@ -311,4 +311,41 @@ describe('Submit Sentence', () => {
             .get('.panel.current-panel > :nth-child(6)')
             .contains('Start over')
     })
+
+    it('Should show an error if a bad route is entered', () => {
+        cy
+            .visit('localhost:3000/banana')
+            .get('.error')
+            .contains('404 Not Found')
+    })
+
+    it('Should show an error if the sentiment analysis fetch fails', () => {
+        cy.intercept('POST', 'https://api.meaningcloud.com/sentiment-2.1', {statusCode: 500})
+        cy
+            .get('textarea')
+            .type('Bunnies make me feel happy calm and ecstatic')
+            .get('.current-panel > button')
+            .click()
+            .get('.error')
+            .contains('We\'re sorry, we had trouble submitting your sentence, please refresh.')
+    })
+
+    it('Should show an error if the thesaurus fetch fetch fails', () => {
+        cy.fixture('positive-sentiment.json').then((positiveSentimentAnalysis) => {
+            cy.intercept('POST', 'https://api.meaningcloud.com/sentiment-2.1', positiveSentimentAnalysis)
+        })
+        cy.fixture('positive-sentiment-thesaurus-word1.json').then(() => {
+            cy.intercept('https://dictionaryapi.com/api/v3/references/thesaurus/json/happy?key=9691e0fb-dd4a-4c0f-b4e2-b340a964a4bb', {statusCode: 500}).as('thesaurus1')
+        })
+        cy
+            .get('textarea')
+            .type('Bunnies make me feel happy calm and ecstatic')
+            .get('.current-panel > button')
+            .click()
+            .get('.current-panel.positive')
+            .click()
+            .wait('@thesaurus1')
+            .get('.error')
+            .contains('We\'re sorry, we had trouble replacing words in your sentence, please refresh.')
+    })
 })
