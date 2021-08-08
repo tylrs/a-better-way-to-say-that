@@ -1,0 +1,291 @@
+[
+    {
+        "meta": {
+            "id": "smelly",
+            "uuid": "a790d083-6c97-4ca2-a9e6-5e78d54cf2f5",
+            "src": "coll_thes",
+            "section": "alpha",
+            "target": {
+                "tuuid": "29f8580f-3471-4542-b5e2-1680948f717a",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "smelly",
+                "smellier",
+                "smelliest"
+            ],
+            "syns": [
+                [
+                    "fetid",
+                    "foul",
+                    "frowsty",
+                    "frowsy",
+                    "funky",
+                    "fusty",
+                    "malodorous",
+                    "musty",
+                    "noisome",
+                    "rank",
+                    "reeking",
+                    "reeky",
+                    "ripe",
+                    "stenchy",
+                    "stinking",
+                    "stinky",
+                    "strong"
+                ]
+            ],
+            "ants": [
+                [
+                    "ambrosial",
+                    "aromatic",
+                    "fragrant",
+                    "perfumed",
+                    "redolent",
+                    "savory",
+                    "scented",
+                    "sweet"
+                ]
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "smelly"
+        },
+        "fl": "adjective",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "having an unpleasant smell "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "your {it}smelly{/it} sneakers are enough to raise the dead"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "fetid"
+                                        },
+                                        {
+                                            "wd": "foul"
+                                        },
+                                        {
+                                            "wd": "frowsty",
+                                            "wsls": [
+                                                "chiefly British"
+                                            ]
+                                        },
+                                        {
+                                            "wd": "frowsy",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "or",
+                                                    "wva": "frowzy"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "funky"
+                                        },
+                                        {
+                                            "wd": "fusty"
+                                        },
+                                        {
+                                            "wd": "malodorous"
+                                        },
+                                        {
+                                            "wd": "musty"
+                                        },
+                                        {
+                                            "wd": "noisome"
+                                        },
+                                        {
+                                            "wd": "rank"
+                                        },
+                                        {
+                                            "wd": "reeking"
+                                        },
+                                        {
+                                            "wd": "reeky"
+                                        },
+                                        {
+                                            "wd": "ripe"
+                                        },
+                                        {
+                                            "wd": "stenchy"
+                                        },
+                                        {
+                                            "wd": "stinking"
+                                        },
+                                        {
+                                            "wd": "stinky"
+                                        },
+                                        {
+                                            "wd": "strong"
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "putrid"
+                                        },
+                                        {
+                                            "wd": "rancid"
+                                        },
+                                        {
+                                            "wd": "skunky"
+                                        },
+                                        {
+                                            "wd": "stale"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "bad"
+                                        },
+                                        {
+                                            "wd": "disgusting"
+                                        },
+                                        {
+                                            "wd": "offensive"
+                                        },
+                                        {
+                                            "wd": "repulsive"
+                                        },
+                                        {
+                                            "wd": "revolting"
+                                        },
+                                        {
+                                            "wd": "vile"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "decayed"
+                                        },
+                                        {
+                                            "wd": "decaying"
+                                        },
+                                        {
+                                            "wd": "decomposed"
+                                        },
+                                        {
+                                            "wd": "decomposing"
+                                        },
+                                        {
+                                            "wd": "rotted"
+                                        },
+                                        {
+                                            "wd": "rotten"
+                                        },
+                                        {
+                                            "wd": "rotting"
+                                        },
+                                        {
+                                            "wd": "spoiled"
+                                        },
+                                        {
+                                            "wd": "spoiling"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "dirty"
+                                        },
+                                        {
+                                            "wd": "filthy"
+                                        },
+                                        {
+                                            "wd": "nasty"
+                                        },
+                                        {
+                                            "wd": "noxious"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "odiferous"
+                                        },
+                                        {
+                                            "wd": "odoriferous"
+                                        },
+                                        {
+                                            "wd": "odorous"
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "flowery"
+                                        },
+                                        {
+                                            "wd": "fruity"
+                                        },
+                                        {
+                                            "wd": "spicy"
+                                        },
+                                        {
+                                            "wd": "woodsy"
+                                        }
+                                    ]
+                                ],
+                                "ant_list": [
+                                    [
+                                        {
+                                            "wd": "ambrosial"
+                                        },
+                                        {
+                                            "wd": "aromatic"
+                                        },
+                                        {
+                                            "wd": "fragrant"
+                                        },
+                                        {
+                                            "wd": "perfumed"
+                                        },
+                                        {
+                                            "wd": "redolent"
+                                        },
+                                        {
+                                            "wd": "savory",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "savoury"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "scented"
+                                        },
+                                        {
+                                            "wd": "sweet"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "having an unpleasant smell"
+        ]
+    }
+]
