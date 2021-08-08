@@ -1,7 +1,7 @@
 import './App.css';
 import React, {useState, useEffect} from 'react';
 import PanelContainer from '../PanelContainer/PanelContainer'
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink, Link, Route, Switch } from 'react-router-dom';
 import { submitSentence, submitWords } from '../../utils/apicalls';
 import { findIndices, createNewSentence } from '../../utils/utils';
 
@@ -61,7 +61,11 @@ const App = () => {
   }
 
   const saveSentence = () => {
-    setSavedSentences([...savedSentences, newSentence])
+    const newSavedSentence = {
+      newSentece,
+      newSentenceSentiment
+    }
+    setSavedSentences([...savedSentences, newSavedSentence])
     console.log('sentence saved')
   }
 
@@ -69,21 +73,29 @@ const App = () => {
     <main>
       <header className='header'>
         <Link to='/' className='title'><h1>A Better Way To Say That</h1></Link>
-        <NavLink to ='/my-sentences' className='saved-button'>My Best Sentences</NavLink>
+        <NavLink to ='/saved-sentences' className='saved-button'>My Best Sentences</NavLink>
       </header>
-      <PanelContainer 
-        handleSubmit={handleSubmit} 
-        currentPanel = {currentPanel}
-        totalSentiment={totalSentiment} 
-        positiveWords={positiveWords} 
-        negativeWords={negativeWords}
-        generateNewSentence = {generateNewSentence}
-        originalSentence = {originalSentence}
-        newSentence = {newSentence}
-        switchPanels = {switchPanels}
-        saveSentence = {saveSentence}
-        newSentenceSentiment = {newSentenceSentiment}
-      />
+      <Switch>
+        <Route exact from='/' render={() => 
+          <PanelContainer 
+            handleSubmit={handleSubmit} 
+            currentPanel = {currentPanel}
+            totalSentiment={totalSentiment} 
+            positiveWords={positiveWords} 
+            negativeWords={negativeWords}
+            generateNewSentence = {generateNewSentence}
+            originalSentence = {originalSentence}
+            newSentence = {newSentence}
+            switchPanels = {switchPanels}
+            saveSentence = {saveSentence}
+            newSentenceSentiment = {newSentenceSentiment}
+          />
+        }/>
+        <Route from='/saved-sentences' render={() => 
+        
+        
+        }/>
+      </Switch>
     </main>
   );
 }
