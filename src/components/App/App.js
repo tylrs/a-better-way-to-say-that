@@ -57,6 +57,7 @@ const App = () => {
 
   const switchPanels = (content, currentPanel) => {
     let newPanel = '4'
+    //this is unnecessary
     if (currentPanel === '4') {
       newPanel = '1'
       setOriginalSentence('')
