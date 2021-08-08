@@ -32,7 +32,7 @@ const App = () => {
       setNegativeWords(updatedNegativeTerms)
       setCurrentPanel('2')
     } catch(err) {
-      setError('We\'re sorry, we had trouble submitting your sentence. Please Refresh')
+      setError('We\'re sorry, we had trouble submitting your sentence, please refresh.')
     }
   }
 
@@ -101,6 +101,7 @@ const App = () => {
             saveSentence = {saveSentence}
             newSentenceSentiment = {newSentenceSentiment}
             savedMessage = {savedMessage}
+            error = {error}
           />
         }/>
         <Route from='/saved-sentences' render={() => 
