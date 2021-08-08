@@ -5015,7 +5015,7 @@ export const submitWords = async (words, directionChange, wordType) => {
             newWord.text = findNewWord(result, directionChange, wordType)
             return newWord
         } catch(err) {
-            console.log(err)
+            throw Error(err)
         }
     }))
     console.log("LOOK AT THE NEW WORDS >>>>", newWords)
