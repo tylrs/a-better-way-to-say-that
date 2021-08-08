@@ -63,8 +63,8 @@ const App = () => {
 
   const saveSentence = () => {
     const newSavedSentence = {
-      newSentence,
-      newSentenceSentiment
+      sentence: newSentence,
+      sentenceSentiment: newSentenceSentiment
     }
     setSavedSentences([...savedSentences, newSavedSentence])
     console.log('sentence saved')
