@@ -250,7 +250,7 @@ describe('Submit Sentence', () => {
             .contains('continue')
     })
 
-    it.only('Should be able to submit a mixed sentiment sentence, click the negative option, and see a new negative sentence', () => {
+    it('Should be able to submit a mixed sentiment sentence, click the negative option, and see a new negative sentence', () => {
         cy.fixture('mixed-sentiment.json').then((mixedSentimentAnalysis) => {
             cy.intercept('POST', 'https://api.meaningcloud.com/sentiment-2.1', mixedSentimentAnalysis)
         })
