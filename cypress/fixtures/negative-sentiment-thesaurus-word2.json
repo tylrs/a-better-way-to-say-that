@@ -1,0 +1,1036 @@
+[
+    {
+        "meta": {
+            "id": "scary",
+            "uuid": "d7db1aed-0ecb-4a16-825d-294470514b54",
+            "src": "coll_thes",
+            "section": "alpha",
+            "target": {
+                "tuuid": "7a532732-c825-45c4-9842-7e1a0e943160",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "scary",
+                "scarier",
+                "scariest",
+                "scarily"
+            ],
+            "syns": [
+                [
+                    "alarming",
+                    "dire",
+                    "direful",
+                    "dread",
+                    "dreadful",
+                    "fearful",
+                    "fearsome",
+                    "forbidding",
+                    "formidable",
+                    "frightening",
+                    "frightful",
+                    "ghastly",
+                    "hair-raising",
+                    "horrendous",
+                    "horrible",
+                    "horrifying",
+                    "intimidating",
+                    "redoubtable",
+                    "shocking",
+                    "spine-chilling",
+                    "terrible",
+                    "terrifying"
+                ],
+                [
+                    "fainthearted",
+                    "fearful",
+                    "fearsome",
+                    "mousy",
+                    "shy",
+                    "skittish",
+                    "timid",
+                    "timorous",
+                    "tremulous"
+                ],
+                [
+                    "affrighted",
+                    "afraid",
+                    "aghast",
+                    "alarmed",
+                    "fearful",
+                    "frightened",
+                    "horrified",
+                    "horror-struck",
+                    "hysterical",
+                    "scared",
+                    "shocked",
+                    "spooked",
+                    "terrified",
+                    "terrorized"
+                ]
+            ],
+            "ants": [
+                [
+                    "adventuresome",
+                    "adventurous",
+                    "audacious",
+                    "bold",
+                    "daring",
+                    "dashing",
+                    "gutsy",
+                    "hardy",
+                    "venturesome",
+                    "venturous"
+                ],
+                [
+                    "fearless",
+                    "unafraid"
+                ]
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "scary"
+        },
+        "fl": "adjective",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "causing fear "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "a {it}scary{/it} movie that gave the child nightmares for weeks afterwards"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "alarming"
+                                        },
+                                        {
+                                            "wd": "dire"
+                                        },
+                                        {
+                                            "wd": "direful"
+                                        },
+                                        {
+                                            "wd": "dread"
+                                        },
+                                        {
+                                            "wd": "dreadful"
+                                        },
+                                        {
+                                            "wd": "fearful"
+                                        },
+                                        {
+                                            "wd": "fearsome"
+                                        },
+                                        {
+                                            "wd": "forbidding"
+                                        },
+                                        {
+                                            "wd": "formidable"
+                                        },
+                                        {
+                                            "wd": "frightening"
+                                        },
+                                        {
+                                            "wd": "frightful"
+                                        },
+                                        {
+                                            "wd": "ghastly"
+                                        },
+                                        {
+                                            "wd": "hair-raising"
+                                        },
+                                        {
+                                            "wd": "horrendous"
+                                        },
+                                        {
+                                            "wd": "horrible"
+                                        },
+                                        {
+                                            "wd": "horrifying"
+                                        },
+                                        {
+                                            "wd": "intimidating"
+                                        },
+                                        {
+                                            "wd": "redoubtable"
+                                        },
+                                        {
+                                            "wd": "shocking"
+                                        },
+                                        {
+                                            "wd": "spine-chilling"
+                                        },
+                                        {
+                                            "wd": "terrible"
+                                        },
+                                        {
+                                            "wd": "terrifying"
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "daunting"
+                                        },
+                                        {
+                                            "wd": "demoralizing"
+                                        },
+                                        {
+                                            "wd": "disconcerting"
+                                        },
+                                        {
+                                            "wd": "discouraging"
+                                        },
+                                        {
+                                            "wd": "dismaying"
+                                        },
+                                        {
+                                            "wd": "disquieting"
+                                        },
+                                        {
+                                            "wd": "distressing"
+                                        },
+                                        {
+                                            "wd": "disturbing"
+                                        },
+                                        {
+                                            "wd": "perturbing"
+                                        },
+                                        {
+                                            "wd": "startling"
+                                        },
+                                        {
+                                            "wd": "threatening"
+                                        },
+                                        {
+                                            "wd": "troubling"
+                                        },
+                                        {
+                                            "wd": "trying"
+                                        },
+                                        {
+                                            "wd": "unnerving"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "bone-chilling"
+                                        },
+                                        {
+                                            "wd": "creepy"
+                                        },
+                                        {
+                                            "wd": "eerie",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "eery"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "weird"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "appalling"
+                                        },
+                                        {
+                                            "wd": "atrocious"
+                                        },
+                                        {
+                                            "wd": "awful"
+                                        },
+                                        {
+                                            "wd": "grisly"
+                                        },
+                                        {
+                                            "wd": "gruesome",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "grewsome"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "hideous"
+                                        },
+                                        {
+                                            "wd": "horrid"
+                                        },
+                                        {
+                                            "wd": "macabre"
+                                        },
+                                        {
+                                            "wd": "monstrous"
+                                        },
+                                        {
+                                            "wd": "nightmarish"
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "calming"
+                                        },
+                                        {
+                                            "wd": "comforting"
+                                        },
+                                        {
+                                            "wd": "consoling"
+                                        },
+                                        {
+                                            "wd": "inviting"
+                                        },
+                                        {
+                                            "wd": "lulling"
+                                        },
+                                        {
+                                            "wd": "pacifying"
+                                        },
+                                        {
+                                            "wd": "quieting"
+                                        },
+                                        {
+                                            "wd": "reassuring"
+                                        },
+                                        {
+                                            "wd": "relaxing"
+                                        },
+                                        {
+                                            "wd": "soothing"
+                                        },
+                                        {
+                                            "wd": "tranquilizing",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "tranquillizing"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "nonintimidating"
+                                        },
+                                        {
+                                            "wd": "nonthreatening"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "easily frightened "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "a {it}scary{/it} horse who spooked and kicked at its own shadow"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "fainthearted"
+                                        },
+                                        {
+                                            "wd": "fearful"
+                                        },
+                                        {
+                                            "wd": "fearsome"
+                                        },
+                                        {
+                                            "wd": "mousy",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "or",
+                                                    "wva": "mousey"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "shy"
+                                        },
+                                        {
+                                            "wd": "skittish"
+                                        },
+                                        {
+                                            "wd": "timid"
+                                        },
+                                        {
+                                            "wd": "timorous"
+                                        },
+                                        {
+                                            "wd": "tremulous"
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "chicken"
+                                        },
+                                        {
+                                            "wd": "chickenhearted"
+                                        },
+                                        {
+                                            "wd": "chicken-livered"
+                                        },
+                                        {
+                                            "wd": "cowardly"
+                                        },
+                                        {
+                                            "wd": "craven"
+                                        },
+                                        {
+                                            "wd": "dastardly"
+                                        },
+                                        {
+                                            "wd": "gutless"
+                                        },
+                                        {
+                                            "wd": "lily-livered"
+                                        },
+                                        {
+                                            "wd": "milk-livered",
+                                            "wsls": [
+                                                "archaic"
+                                            ]
+                                        },
+                                        {
+                                            "wd": "poltroon"
+                                        },
+                                        {
+                                            "wd": "pusillanimous"
+                                        },
+                                        {
+                                            "wd": "spineless"
+                                        },
+                                        {
+                                            "wd": "unheroic"
+                                        },
+                                        {
+                                            "wd": "yellow"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "jittery"
+                                        },
+                                        {
+                                            "wd": "jumpy"
+                                        },
+                                        {
+                                            "wd": "spooky"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "anxious"
+                                        },
+                                        {
+                                            "wd": "apprehensive"
+                                        },
+                                        {
+                                            "wd": "nervous"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "afraid"
+                                        },
+                                        {
+                                            "wd": "alarmed"
+                                        },
+                                        {
+                                            "wd": "horrified"
+                                        },
+                                        {
+                                            "wd": "panicked"
+                                        },
+                                        {
+                                            "wd": "panicky"
+                                        },
+                                        {
+                                            "wd": "panic-stricken"
+                                        },
+                                        {
+                                            "wd": "scared"
+                                        },
+                                        {
+                                            "wd": "shocked"
+                                        },
+                                        {
+                                            "wd": "spooked"
+                                        },
+                                        {
+                                            "wd": "startled"
+                                        },
+                                        {
+                                            "wd": "terrified"
+                                        },
+                                        {
+                                            "wd": "terrorized"
+                                        },
+                                        {
+                                            "wd": "unnerved"
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "brave"
+                                        },
+                                        {
+                                            "wd": "courageous"
+                                        },
+                                        {
+                                            "wd": "dauntless"
+                                        },
+                                        {
+                                            "wd": "doughty"
+                                        },
+                                        {
+                                            "wd": "fearless"
+                                        },
+                                        {
+                                            "wd": "gallant"
+                                        },
+                                        {
+                                            "wd": "greathearted"
+                                        },
+                                        {
+                                            "wd": "heroic",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "heroical"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "intrepid"
+                                        },
+                                        {
+                                            "wd": "lionhearted"
+                                        },
+                                        {
+                                            "wd": "stalwart"
+                                        },
+                                        {
+                                            "wd": "stout"
+                                        },
+                                        {
+                                            "wd": "stouthearted"
+                                        },
+                                        {
+                                            "wd": "undaunted"
+                                        },
+                                        {
+                                            "wd": "valiant"
+                                        },
+                                        {
+                                            "wd": "valorous"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "assured"
+                                        },
+                                        {
+                                            "wd": "confident"
+                                        },
+                                        {
+                                            "wd": "self-assured"
+                                        },
+                                        {
+                                            "wd": "self-confident"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "determined"
+                                        },
+                                        {
+                                            "wd": "firm"
+                                        },
+                                        {
+                                            "wd": "game"
+                                        },
+                                        {
+                                            "wd": "plucky"
+                                        },
+                                        {
+                                            "wd": "resolute"
+                                        },
+                                        {
+                                            "wd": "undeterred"
+                                        },
+                                        {
+                                            "wd": "unflinching"
+                                        },
+                                        {
+                                            "wd": "unswerving"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "mettlesome"
+                                        },
+                                        {
+                                            "wd": "spirited"
+                                        },
+                                        {
+                                            "wd": "spunky"
+                                        }
+                                    ]
+                                ],
+                                "ant_list": [
+                                    [
+                                        {
+                                            "wd": "adventuresome"
+                                        },
+                                        {
+                                            "wd": "adventurous"
+                                        },
+                                        {
+                                            "wd": "audacious"
+                                        },
+                                        {
+                                            "wd": "bold"
+                                        },
+                                        {
+                                            "wd": "daring"
+                                        },
+                                        {
+                                            "wd": "dashing"
+                                        },
+                                        {
+                                            "wd": "gutsy"
+                                        },
+                                        {
+                                            "wd": "hardy"
+                                        },
+                                        {
+                                            "wd": "venturesome"
+                                        },
+                                        {
+                                            "wd": "venturous"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "3",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "filled with fear or dread "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "I got a little {it}scary{/it} when I heard the noise in the basement"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "affrighted"
+                                        },
+                                        {
+                                            "wd": "afraid"
+                                        },
+                                        {
+                                            "wd": "aghast"
+                                        },
+                                        {
+                                            "wd": "alarmed"
+                                        },
+                                        {
+                                            "wd": "fearful"
+                                        },
+                                        {
+                                            "wd": "frightened"
+                                        },
+                                        {
+                                            "wd": "horrified"
+                                        },
+                                        {
+                                            "wd": "horror-struck"
+                                        },
+                                        {
+                                            "wd": "hysterical",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "hysteric"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "scared"
+                                        },
+                                        {
+                                            "wd": "shocked"
+                                        },
+                                        {
+                                            "wd": "spooked"
+                                        },
+                                        {
+                                            "wd": "terrified"
+                                        },
+                                        {
+                                            "wd": "terrorized"
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "chicken"
+                                        },
+                                        {
+                                            "wd": "fainthearted"
+                                        },
+                                        {
+                                            "wd": "fearsome"
+                                        },
+                                        {
+                                            "wd": "shrinking"
+                                        },
+                                        {
+                                            "wd": "shy"
+                                        },
+                                        {
+                                            "wd": "timid"
+                                        },
+                                        {
+                                            "wd": "timorous"
+                                        },
+                                        {
+                                            "wd": "tremulant"
+                                        },
+                                        {
+                                            "wd": "tremulous"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "agitated"
+                                        },
+                                        {
+                                            "wd": "anxious"
+                                        },
+                                        {
+                                            "wd": "apprehensive"
+                                        },
+                                        {
+                                            "wd": "disconcerted"
+                                        },
+                                        {
+                                            "wd": "disquieted"
+                                        },
+                                        {
+                                            "wd": "disturbed"
+                                        },
+                                        {
+                                            "wd": "funky"
+                                        },
+                                        {
+                                            "wd": "jittery"
+                                        },
+                                        {
+                                            "wd": "jumpy"
+                                        },
+                                        {
+                                            "wd": "nervous"
+                                        },
+                                        {
+                                            "wd": "panicked"
+                                        },
+                                        {
+                                            "wd": "panicky"
+                                        },
+                                        {
+                                            "wd": "panic-stricken"
+                                        },
+                                        {
+                                            "wd": "perturbed"
+                                        },
+                                        {
+                                            "wd": "skittish"
+                                        },
+                                        {
+                                            "wd": "uneasy"
+                                        },
+                                        {
+                                            "wd": "upset"
+                                        },
+                                        {
+                                            "wd": "worried"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "phobic"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "appalled"
+                                        },
+                                        {
+                                            "wd": "dismayed"
+                                        },
+                                        {
+                                            "wd": "startled"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "cowed"
+                                        },
+                                        {
+                                            "wd": "daunted"
+                                        },
+                                        {
+                                            "wd": "intimidated"
+                                        },
+                                        {
+                                            "wd": "unnerved"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "coward"
+                                        },
+                                        {
+                                            "wd": "cowardly"
+                                        },
+                                        {
+                                            "wd": "craven"
+                                        },
+                                        {
+                                            "wd": "gutless"
+                                        },
+                                        {
+                                            "wd": "lily-livered"
+                                        },
+                                        {
+                                            "wd": "pusillanimous"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "careful"
+                                        },
+                                        {
+                                            "wd": "cautious"
+                                        },
+                                        {
+                                            "wd": "heedful"
+                                        },
+                                        {
+                                            "wd": "prudent"
+                                        },
+                                        {
+                                            "wd": "unadventurous"
+                                        },
+                                        {
+                                            "wd": "wary"
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "adventuresome"
+                                        },
+                                        {
+                                            "wd": "adventurous"
+                                        },
+                                        {
+                                            "wd": "audacious"
+                                        },
+                                        {
+                                            "wd": "bold"
+                                        },
+                                        {
+                                            "wd": "daredevil"
+                                        },
+                                        {
+                                            "wd": "daring"
+                                        },
+                                        {
+                                            "wd": "dashing"
+                                        },
+                                        {
+                                            "wd": "gutsy"
+                                        },
+                                        {
+                                            "wd": "plucky"
+                                        },
+                                        {
+                                            "wd": "spirited"
+                                        },
+                                        {
+                                            "wd": "spunky"
+                                        },
+                                        {
+                                            "wd": "venturesome"
+                                        },
+                                        {
+                                            "wd": "venturous"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "brave"
+                                        },
+                                        {
+                                            "wd": "courageous"
+                                        },
+                                        {
+                                            "wd": "gallant"
+                                        },
+                                        {
+                                            "wd": "hardy"
+                                        },
+                                        {
+                                            "wd": "heroic",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "heroical"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "intrepid"
+                                        },
+                                        {
+                                            "wd": "lionhearted"
+                                        },
+                                        {
+                                            "wd": "manful"
+                                        },
+                                        {
+                                            "wd": "stalwart"
+                                        },
+                                        {
+                                            "wd": "stout"
+                                        },
+                                        {
+                                            "wd": "stouthearted"
+                                        },
+                                        {
+                                            "wd": "valiant"
+                                        },
+                                        {
+                                            "wd": "valorous"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "assured"
+                                        },
+                                        {
+                                            "wd": "collected"
+                                        },
+                                        {
+                                            "wd": "composed"
+                                        },
+                                        {
+                                            "wd": "confident"
+                                        },
+                                        {
+                                            "wd": "cool"
+                                        },
+                                        {
+                                            "wd": "sanguine"
+                                        },
+                                        {
+                                            "wd": "sure"
+                                        },
+                                        {
+                                            "wd": "unperturbed"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "dauntless"
+                                        },
+                                        {
+                                            "wd": "resolute"
+                                        },
+                                        {
+                                            "wd": "undaunted"
+                                        }
+                                    ]
+                                ],
+                                "ant_list": [
+                                    [
+                                        {
+                                            "wd": "fearless"
+                                        },
+                                        {
+                                            "wd": "unafraid"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "causing fear",
+            "easily frightened",
+            "filled with fear or dread"
+        ]
+    }
+]
