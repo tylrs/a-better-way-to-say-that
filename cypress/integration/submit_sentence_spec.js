@@ -280,6 +280,35 @@ describe('Submit Sentence', () => {
             .contains('continue')
     })
 
+    it('Should be able to submit a sentence without emotion words and see a button to start over', () => {
+        cy.fixture('neutral-sentiment.json').then((neutralSentimentAnalysis) => {
+            cy.intercept('POST', 'https://api.meaningcloud.com/sentiment-2.1', neutralSentimentAnalysis)
+        })
+        cy 
+            .get('textarea')
+            .type('There is a cat')
+            .get('.current-panel > button')
+            .click()
+            .get('.panel-container > :nth-child(2) > :nth-child(1)')
+            .contains('Sentence Analysis:')
+            .get('.panel-container > :nth-child(2) > :nth-child(2)')
+            .contains('without emotion')
+            .get('.panel-container > :nth-child(2) > :nth-child(3)')
+            .contains('You did not have any positive or negative words')
+            .get('.panel-container > :nth-child(2) > :nth-child(4)')
+            .click()
+            .get('h1')
+            .contains('A Better Way To Say That')
+            .get('.saved-button')
+            .contains('My Saved Sentences')
+            .get('.current-panel')
+            .should('be.visible')
+            .get('.current-panel > textarea')
+            .should('be.visible')
+            .get('.current-panel > button')
+            .contains('Submit')
+    })
+
     it('Should be able to click continue and see options for starting over or saving a sentence', () => {
         cy.fixture('mixed-sentiment.json').then((mixedSentimentAnalysis) => {
             cy.intercept('POST', 'https://api.meaningcloud.com/sentiment-2.1', mixedSentimentAnalysis)
