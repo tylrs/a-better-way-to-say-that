@@ -39,6 +39,10 @@
     color: transparent;
 }
 
+.without {
+    color: white;
+}
+
 .result {
     font-size: 1.6rem;
     text-transform: capitalize;

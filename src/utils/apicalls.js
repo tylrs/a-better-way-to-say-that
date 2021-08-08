@@ -5001,7 +5001,7 @@ export const submitSentence = async (sentence) => {
     //     throw Error(err)
     // }
     // throw Error('error')
-    return cleanSentimentAnalysis(sampleResultPositiveAndNegative2)
+    return cleanSentimentAnalysis(sampleResultNeutral)
 }
 
 export const submitWords = async (words, directionChange, wordType) => {
