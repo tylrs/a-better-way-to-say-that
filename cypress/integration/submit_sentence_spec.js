@@ -1,6 +1,18 @@
-// submit_sentence_spec.js created with Cypress
-//
-// Start writing your Cypress tests below!
-// If you're unfamiliar with how Cypress works,
-// check out the link below and learn how to write your first test:
-// https://on.cypress.io/writing-first-test
+describe('Submit Sentence', () => {
+    beforeEach(() => {
+        cy.visit('localhost:3000')
+    })
+    it('should load the homepage on page load', () => {
+        cy
+            .get('h1')
+            .contains('A Better Way To Say That')
+            .get('.saved-button')
+            .contains('My Saved Sentences')
+            .get('.current-panel')
+            .should('be.visible')
+            .get('.current-panel > textarea')
+            .should('be.visible')
+            .get('.current-panel > button')
+            .contains('Submit')
+    })
+})

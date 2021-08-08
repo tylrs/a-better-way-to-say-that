@@ -77,7 +77,7 @@ const App = () => {
     <main>
       <header className='header'>
         <Link to='/' className='title'><h1>A Better Way To Say That</h1></Link>
-        <NavLink to ='/saved-sentences' className='saved-button'>My Best Sentences</NavLink>
+        <NavLink to ='/saved-sentences' className='saved-button'>My Saved Sentences</NavLink>
       </header>
       <Switch>
         <Route exact from='/' render={() => 
