@@ -4994,9 +4994,13 @@ export const submitSentence = async (sentence) => {
             body: formdata,
             redirect: 'follow'
          })
-        const result = await response.json()
-        console.log(result)
-        return cleanSentimentAnalysis(result)
+        if (!response.ok) {
+            throw Error('Sentiment Cloud fetch error')
+        } else {
+            const result = await response.json()
+            console.log(result)
+            return cleanSentimentAnalysis(result)
+        }
     } catch (err) {
         throw Error(err)
     }
@@ -5010,12 +5014,16 @@ export const submitWords = async (words, directionChange, wordType) => {
         try {
             // const response = await fetch(`https://dictionaryapi.com/api/v3/badpath/thesaurus/json/${word.text}?key=9691e0fb-dd4a-4c0f-b4e2-b340a964a4bb`)
             const response = await fetch(`https://dictionaryapi.com/api/v3/references/thesaurus/json/${word.text}?key=9691e0fb-dd4a-4c0f-b4e2-b340a964a4bb`)
-            const result = await response.json()
-            console.log(result)
-            // let result = sampleThesaurusCrying
-            let newWord = {text: '', originalIndex: word.originalIndex}
-            newWord.text = findNewWord(result, directionChange, wordType)
-            return newWord
+            if (!response.ok) {
+                throw Error('Thesaurus fetch error')
+            } else {
+                const result = await response.json()
+                console.log(result)
+                // let result = sampleThesaurusCrying
+                let newWord = {text: '', originalIndex: word.originalIndex}
+                newWord.text = findNewWord(result, directionChange, wordType)
+                return newWord
+            }
         } catch(err) {
             throw Error(err)
         }
