@@ -13,7 +13,7 @@ const Form = ({handleSubmit, panel, currentPanel}) => {
 
     return (
         <form className={panel === currentPanel ? 'panel current-panel' : 'panel'}>
-            <label>Enter your sentence here</label>
+            {/* <label>Enter your sentence here</label> */}
             <textarea 
                 type='text' 
                 placeholder='Enter Sentence Here'
