@@ -280,7 +280,7 @@ describe('Submit Sentence', () => {
             .contains('continue')
     })
 
-    it('Should be able to click ontinue and see options for starting over or saving a sentence', () => {
+    it('Should be able to click continue and see options for starting over or saving a sentence', () => {
         cy.fixture('mixed-sentiment.json').then((mixedSentimentAnalysis) => {
             cy.intercept('POST', 'https://api.meaningcloud.com/sentiment-2.1', mixedSentimentAnalysis)
         })
@@ -311,5 +311,4 @@ describe('Submit Sentence', () => {
             .get('.panel.current-panel > :nth-child(6)')
             .contains('Start over')
     })
-    
 })
