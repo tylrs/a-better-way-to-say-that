@@ -279,5 +279,37 @@ describe('Submit Sentence', () => {
             .get('.panel.current-panel > .current-panel')
             .contains('continue')
     })
+
+    it.only('Should be able to click ontinue and see options for starting over or saving a sentence', () => {
+        cy.fixture('mixed-sentiment.json').then((mixedSentimentAnalysis) => {
+            cy.intercept('POST', 'https://api.meaningcloud.com/sentiment-2.1', mixedSentimentAnalysis)
+        })
+        cy.fixture('mixed-thesaurus-word1.json').then((thesaurusResponse) => {
+            cy.intercept('https://dictionaryapi.com/api/v3/references/thesaurus/json/angry?key=9691e0fb-dd4a-4c0f-b4e2-b340a964a4bb', thesaurusResponse).as('thesaurus1')
+        })
+        cy.fixture('mixed-thesaurus-word2.json').then((thesaurusResponse) => {
+            cy.intercept('https://dictionaryapi.com/api/v3/references/thesaurus/json/fun?key=9691e0fb-dd4a-4c0f-b4e2-b340a964a4bb', thesaurusResponse).as('thesaurus2')
+        })
+        cy
+            .get('textarea')
+            .type('I get angry when I see other people having fun')
+            .get('.current-panel > button')
+            .click()
+            .get('.current-panel.negative')
+            .click()
+            .wait(['@thesaurus1', '@thesaurus2'])
+            .get('.panel.current-panel > .negative + button')
+            .click()
+            .get('.panel.current-panel > :nth-child(1)')
+            .contains('Your new sentence')
+            .get('.panel.current-panel > :nth-child(2)')
+            .should('have.class', 'negative')
+            .get('.panel.current-panel > :nth-child(3)')
+            .contains('You can now:')
+            .get('.panel.current-panel > :nth-child(4)')
+            .contains('Save this')
+            .get('.panel.current-panel > :nth-child(6)')
+            .contains('Start over')
+    })
     
 })
