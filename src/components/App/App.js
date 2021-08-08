@@ -4,6 +4,7 @@ import PanelContainer from '../PanelContainer/PanelContainer'
 import { NavLink, Link, Route, Switch } from 'react-router-dom';
 import { submitSentence, submitWords } from '../../utils/apicalls';
 import { findIndices, createNewSentence } from '../../utils/utils';
+import SavedSentences from '../SavedSentences/SavedSentences';
 
 const App = () => {
   const [originalSentence, setOriginalSentence] = useState('')
@@ -62,7 +63,7 @@ const App = () => {
 
   const saveSentence = () => {
     const newSavedSentence = {
-      newSentece,
+      newSentence,
       newSentenceSentiment
     }
     setSavedSentences([...savedSentences, newSavedSentence])
@@ -92,8 +93,7 @@ const App = () => {
           />
         }/>
         <Route from='/saved-sentences' render={() => 
-        
-        
+          <SavedSentences savedSentences={savedSentences}/>
         }/>
       </Switch>
     </main>
