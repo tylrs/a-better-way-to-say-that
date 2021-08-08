@@ -10,8 +10,7 @@ const PanelContainer = ({totalSentiment, currentPanel, positiveWords, negativeWo
         {type: 'result', content: totalSentiment, styling: totalSentiment},
         {type: 'text', content: 'Change sentence to be more:'},
         {type: 'button', content: 'positive', func: generateNewSentence, styling: 'positive'},
-        {type: 'button', content: 'negative', func: generateNewSentence, styling: 'negative'},
-        {type: 'button', content: 'neutral', func: generateNewSentence, styling: 'neutral'}
+        {type: 'button', content: 'negative', func: generateNewSentence, styling: 'negative'}
     ]
 
     let positiveSection = [
