@@ -99,6 +99,9 @@ const App = () => {
         <Route from='/saved-sentences' render={() => 
           <SavedSentences savedSentences={savedSentences}/>
         }/>
+        <Route render={() => 
+          <p className='error'>404 Not Found</p>
+        }/>
       </Switch>
     </main>
   );

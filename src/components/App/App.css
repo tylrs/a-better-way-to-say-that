@@ -27,3 +27,9 @@ main {
   font-size: 1rem;
   text-decoration: none;
 }
+
+.error {
+  color:white;
+  font-size: 2rem;
+  text-align: center;
+}
