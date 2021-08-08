@@ -1,0 +1,646 @@
+[
+    {
+        "meta": {
+            "id": "angry",
+            "uuid": "72d30712-06cf-4c3c-ad8f-be6bf5ef7c68",
+            "src": "coll_thes",
+            "section": "alpha",
+            "target": {
+                "tuuid": "1d659137-d7d0-489d-83bb-cbea550ce602",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "angry",
+                "angrier",
+                "angriest",
+                "angrily",
+                "angriness",
+                "angrinesses"
+            ],
+            "syns": [
+                [
+                    "angered",
+                    "apoplectic",
+                    "ballistic",
+                    "cheesed off",
+                    "choleric",
+                    "enraged",
+                    "foaming",
+                    "fuming",
+                    "furious",
+                    "hopping",
+                    "horn-mad",
+                    "hot",
+                    "incensed",
+                    "indignant",
+                    "inflamed",
+                    "infuriate",
+                    "infuriated",
+                    "irate",
+                    "ireful",
+                    "livid",
+                    "mad",
+                    "outraged",
+                    "rabid",
+                    "rankled",
+                    "riled",
+                    "riley",
+                    "roiled",
+                    "shirty",
+                    "sore",
+                    "steamed up",
+                    "steaming",
+                    "teed off",
+                    "ticked",
+                    "wrathful",
+                    "wroth"
+                ]
+            ],
+            "ants": [
+                [
+                    "angerless",
+                    "delighted",
+                    "pleased"
+                ]
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "angry"
+        },
+        "fl": "adjective",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "feeling or showing anger "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "my sister gets really {it}angry{/it} and practically throws a tantrum if her soccer team loses"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "angered"
+                                        },
+                                        {
+                                            "wd": "apoplectic"
+                                        },
+                                        {
+                                            "wd": "ballistic"
+                                        },
+                                        {
+                                            "wd": "cheesed off",
+                                            "wsls": [
+                                                "chiefly British"
+                                            ]
+                                        },
+                                        {
+                                            "wd": "choleric"
+                                        },
+                                        {
+                                            "wd": "enraged"
+                                        },
+                                        {
+                                            "wd": "foaming"
+                                        },
+                                        {
+                                            "wd": "fuming"
+                                        },
+                                        {
+                                            "wd": "furious"
+                                        },
+                                        {
+                                            "wd": "hopping"
+                                        },
+                                        {
+                                            "wd": "horn-mad"
+                                        },
+                                        {
+                                            "wd": "hot"
+                                        },
+                                        {
+                                            "wd": "incensed"
+                                        },
+                                        {
+                                            "wd": "indignant"
+                                        },
+                                        {
+                                            "wd": "inflamed",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "enflamed"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "infuriate"
+                                        },
+                                        {
+                                            "wd": "infuriated"
+                                        },
+                                        {
+                                            "wd": "irate"
+                                        },
+                                        {
+                                            "wd": "ireful"
+                                        },
+                                        {
+                                            "wd": "livid"
+                                        },
+                                        {
+                                            "wd": "mad"
+                                        },
+                                        {
+                                            "wd": "outraged"
+                                        },
+                                        {
+                                            "wd": "rabid"
+                                        },
+                                        {
+                                            "wd": "rankled"
+                                        },
+                                        {
+                                            "wd": "riled"
+                                        },
+                                        {
+                                            "wd": "riley"
+                                        },
+                                        {
+                                            "wd": "roiled"
+                                        },
+                                        {
+                                            "wd": "shirty",
+                                            "wsls": [
+                                                "chiefly British"
+                                            ]
+                                        },
+                                        {
+                                            "wd": "sore"
+                                        },
+                                        {
+                                            "wd": "steamed up"
+                                        },
+                                        {
+                                            "wd": "steaming"
+                                        },
+                                        {
+                                            "wd": "teed off"
+                                        },
+                                        {
+                                            "wd": "ticked"
+                                        },
+                                        {
+                                            "wd": "wrathful"
+                                        },
+                                        {
+                                            "wd": "wroth"
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "ranting"
+                                        },
+                                        {
+                                            "wd": "raving"
+                                        },
+                                        {
+                                            "wd": "stormy"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "boiling"
+                                        },
+                                        {
+                                            "wd": "bristling"
+                                        },
+                                        {
+                                            "wd": "bristly"
+                                        },
+                                        {
+                                            "wd": "burning"
+                                        },
+                                        {
+                                            "wd": "cross"
+                                        },
+                                        {
+                                            "wd": "huffy"
+                                        },
+                                        {
+                                            "wd": "passionate"
+                                        },
+                                        {
+                                            "wd": "seething"
+                                        },
+                                        {
+                                            "wd": "sizzling"
+                                        },
+                                        {
+                                            "wd": "smoldering",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "or",
+                                                    "wva": "smouldering"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "worked up"
+                                        },
+                                        {
+                                            "wd": "wrought (up)"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "acrid"
+                                        },
+                                        {
+                                            "wd": "acrimonious"
+                                        },
+                                        {
+                                            "wd": "antagonistic"
+                                        },
+                                        {
+                                            "wd": "antipathetic"
+                                        },
+                                        {
+                                            "wd": "bitter"
+                                        },
+                                        {
+                                            "wd": "embittered"
+                                        },
+                                        {
+                                            "wd": "inimical"
+                                        },
+                                        {
+                                            "wd": "malevolent"
+                                        },
+                                        {
+                                            "wd": "piqued"
+                                        },
+                                        {
+                                            "wd": "rancorous"
+                                        },
+                                        {
+                                            "wd": "resentful"
+                                        },
+                                        {
+                                            "wd": "spiteful"
+                                        },
+                                        {
+                                            "wd": "vengeful"
+                                        },
+                                        {
+                                            "wd": "vindictive"
+                                        },
+                                        {
+                                            "wd": "virulent"
+                                        },
+                                        {
+                                            "wd": "vitriolic"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "antisocial"
+                                        },
+                                        {
+                                            "wd": "cold"
+                                        },
+                                        {
+                                            "wd": "cool"
+                                        },
+                                        {
+                                            "wd": "disagreeable"
+                                        },
+                                        {
+                                            "wd": "disapproving"
+                                        },
+                                        {
+                                            "wd": "distant"
+                                        },
+                                        {
+                                            "wd": "frigid"
+                                        },
+                                        {
+                                            "wd": "icy"
+                                        },
+                                        {
+                                            "wd": "ill-tempered"
+                                        },
+                                        {
+                                            "wd": "sorehead",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "or",
+                                                    "wva": "soreheaded"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "sulky"
+                                        },
+                                        {
+                                            "wd": "unfriendly"
+                                        },
+                                        {
+                                            "wd": "unpleasant"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "aggravated"
+                                        },
+                                        {
+                                            "wd": "annoyed"
+                                        },
+                                        {
+                                            "wd": "bearish"
+                                        },
+                                        {
+                                            "wd": "bilious"
+                                        },
+                                        {
+                                            "wd": "cantankerous"
+                                        },
+                                        {
+                                            "wd": "churlish"
+                                        },
+                                        {
+                                            "wd": "crabby"
+                                        },
+                                        {
+                                            "wd": "cranky"
+                                        },
+                                        {
+                                            "wd": "dyspeptic"
+                                        },
+                                        {
+                                            "wd": "exasperated"
+                                        },
+                                        {
+                                            "wd": "fretful"
+                                        },
+                                        {
+                                            "wd": "fussy"
+                                        },
+                                        {
+                                            "wd": "grouchy"
+                                        },
+                                        {
+                                            "wd": "grumpy"
+                                        },
+                                        {
+                                            "wd": "ill-humored"
+                                        },
+                                        {
+                                            "wd": "inflammable"
+                                        },
+                                        {
+                                            "wd": "irascible"
+                                        },
+                                        {
+                                            "wd": "irritable"
+                                        },
+                                        {
+                                            "wd": "peevish"
+                                        },
+                                        {
+                                            "wd": "perturbed"
+                                        },
+                                        {
+                                            "wd": "petulant"
+                                        },
+                                        {
+                                            "wd": "put out"
+                                        },
+                                        {
+                                            "wd": "quick-tempered"
+                                        },
+                                        {
+                                            "wd": "snappish"
+                                        },
+                                        {
+                                            "wd": "testy"
+                                        },
+                                        {
+                                            "wd": "touchy"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "argumentative"
+                                        },
+                                        {
+                                            "wd": "belligerent"
+                                        },
+                                        {
+                                            "wd": "contentious"
+                                        },
+                                        {
+                                            "wd": "contrary"
+                                        },
+                                        {
+                                            "wd": "disputatious"
+                                        },
+                                        {
+                                            "wd": "ornery"
+                                        },
+                                        {
+                                            "wd": "pugnacious"
+                                        },
+                                        {
+                                            "wd": "quarrelsome"
+                                        },
+                                        {
+                                            "wd": "querulous"
+                                        }
+                                    ]
+                                ],
+                                "phrase_list": [
+                                    [
+                                        {
+                                            "wd": "bent out of shape"
+                                        },
+                                        {
+                                            "wd": "blue in the face"
+                                        },
+                                        {
+                                            "wd": "fit to be tied"
+                                        },
+                                        {
+                                            "wd": "going crook",
+                                            "wsls": [
+                                                "Australian & New Zealand"
+                                            ]
+                                        },
+                                        {
+                                            "wd": "hopping mad"
+                                        },
+                                        {
+                                            "wd": "hot under the collar"
+                                        },
+                                        {
+                                            "wd": "in a fume"
+                                        },
+                                        {
+                                            "wd": "in a huff"
+                                        },
+                                        {
+                                            "wd": "in a pet"
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "accepting"
+                                        },
+                                        {
+                                            "wd": "accommodating"
+                                        },
+                                        {
+                                            "wd": "obliging"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "agreeable"
+                                        },
+                                        {
+                                            "wd": "amenable"
+                                        },
+                                        {
+                                            "wd": "complaisant"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "amicable"
+                                        },
+                                        {
+                                            "wd": "cordial"
+                                        },
+                                        {
+                                            "wd": "friendly"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "content"
+                                        },
+                                        {
+                                            "wd": "happy"
+                                        },
+                                        {
+                                            "wd": "satisfied"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "empathetic"
+                                        },
+                                        {
+                                            "wd": "sympathetic"
+                                        },
+                                        {
+                                            "wd": "tolerant"
+                                        },
+                                        {
+                                            "wd": "understanding"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "calm"
+                                        },
+                                        {
+                                            "wd": "pacific"
+                                        },
+                                        {
+                                            "wd": "peaceable"
+                                        },
+                                        {
+                                            "wd": "placid"
+                                        },
+                                        {
+                                            "wd": "serene"
+                                        },
+                                        {
+                                            "wd": "tranquil"
+                                        },
+                                        {
+                                            "wd": "unembittered"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "affable"
+                                        },
+                                        {
+                                            "wd": "amiable"
+                                        },
+                                        {
+                                            "wd": "easygoing"
+                                        },
+                                        {
+                                            "wd": "genial"
+                                        },
+                                        {
+                                            "wd": "good-natured"
+                                        },
+                                        {
+                                            "wd": "good-tempered"
+                                        },
+                                        {
+                                            "wd": "kind"
+                                        },
+                                        {
+                                            "wd": "pleasant"
+                                        },
+                                        {
+                                            "wd": "sweet"
+                                        }
+                                    ]
+                                ],
+                                "ant_list": [
+                                    [
+                                        {
+                                            "wd": "angerless"
+                                        },
+                                        {
+                                            "wd": "delighted"
+                                        },
+                                        {
+                                            "wd": "pleased"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "feeling or showing anger"
+        ]
+    }
+]

@@ -1,0 +1,1891 @@
+[
+    {
+        "meta": {
+            "id": "calm",
+            "uuid": "a8252502-e018-40a0-a27c-abcc07805a86",
+            "src": "coll_thes",
+            "section": "alpha",
+            "target": {
+                "tuuid": "6d135bab-b0cc-423a-a668-1fc8c8e0b4aa",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "calm",
+                "calmer",
+                "calmest",
+                "calmly",
+                "calmness",
+                "calmnesses"
+            ],
+            "syns": [
+                [
+                    "halcyon",
+                    "hushed",
+                    "lown",
+                    "peaceful",
+                    "placid",
+                    "quiet",
+                    "serene",
+                    "still",
+                    "stilly",
+                    "tranquil",
+                    "untroubled"
+                ],
+                [
+                    "collected",
+                    "composed",
+                    "cool",
+                    "coolheaded",
+                    "equal",
+                    "level",
+                    "limpid",
+                    "peaceful",
+                    "placid",
+                    "possessed",
+                    "recollected",
+                    "sedate",
+                    "self-composed",
+                    "self-possessed",
+                    "serene",
+                    "smooth",
+                    "together",
+                    "tranquil",
+                    "undisturbed",
+                    "unperturbed",
+                    "unruffled",
+                    "unshaken",
+                    "untroubled",
+                    "unworried"
+                ],
+                [
+                    "arcadian",
+                    "hushed",
+                    "peaceful",
+                    "placid",
+                    "quiet",
+                    "restful",
+                    "serene",
+                    "still",
+                    "stilly",
+                    "tranquil"
+                ]
+            ],
+            "ants": [
+                [
+                    "agitated",
+                    "angry",
+                    "inclement",
+                    "restless",
+                    "rough",
+                    "stormy",
+                    "tempestuous",
+                    "turbulent",
+                    "unquiet",
+                    "unsettled"
+                ],
+                [
+                    "agitated",
+                    "discomposed",
+                    "disturbed",
+                    "flustered",
+                    "perturbed",
+                    "unglued",
+                    "unhinged",
+                    "unstrung",
+                    "upset"
+                ],
+                [
+                    "boisterous",
+                    "clamorous",
+                    "clattery",
+                    "deafening",
+                    "loud",
+                    "noisy",
+                    "raucous",
+                    "rip-roaring",
+                    "roistering",
+                    "romping",
+                    "rowdy",
+                    "tumultuous",
+                    "unquiet",
+                    "uproarious",
+                    "woolly"
+                ]
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "calm"
+        },
+        "fl": "adjective",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "free from storms or physical disturbance "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "after a stormy night of high winds and driving rains, the day dawned on a {it}calm{/it} sea"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "halcyon"
+                                        },
+                                        {
+                                            "wd": "hushed"
+                                        },
+                                        {
+                                            "wd": "lown",
+                                            "wsls": [
+                                                "dialect"
+                                            ]
+                                        },
+                                        {
+                                            "wd": "peaceful"
+                                        },
+                                        {
+                                            "wd": "placid"
+                                        },
+                                        {
+                                            "wd": "quiet"
+                                        },
+                                        {
+                                            "wd": "serene"
+                                        },
+                                        {
+                                            "wd": "still"
+                                        },
+                                        {
+                                            "wd": "stilly"
+                                        },
+                                        {
+                                            "wd": "tranquil"
+                                        },
+                                        {
+                                            "wd": "untroubled"
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "balmy"
+                                        },
+                                        {
+                                            "wd": "clement"
+                                        },
+                                        {
+                                            "wd": "equable"
+                                        },
+                                        {
+                                            "wd": "gentle"
+                                        },
+                                        {
+                                            "wd": "mild"
+                                        },
+                                        {
+                                            "wd": "moderate"
+                                        },
+                                        {
+                                            "wd": "temperate"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "clear"
+                                        },
+                                        {
+                                            "wd": "cloudless"
+                                        },
+                                        {
+                                            "wd": "fair"
+                                        },
+                                        {
+                                            "wd": "rainless"
+                                        },
+                                        {
+                                            "wd": "sunny"
+                                        },
+                                        {
+                                            "wd": "sunshiny"
+                                        },
+                                        {
+                                            "wd": "windless"
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "blizzardy",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "blizzardly"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "blustery"
+                                        },
+                                        {
+                                            "wd": "squally"
+                                        },
+                                        {
+                                            "wd": "windy"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "extreme"
+                                        },
+                                        {
+                                            "wd": "foul"
+                                        },
+                                        {
+                                            "wd": "intemperate"
+                                        },
+                                        {
+                                            "wd": "nasty"
+                                        },
+                                        {
+                                            "wd": "severe"
+                                        }
+                                    ]
+                                ],
+                                "ant_list": [
+                                    [
+                                        {
+                                            "wd": "agitated"
+                                        },
+                                        {
+                                            "wd": "angry"
+                                        },
+                                        {
+                                            "wd": "inclement"
+                                        },
+                                        {
+                                            "wd": "restless"
+                                        },
+                                        {
+                                            "wd": "rough"
+                                        },
+                                        {
+                                            "wd": "stormy"
+                                        },
+                                        {
+                                            "wd": "tempestuous"
+                                        },
+                                        {
+                                            "wd": "turbulent"
+                                        },
+                                        {
+                                            "wd": "unquiet"
+                                        },
+                                        {
+                                            "wd": "unsettled"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "free from emotional or mental agitation "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "bystanders tried to help the injured person remain {it}calm{/it} while they waited for the ambulance to arrive"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "collected"
+                                        },
+                                        {
+                                            "wd": "composed"
+                                        },
+                                        {
+                                            "wd": "cool"
+                                        },
+                                        {
+                                            "wd": "coolheaded"
+                                        },
+                                        {
+                                            "wd": "equal"
+                                        },
+                                        {
+                                            "wd": "level"
+                                        },
+                                        {
+                                            "wd": "limpid"
+                                        },
+                                        {
+                                            "wd": "peaceful"
+                                        },
+                                        {
+                                            "wd": "placid"
+                                        },
+                                        {
+                                            "wd": "possessed"
+                                        },
+                                        {
+                                            "wd": "recollected"
+                                        },
+                                        {
+                                            "wd": "sedate"
+                                        },
+                                        {
+                                            "wd": "self-composed"
+                                        },
+                                        {
+                                            "wd": "self-possessed"
+                                        },
+                                        {
+                                            "wd": "serene"
+                                        },
+                                        {
+                                            "wd": "smooth"
+                                        },
+                                        {
+                                            "wd": "together"
+                                        },
+                                        {
+                                            "wd": "tranquil"
+                                        },
+                                        {
+                                            "wd": "undisturbed"
+                                        },
+                                        {
+                                            "wd": "unperturbed"
+                                        },
+                                        {
+                                            "wd": "unruffled"
+                                        },
+                                        {
+                                            "wd": "unshaken"
+                                        },
+                                        {
+                                            "wd": "untroubled"
+                                        },
+                                        {
+                                            "wd": "unworried"
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "even"
+                                        },
+                                        {
+                                            "wd": "even-keeled"
+                                        },
+                                        {
+                                            "wd": "steady"
+                                        },
+                                        {
+                                            "wd": "well-adjusted"
+                                        },
+                                        {
+                                            "wd": "well-balanced"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "imperturbable"
+                                        },
+                                        {
+                                            "wd": "nerveless"
+                                        },
+                                        {
+                                            "wd": "unflappable"
+                                        },
+                                        {
+                                            "wd": "unshakable"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "centered"
+                                        },
+                                        {
+                                            "wd": "disciplined"
+                                        },
+                                        {
+                                            "wd": "equable"
+                                        },
+                                        {
+                                            "wd": "self-contained"
+                                        },
+                                        {
+                                            "wd": "self-controlled"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "affable"
+                                        },
+                                        {
+                                            "wd": "breezy"
+                                        },
+                                        {
+                                            "wd": "devil-may-care"
+                                        },
+                                        {
+                                            "wd": "easygoing"
+                                        },
+                                        {
+                                            "wd": "happy-go-lucky"
+                                        },
+                                        {
+                                            "wd": "laid-back"
+                                        },
+                                        {
+                                            "wd": "loosey-goosey"
+                                        },
+                                        {
+                                            "wd": "mellow"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "carefree"
+                                        },
+                                        {
+                                            "wd": "nonchalant"
+                                        },
+                                        {
+                                            "wd": "unconcerned"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "assured"
+                                        },
+                                        {
+                                            "wd": "confident"
+                                        },
+                                        {
+                                            "wd": "self-assured"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "aloof"
+                                        },
+                                        {
+                                            "wd": "detached"
+                                        },
+                                        {
+                                            "wd": "dispassionate"
+                                        },
+                                        {
+                                            "wd": "indifferent"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "bovine"
+                                        },
+                                        {
+                                            "wd": "impassive"
+                                        },
+                                        {
+                                            "wd": "phlegmatic"
+                                        },
+                                        {
+                                            "wd": "sober"
+                                        },
+                                        {
+                                            "wd": "stolid"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "relaxed"
+                                        },
+                                        {
+                                            "wd": "relieved"
+                                        },
+                                        {
+                                            "wd": "tranquilized",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "tranquillized"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                ],
+                                "phrase_list": [
+                                    [
+                                        {
+                                            "wd": "at peace"
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "anxious"
+                                        },
+                                        {
+                                            "wd": "bothered"
+                                        },
+                                        {
+                                            "wd": "distressed"
+                                        },
+                                        {
+                                            "wd": "uneasy"
+                                        },
+                                        {
+                                            "wd": "unquiet"
+                                        },
+                                        {
+                                            "wd": "unsettled"
+                                        },
+                                        {
+                                            "wd": "worried"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "jittery"
+                                        },
+                                        {
+                                            "wd": "jumpy"
+                                        },
+                                        {
+                                            "wd": "nervous"
+                                        },
+                                        {
+                                            "wd": "restless"
+                                        },
+                                        {
+                                            "wd": "skittish"
+                                        },
+                                        {
+                                            "wd": "tense"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "high-strung"
+                                        },
+                                        {
+                                            "wd": "unstable"
+                                        },
+                                        {
+                                            "wd": "uptight"
+                                        }
+                                    ]
+                                ],
+                                "ant_list": [
+                                    [
+                                        {
+                                            "wd": "agitated"
+                                        },
+                                        {
+                                            "wd": "discomposed"
+                                        },
+                                        {
+                                            "wd": "disturbed"
+                                        },
+                                        {
+                                            "wd": "flustered"
+                                        },
+                                        {
+                                            "wd": "perturbed"
+                                        },
+                                        {
+                                            "wd": "unglued"
+                                        },
+                                        {
+                                            "wd": "unhinged"
+                                        },
+                                        {
+                                            "wd": "unstrung"
+                                        },
+                                        {
+                                            "wd": "upset"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "3",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "free from disturbing noise or uproar "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "the room became much {it}calmer{/it} once the rowdy tour group had left"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "arcadian"
+                                        },
+                                        {
+                                            "wd": "hushed"
+                                        },
+                                        {
+                                            "wd": "peaceful"
+                                        },
+                                        {
+                                            "wd": "placid"
+                                        },
+                                        {
+                                            "wd": "quiet"
+                                        },
+                                        {
+                                            "wd": "restful"
+                                        },
+                                        {
+                                            "wd": "serene"
+                                        },
+                                        {
+                                            "wd": "still"
+                                        },
+                                        {
+                                            "wd": "stilly"
+                                        },
+                                        {
+                                            "wd": "tranquil"
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "noiseless"
+                                        },
+                                        {
+                                            "wd": "silent"
+                                        },
+                                        {
+                                            "wd": "soundless"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "mute"
+                                        },
+                                        {
+                                            "wd": "speechless"
+                                        },
+                                        {
+                                            "wd": "wordless"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "dead"
+                                        },
+                                        {
+                                            "wd": "motionless"
+                                        },
+                                        {
+                                            "wd": "quiescent"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "muffled"
+                                        },
+                                        {
+                                            "wd": "muted"
+                                        },
+                                        {
+                                            "wd": "quieted"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "dull"
+                                        },
+                                        {
+                                            "wd": "gentle"
+                                        },
+                                        {
+                                            "wd": "low"
+                                        },
+                                        {
+                                            "wd": "soft"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "ultraquiet"
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "crazy"
+                                        },
+                                        {
+                                            "wd": "tempestuous"
+                                        },
+                                        {
+                                            "wd": "wild"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "blaring"
+                                        },
+                                        {
+                                            "wd": "blasting"
+                                        },
+                                        {
+                                            "wd": "booming"
+                                        },
+                                        {
+                                            "wd": "earsplitting"
+                                        },
+                                        {
+                                            "wd": "piercing"
+                                        },
+                                        {
+                                            "wd": "roaring"
+                                        },
+                                        {
+                                            "wd": "thundering"
+                                        },
+                                        {
+                                            "wd": "thunderous"
+                                        }
+                                    ]
+                                ],
+                                "ant_list": [
+                                    [
+                                        {
+                                            "wd": "boisterous"
+                                        },
+                                        {
+                                            "wd": "clamorous"
+                                        },
+                                        {
+                                            "wd": "clattery"
+                                        },
+                                        {
+                                            "wd": "deafening"
+                                        },
+                                        {
+                                            "wd": "loud"
+                                        },
+                                        {
+                                            "wd": "noisy"
+                                        },
+                                        {
+                                            "wd": "raucous"
+                                        },
+                                        {
+                                            "wd": "rip-roaring"
+                                        },
+                                        {
+                                            "wd": "roistering"
+                                        },
+                                        {
+                                            "wd": "romping"
+                                        },
+                                        {
+                                            "wd": "rowdy"
+                                        },
+                                        {
+                                            "wd": "tumultuous"
+                                        },
+                                        {
+                                            "wd": "unquiet"
+                                        },
+                                        {
+                                            "wd": "uproarious"
+                                        },
+                                        {
+                                            "wd": "woolly",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "wooly"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "free from storms or physical disturbance",
+            "free from emotional or mental agitation",
+            "free from disturbing noise or uproar"
+        ]
+    },
+    {
+        "meta": {
+            "id": "calm",
+            "uuid": "197f5a62-2b60-412b-8284-e8bb0572826e",
+            "src": "coll_thes",
+            "section": "alpha",
+            "target": {
+                "tuuid": "63a1b1e8-c07a-4242-9a79-3be37b3530a5",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "calm",
+                "calms",
+                "came"
+            ],
+            "syns": [
+                [
+                    "calmness",
+                    "hush",
+                    "peace",
+                    "peacefulness",
+                    "placidity",
+                    "quiet",
+                    "quietness",
+                    "quietude",
+                    "repose",
+                    "restfulness",
+                    "sereneness",
+                    "serenity",
+                    "still",
+                    "stillness",
+                    "tranquillity"
+                ],
+                [
+                    "calmness",
+                    "heartsease",
+                    "peace",
+                    "peacefulness",
+                    "placidity",
+                    "sereneness",
+                    "serenity",
+                    "tranquillity"
+                ]
+            ],
+            "ants": [
+                [
+                    "bustle",
+                    "commotion",
+                    "hubbub",
+                    "hurly-burly",
+                    "pandemonium",
+                    "tumult",
+                    "turmoil",
+                    "unquietness",
+                    "unrest",
+                    "uproar"
+                ],
+                [
+                    "agitation",
+                    "alarm",
+                    "anguish",
+                    "anxiety",
+                    "anxiousness",
+                    "apprehension",
+                    "apprehensiveness",
+                    "uneasiness",
+                    "vexation",
+                    "worry"
+                ]
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "calm"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "a state of freedom from storm or disturbance "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "vacationing city dwellers who are tired of the hustle and bustle enjoy the {it}calm{/it} of the secluded mountain village"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "calmness"
+                                        },
+                                        {
+                                            "wd": "hush"
+                                        },
+                                        {
+                                            "wd": "peace"
+                                        },
+                                        {
+                                            "wd": "peacefulness"
+                                        },
+                                        {
+                                            "wd": "placidity"
+                                        },
+                                        {
+                                            "wd": "quiet"
+                                        },
+                                        {
+                                            "wd": "quietness"
+                                        },
+                                        {
+                                            "wd": "quietude"
+                                        },
+                                        {
+                                            "wd": "repose"
+                                        },
+                                        {
+                                            "wd": "restfulness"
+                                        },
+                                        {
+                                            "wd": "sereneness"
+                                        },
+                                        {
+                                            "wd": "serenity"
+                                        },
+                                        {
+                                            "wd": "still"
+                                        },
+                                        {
+                                            "wd": "stillness"
+                                        },
+                                        {
+                                            "wd": "tranquillity",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "or",
+                                                    "wva": "tranquility"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "lull"
+                                        },
+                                        {
+                                            "wd": "pause"
+                                        },
+                                        {
+                                            "wd": "respite"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "silence"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "mildness"
+                                        },
+                                        {
+                                            "wd": "soothingness"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "comity"
+                                        },
+                                        {
+                                            "wd": "concord"
+                                        },
+                                        {
+                                            "wd": "harmony"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "casualness"
+                                        },
+                                        {
+                                            "wd": "easygoingness"
+                                        },
+                                        {
+                                            "wd": "informality"
+                                        },
+                                        {
+                                            "wd": "laid-backness"
+                                        },
+                                        {
+                                            "wd": "relaxedness"
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "clamor"
+                                        },
+                                        {
+                                            "wd": "din"
+                                        },
+                                        {
+                                            "wd": "noise"
+                                        },
+                                        {
+                                            "wd": "racket"
+                                        }
+                                    ]
+                                ],
+                                "ant_list": [
+                                    [
+                                        {
+                                            "wd": "bustle"
+                                        },
+                                        {
+                                            "wd": "commotion"
+                                        },
+                                        {
+                                            "wd": "hubbub"
+                                        },
+                                        {
+                                            "wd": "hurly-burly"
+                                        },
+                                        {
+                                            "wd": "pandemonium"
+                                        },
+                                        {
+                                            "wd": "tumult"
+                                        },
+                                        {
+                                            "wd": "turmoil"
+                                        },
+                                        {
+                                            "wd": "unquietness"
+                                        },
+                                        {
+                                            "wd": "unrest"
+                                        },
+                                        {
+                                            "wd": "uproar"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "freedom from disquieting or oppressive thoughts or emotions "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "the batter always exudes an aura of {it}calm{/it}, even in clutch situations"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "calmness"
+                                        },
+                                        {
+                                            "wd": "heartsease"
+                                        },
+                                        {
+                                            "wd": "peace"
+                                        },
+                                        {
+                                            "wd": "peacefulness"
+                                        },
+                                        {
+                                            "wd": "placidity"
+                                        },
+                                        {
+                                            "wd": "sereneness"
+                                        },
+                                        {
+                                            "wd": "serenity"
+                                        },
+                                        {
+                                            "wd": "tranquillity",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "or",
+                                                    "wva": "tranquility"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "content"
+                                        },
+                                        {
+                                            "wd": "contentment"
+                                        },
+                                        {
+                                            "wd": "ease"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "comfort"
+                                        },
+                                        {
+                                            "wd": "consolation"
+                                        },
+                                        {
+                                            "wd": "relief"
+                                        },
+                                        {
+                                            "wd": "solace"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "quiet"
+                                        },
+                                        {
+                                            "wd": "quietude"
+                                        },
+                                        {
+                                            "wd": "repose"
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "care"
+                                        },
+                                        {
+                                            "wd": "concern"
+                                        },
+                                        {
+                                            "wd": "perturbation"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "strain"
+                                        },
+                                        {
+                                            "wd": "stress"
+                                        },
+                                        {
+                                            "wd": "tenseness"
+                                        },
+                                        {
+                                            "wd": "tension"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "consternation"
+                                        },
+                                        {
+                                            "wd": "desperateness"
+                                        },
+                                        {
+                                            "wd": "desperation"
+                                        },
+                                        {
+                                            "wd": "discomfort"
+                                        },
+                                        {
+                                            "wd": "discomposure"
+                                        },
+                                        {
+                                            "wd": "dismay"
+                                        },
+                                        {
+                                            "wd": "distraction"
+                                        },
+                                        {
+                                            "wd": "distress"
+                                        },
+                                        {
+                                            "wd": "disturbance"
+                                        },
+                                        {
+                                            "wd": "edginess"
+                                        },
+                                        {
+                                            "wd": "jitters"
+                                        },
+                                        {
+                                            "wd": "jumpiness"
+                                        },
+                                        {
+                                            "wd": "nervousness"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "fear"
+                                        },
+                                        {
+                                            "wd": "fearfulness"
+                                        },
+                                        {
+                                            "wd": "torment"
+                                        },
+                                        {
+                                            "wd": "upset"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "doubt"
+                                        },
+                                        {
+                                            "wd": "dread"
+                                        },
+                                        {
+                                            "wd": "foreboding"
+                                        },
+                                        {
+                                            "wd": "incertitude"
+                                        },
+                                        {
+                                            "wd": "misgiving"
+                                        },
+                                        {
+                                            "wd": "presentiment"
+                                        },
+                                        {
+                                            "wd": "suspense"
+                                        },
+                                        {
+                                            "wd": "uncertainty"
+                                        }
+                                    ]
+                                ],
+                                "ant_list": [
+                                    [
+                                        {
+                                            "wd": "agitation"
+                                        },
+                                        {
+                                            "wd": "alarm",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "alarum"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "anguish"
+                                        },
+                                        {
+                                            "wd": "anxiety"
+                                        },
+                                        {
+                                            "wd": "anxiousness"
+                                        },
+                                        {
+                                            "wd": "apprehension"
+                                        },
+                                        {
+                                            "wd": "apprehensiveness"
+                                        },
+                                        {
+                                            "wd": "uneasiness"
+                                        },
+                                        {
+                                            "wd": "vexation"
+                                        },
+                                        {
+                                            "wd": "worry"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "a state of freedom from storm or disturbance",
+            "freedom from disquieting or oppressive thoughts or emotions"
+        ]
+    },
+    {
+        "meta": {
+            "id": "calm",
+            "uuid": "0a3ed726-a531-472b-925c-8946c286af72",
+            "src": "coll_thes",
+            "section": "alpha",
+            "target": {
+                "tuuid": "4aacac7a-0e68-49db-925a-ff3d795f2299",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "calm",
+                "calmed",
+                "calming",
+                "calms"
+            ],
+            "syns": [
+                [
+                    "becalm",
+                    "compose",
+                    "lull",
+                    "lullaby",
+                    "quiet",
+                    "quieten",
+                    "salve",
+                    "settle",
+                    "soothe",
+                    "still",
+                    "tranquilize"
+                ],
+                [
+                    "collect",
+                    "compose",
+                    "contain",
+                    "control",
+                    "re-collect",
+                    "settle"
+                ]
+            ],
+            "ants": [
+                [
+                    "agitate",
+                    "discompose",
+                    "disquiet",
+                    "disturb",
+                    "key (up)",
+                    "perturb",
+                    "upset",
+                    "vex"
+                ]
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "calm"
+        },
+        "fl": "verb",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "to free from distress or disturbance "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "the president's reassuring words did much to {it}calm{/it} the public during the national emergency"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "becalm"
+                                        },
+                                        {
+                                            "wd": "compose"
+                                        },
+                                        {
+                                            "wd": "lull"
+                                        },
+                                        {
+                                            "wd": "lullaby"
+                                        },
+                                        {
+                                            "wd": "quiet"
+                                        },
+                                        {
+                                            "wd": "quieten",
+                                            "wsls": [
+                                                "chiefly British"
+                                            ]
+                                        },
+                                        {
+                                            "wd": "salve"
+                                        },
+                                        {
+                                            "wd": "settle"
+                                        },
+                                        {
+                                            "wd": "soothe"
+                                        },
+                                        {
+                                            "wd": "still"
+                                        },
+                                        {
+                                            "wd": "tranquilize",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "tranquillize"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "appease"
+                                        },
+                                        {
+                                            "wd": "conciliate"
+                                        },
+                                        {
+                                            "wd": "hush"
+                                        },
+                                        {
+                                            "wd": "mollify"
+                                        },
+                                        {
+                                            "wd": "pacify"
+                                        },
+                                        {
+                                            "wd": "placate"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "allay"
+                                        },
+                                        {
+                                            "wd": "alleviate"
+                                        },
+                                        {
+                                            "wd": "assuage"
+                                        },
+                                        {
+                                            "wd": "ease"
+                                        },
+                                        {
+                                            "wd": "lay"
+                                        },
+                                        {
+                                            "wd": "mitigate"
+                                        },
+                                        {
+                                            "wd": "quell"
+                                        },
+                                        {
+                                            "wd": "relax"
+                                        },
+                                        {
+                                            "wd": "relieve"
+                                        },
+                                        {
+                                            "wd": "solace"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "narcotize"
+                                        },
+                                        {
+                                            "wd": "sedate"
+                                        },
+                                        {
+                                            "wd": "stupefy"
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "aggravate"
+                                        },
+                                        {
+                                            "wd": "heighten"
+                                        },
+                                        {
+                                            "wd": "intensify"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "arouse"
+                                        },
+                                        {
+                                            "wd": "excite"
+                                        },
+                                        {
+                                            "wd": "foment"
+                                        },
+                                        {
+                                            "wd": "incite"
+                                        },
+                                        {
+                                            "wd": "rouse"
+                                        },
+                                        {
+                                            "wd": "stir (up)"
+                                        },
+                                        {
+                                            "wd": "work up"
+                                        }
+                                    ]
+                                ],
+                                "ant_list": [
+                                    [
+                                        {
+                                            "wd": "agitate"
+                                        },
+                                        {
+                                            "wd": "discompose"
+                                        },
+                                        {
+                                            "wd": "disquiet"
+                                        },
+                                        {
+                                            "wd": "disturb"
+                                        },
+                                        {
+                                            "wd": "key (up)"
+                                        },
+                                        {
+                                            "wd": "perturb"
+                                        },
+                                        {
+                                            "wd": "upset"
+                                        },
+                                        {
+                                            "wd": "vex"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "to gain emotional or mental control of "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "he {it}calmed{/it} himself before continuing the eulogy"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "collect"
+                                        },
+                                        {
+                                            "wd": "compose"
+                                        },
+                                        {
+                                            "wd": "contain"
+                                        },
+                                        {
+                                            "wd": "control"
+                                        },
+                                        {
+                                            "wd": "re-collect"
+                                        },
+                                        {
+                                            "wd": "settle"
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "hold back"
+                                        },
+                                        {
+                                            "wd": "restrain"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "rally"
+                                        },
+                                        {
+                                            "wd": "recover"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "lull"
+                                        },
+                                        {
+                                            "wd": "quiet"
+                                        },
+                                        {
+                                            "wd": "soothe"
+                                        },
+                                        {
+                                            "wd": "still"
+                                        },
+                                        {
+                                            "wd": "tranquilize",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "tranquillize"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "to free from distress or disturbance",
+            "to gain emotional or mental control of"
+        ]
+    },
+    {
+        "meta": {
+            "id": "calm (down)",
+            "uuid": "c90977a9-1765-4e96-8b6d-18e40283e897",
+            "src": "coll_thes",
+            "section": "alpha",
+            "stems": [
+                "calm (down)",
+                "calm",
+                "calm down",
+                "calmed",
+                "calming",
+                "calms"
+            ],
+            "syns": [
+                [
+                    "chill out",
+                    "cool",
+                    "hush",
+                    "pipe down",
+                    "quiet",
+                    "settle (down)"
+                ]
+            ],
+            "ants": [
+                [
+                    "act up",
+                    "carry on",
+                    "cut up"
+                ]
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "calm (down)"
+        },
+        "fl": "verb",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "to become still and orderly "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "the sea finally {it}calmed down{/it}, making it safe for small craft to venture forth once again"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "chill out",
+                                            "wsls": [
+                                                "slang"
+                                            ]
+                                        },
+                                        {
+                                            "wd": "cool"
+                                        },
+                                        {
+                                            "wd": "hush"
+                                        },
+                                        {
+                                            "wd": "pipe down"
+                                        },
+                                        {
+                                            "wd": "quiet"
+                                        },
+                                        {
+                                            "wd": "settle (down)"
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "dry up"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "relax"
+                                        },
+                                        {
+                                            "wd": "tranquilize",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "tranquillize"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "unwind"
+                                        },
+                                        {
+                                            "wd": "zone out"
+                                        }
+                                    ]
+                                ],
+                                "phrase_list": [
+                                    [
+                                        {
+                                            "wd": "cool it"
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "clown (around)"
+                                        },
+                                        {
+                                            "wd": "fool around"
+                                        },
+                                        {
+                                            "wd": "horse around"
+                                        },
+                                        {
+                                            "wd": "monkey (around)"
+                                        },
+                                        {
+                                            "wd": "show off"
+                                        },
+                                        {
+                                            "wd": "skylark"
+                                        }
+                                    ]
+                                ],
+                                "ant_list": [
+                                    [
+                                        {
+                                            "wd": "act up"
+                                        },
+                                        {
+                                            "wd": "carry on"
+                                        },
+                                        {
+                                            "wd": "cut up"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "to become still and orderly"
+        ]
+    }
+]
