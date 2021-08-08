@@ -16,10 +16,12 @@ const App = () => {
   const [currentPanel, setCurrentPanel] = useState('1')
   const [savedSentences, setSavedSentences] = useState([])
   const [savedMessage, setSavedMessage] = useState('hidden')
+  const [error, setError] = useState('')
   const [timer, setTimer] = useState('')
 
   const handleSubmit = async(sentence) => {
     console.log("original sentence>>>>",sentence)
+    setError('')
     try {
       const {sentiment, positiveTerms, negativeTerms} = await submitSentence(sentence)
       setOriginalSentence(sentence)
@@ -30,11 +32,12 @@ const App = () => {
       setNegativeWords(updatedNegativeTerms)
       setCurrentPanel('2')
     } catch(err) {
-      console.log(err)
+      setError('We\'re sorry, we had trouble submitting your sentence. Please Refresh')
     }
   }
 
   const generateNewSentence = async(directionChange) => {
+    setError('')
     try {
       let newPositiveWords = []
       let newNegativeWords = []
@@ -48,7 +51,7 @@ const App = () => {
       console.log(newSentence)
       setCurrentPanel('3')
     } catch(err) {
-      console.log(err)
+      setError('We\'re sorry, we had trouble replacing words in your sentence, please refresh.') 
     }
   }
 
