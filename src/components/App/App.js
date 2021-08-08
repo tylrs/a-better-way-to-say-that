@@ -15,6 +15,7 @@ const App = () => {
   const [negativeWords, setNegativeWords] = useState([])
   const [currentPanel, setCurrentPanel] = useState('1')
   const [savedSentences, setSavedSentences] = useState([])
+  const [savedMessage, setSavedMessage] = useState('hidden')
   const [timer, setTimer] = useState('')
 
   const handleSubmit = async(sentence) => {
@@ -67,6 +68,8 @@ const App = () => {
       sentenceSentiment: newSentenceSentiment
     }
     setSavedSentences([...savedSentences, newSavedSentence])
+    setSavedMessage('displayed')
+    setTimer(setTimeout(() => setSavedMessage('hidden'), 3000))
     console.log('sentence saved')
   }
 
@@ -90,6 +93,7 @@ const App = () => {
             switchPanels = {switchPanels}
             saveSentence = {saveSentence}
             newSentenceSentiment = {newSentenceSentiment}
+            savedMessage = {savedMessage}
           />
         }/>
         <Route from='/saved-sentences' render={() => 

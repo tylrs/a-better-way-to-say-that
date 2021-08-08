@@ -44,6 +44,14 @@
     text-transform: capitalize;
 }
 
+.hidden {
+    display: none;
+}
+
+.displayed {
+    color: red;
+}
+
 button {
     background-image: linear-gradient(20deg, rgba(131,58,180,1) 7%, rgba(253,29,29,1) 60%, rgba(252,176,69,1) 90%);
     border: .5px solid white;

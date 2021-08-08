@@ -25,6 +25,9 @@ const Panel = ({info, panel, currentPanel}) => {
             case 'words':
                 element = generateWords(content)
                 break;   
+            case 'message':
+                element = <p className={styling}>{content}</p>
+                break;   
             default:
                 element = <hr />    
         }
