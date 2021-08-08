@@ -1,0 +1,3834 @@
+[
+    {
+        "meta": {
+            "id": "fun",
+            "uuid": "bf7be070-eb1d-436b-be16-df3a6e44e083",
+            "src": "coll_thes",
+            "section": "alpha",
+            "target": {
+                "tuuid": "a2e5e14b-527d-4216-839a-3f0be56a5477",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "fun",
+                "funs"
+            ],
+            "syns": [
+                [
+                    "delight",
+                    "distraction",
+                    "diversion",
+                    "divertissement",
+                    "entertainment",
+                    "pleasure",
+                    "recreation"
+                ],
+                [
+                    "game",
+                    "jest",
+                    "play",
+                    "sport"
+                ],
+                [
+                    "dalliance",
+                    "frolic",
+                    "frolicking",
+                    "fun and games",
+                    "play",
+                    "recreation",
+                    "relaxation",
+                    "rollicking",
+                    "sport"
+                ],
+                [
+                    "ado",
+                    "alarums and excursions",
+                    "ballyhoo",
+                    "blather",
+                    "bluster",
+                    "bobbery",
+                    "bother",
+                    "bustle",
+                    "clatter",
+                    "clutter",
+                    "coil",
+                    "commotion",
+                    "corroboree",
+                    "disturbance",
+                    "do",
+                    "foofaraw",
+                    "furor",
+                    "furore",
+                    "fuss",
+                    "helter-skelter",
+                    "hoo-ha",
+                    "hoopla",
+                    "hubble-bubble",
+                    "hubbub",
+                    "hullabaloo",
+                    "hurly",
+                    "hurly-burly",
+                    "hurricane",
+                    "hurry",
+                    "hurry-scurry",
+                    "kerfuffle",
+                    "moil",
+                    "pandemonium",
+                    "pother",
+                    "row",
+                    "ruckus",
+                    "ruction",
+                    "rumpus",
+                    "shindy",
+                    "splore",
+                    "squall",
+                    "stew",
+                    "stir",
+                    "storm",
+                    "to-do",
+                    "tumult",
+                    "turmoil",
+                    "uproar",
+                    "welter",
+                    "whirl",
+                    "williwaw",
+                    "zoo"
+                ]
+            ],
+            "ants": [
+                [
+                    "bore",
+                    "bummer",
+                    "downer",
+                    "drag"
+                ],
+                [
+                    "earnest"
+                ]
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "fun"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "someone or something that provides amusement or enjoyment "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "theme parks with their rides, shows, and games are great {it}fun{/it} for the whole family"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "delight"
+                                        },
+                                        {
+                                            "wd": "distraction"
+                                        },
+                                        {
+                                            "wd": "diversion"
+                                        },
+                                        {
+                                            "wd": "divertissement"
+                                        },
+                                        {
+                                            "wd": "entertainment"
+                                        },
+                                        {
+                                            "wd": "pleasure"
+                                        },
+                                        {
+                                            "wd": "recreation"
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "escape"
+                                        },
+                                        {
+                                            "wd": "pastime"
+                                        },
+                                        {
+                                            "wd": "time killer"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "binge"
+                                        },
+                                        {
+                                            "wd": "fling"
+                                        },
+                                        {
+                                            "wd": "frolic"
+                                        },
+                                        {
+                                            "wd": "gambol"
+                                        },
+                                        {
+                                            "wd": "lark"
+                                        },
+                                        {
+                                            "wd": "revel"
+                                        },
+                                        {
+                                            "wd": "rollick"
+                                        },
+                                        {
+                                            "wd": "romp"
+                                        },
+                                        {
+                                            "wd": "spree"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "frolicking"
+                                        },
+                                        {
+                                            "wd": "rollicking"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "carousing"
+                                        },
+                                        {
+                                            "wd": "conviviality"
+                                        },
+                                        {
+                                            "wd": "festivity"
+                                        },
+                                        {
+                                            "wd": "gaiety",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "gayety"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "hilarity"
+                                        },
+                                        {
+                                            "wd": "jollification"
+                                        },
+                                        {
+                                            "wd": "jollity"
+                                        },
+                                        {
+                                            "wd": "merrymaking"
+                                        },
+                                        {
+                                            "wd": "reveling",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "or",
+                                                    "wva": "revelling"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "revelry"
+                                        },
+                                        {
+                                            "wd": "whoopee"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "picnic"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "laugh"
+                                        },
+                                        {
+                                            "wd": "riot"
+                                        },
+                                        {
+                                            "wd": "scream"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "activity"
+                                        },
+                                        {
+                                            "wd": "game"
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "killjoy"
+                                        },
+                                        {
+                                            "wd": "party pooper"
+                                        }
+                                    ]
+                                ],
+                                "ant_list": [
+                                    [
+                                        {
+                                            "wd": "bore"
+                                        },
+                                        {
+                                            "wd": "bummer"
+                                        },
+                                        {
+                                            "wd": "downer"
+                                        },
+                                        {
+                                            "wd": "drag"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "an attitude or manner not to be taken seriously "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "when I said that playing the piano like that could get you arrested, I only said it in {it}fun{/it}"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "game"
+                                        },
+                                        {
+                                            "wd": "jest"
+                                        },
+                                        {
+                                            "wd": "play"
+                                        },
+                                        {
+                                            "wd": "sport"
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "facetiousness"
+                                        },
+                                        {
+                                            "wd": "flightiness"
+                                        },
+                                        {
+                                            "wd": "flippancy"
+                                        },
+                                        {
+                                            "wd": "frivolity"
+                                        },
+                                        {
+                                            "wd": "frivolousness"
+                                        },
+                                        {
+                                            "wd": "frothiness"
+                                        },
+                                        {
+                                            "wd": "levity"
+                                        },
+                                        {
+                                            "wd": "light-mindedness"
+                                        },
+                                        {
+                                            "wd": "silliness"
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "earnestness"
+                                        },
+                                        {
+                                            "wd": "gravity"
+                                        },
+                                        {
+                                            "wd": "seriousness"
+                                        },
+                                        {
+                                            "wd": "soberness"
+                                        },
+                                        {
+                                            "wd": "sobriety"
+                                        },
+                                        {
+                                            "wd": "solemnity"
+                                        }
+                                    ]
+                                ],
+                                "ant_list": [
+                                    [
+                                        {
+                                            "wd": "earnest"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "3",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "activity engaged in to amuse oneself "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "came outside to where we were playing touch football and joined the {it}fun{/it}"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "dalliance"
+                                        },
+                                        {
+                                            "wd": "frolic"
+                                        },
+                                        {
+                                            "wd": "frolicking"
+                                        },
+                                        {
+                                            "wd": "fun and games"
+                                        },
+                                        {
+                                            "wd": "play"
+                                        },
+                                        {
+                                            "wd": "recreation"
+                                        },
+                                        {
+                                            "wd": "relaxation"
+                                        },
+                                        {
+                                            "wd": "rollicking"
+                                        },
+                                        {
+                                            "wd": "sport"
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "gamboling",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "or",
+                                                    "wva": "gambolling"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "romping"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "amusement"
+                                        },
+                                        {
+                                            "wd": "diversion"
+                                        },
+                                        {
+                                            "wd": "entertainment"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "hobby"
+                                        },
+                                        {
+                                            "wd": "hobbyhorse"
+                                        },
+                                        {
+                                            "wd": "pastime"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "delight"
+                                        },
+                                        {
+                                            "wd": "enjoyment"
+                                        },
+                                        {
+                                            "wd": "pleasance"
+                                        },
+                                        {
+                                            "wd": "pleasure"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "friskiness"
+                                        },
+                                        {
+                                            "wd": "playfulness"
+                                        },
+                                        {
+                                            "wd": "sportiveness"
+                                        },
+                                        {
+                                            "wd": "wantonness"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "devilment"
+                                        },
+                                        {
+                                            "wd": "devilry",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "or",
+                                                    "wva": "deviltry"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "hanky-panky"
+                                        },
+                                        {
+                                            "wd": "hob"
+                                        },
+                                        {
+                                            "wd": "impishness"
+                                        },
+                                        {
+                                            "wd": "jinks"
+                                        },
+                                        {
+                                            "wd": "knavery"
+                                        },
+                                        {
+                                            "wd": "mischief"
+                                        },
+                                        {
+                                            "wd": "mischievousness"
+                                        },
+                                        {
+                                            "wd": "rascality"
+                                        },
+                                        {
+                                            "wd": "roguishness"
+                                        },
+                                        {
+                                            "wd": "waggery"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "binge"
+                                        },
+                                        {
+                                            "wd": "fling"
+                                        },
+                                        {
+                                            "wd": "kick"
+                                        },
+                                        {
+                                            "wd": "lark"
+                                        },
+                                        {
+                                            "wd": "revel"
+                                        },
+                                        {
+                                            "wd": "rollick"
+                                        },
+                                        {
+                                            "wd": "spree"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "hilarity"
+                                        },
+                                        {
+                                            "wd": "merriment"
+                                        },
+                                        {
+                                            "wd": "merrymaking"
+                                        },
+                                        {
+                                            "wd": "revelry"
+                                        },
+                                        {
+                                            "wd": "whoopee"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "buffoonery"
+                                        },
+                                        {
+                                            "wd": "high jinks",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "hijinks"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "horseplay"
+                                        },
+                                        {
+                                            "wd": "tomfoolery"
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "drudgery"
+                                        },
+                                        {
+                                            "wd": "labor"
+                                        },
+                                        {
+                                            "wd": "work"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "duty"
+                                        },
+                                        {
+                                            "wd": "obligation"
+                                        },
+                                        {
+                                            "wd": "responsibility"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "4",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "a state of noisy, confused activity "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "the {it}fun{/it} really began when the deer broke out of its pen and started wandering down the street"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "ado"
+                                        },
+                                        {
+                                            "wd": "alarums and excursions"
+                                        },
+                                        {
+                                            "wd": "ballyhoo"
+                                        },
+                                        {
+                                            "wd": "blather"
+                                        },
+                                        {
+                                            "wd": "bluster"
+                                        },
+                                        {
+                                            "wd": "bobbery"
+                                        },
+                                        {
+                                            "wd": "bother"
+                                        },
+                                        {
+                                            "wd": "bustle"
+                                        },
+                                        {
+                                            "wd": "clatter"
+                                        },
+                                        {
+                                            "wd": "clutter",
+                                            "wsls": [
+                                                "chiefly dialect"
+                                            ]
+                                        },
+                                        {
+                                            "wd": "coil"
+                                        },
+                                        {
+                                            "wd": "commotion"
+                                        },
+                                        {
+                                            "wd": "corroboree",
+                                            "wsls": [
+                                                "Australian"
+                                            ]
+                                        },
+                                        {
+                                            "wd": "disturbance"
+                                        },
+                                        {
+                                            "wd": "do",
+                                            "wsls": [
+                                                "chiefly dialect"
+                                            ]
+                                        },
+                                        {
+                                            "wd": "foofaraw"
+                                        },
+                                        {
+                                            "wd": "furor"
+                                        },
+                                        {
+                                            "wd": "furore"
+                                        },
+                                        {
+                                            "wd": "fuss"
+                                        },
+                                        {
+                                            "wd": "helter-skelter"
+                                        },
+                                        {
+                                            "wd": "hoo-ha",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "hoo-hah"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "hoopla"
+                                        },
+                                        {
+                                            "wd": "hubble-bubble"
+                                        },
+                                        {
+                                            "wd": "hubbub"
+                                        },
+                                        {
+                                            "wd": "hullabaloo"
+                                        },
+                                        {
+                                            "wd": "hurly"
+                                        },
+                                        {
+                                            "wd": "hurly-burly"
+                                        },
+                                        {
+                                            "wd": "hurricane"
+                                        },
+                                        {
+                                            "wd": "hurry"
+                                        },
+                                        {
+                                            "wd": "hurry-scurry",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "or",
+                                                    "wva": "hurry-skurry"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "kerfuffle",
+                                            "wsls": [
+                                                "chiefly British"
+                                            ]
+                                        },
+                                        {
+                                            "wd": "moil"
+                                        },
+                                        {
+                                            "wd": "pandemonium"
+                                        },
+                                        {
+                                            "wd": "pother"
+                                        },
+                                        {
+                                            "wd": "row"
+                                        },
+                                        {
+                                            "wd": "ruckus"
+                                        },
+                                        {
+                                            "wd": "ruction"
+                                        },
+                                        {
+                                            "wd": "rumpus"
+                                        },
+                                        {
+                                            "wd": "shindy"
+                                        },
+                                        {
+                                            "wd": "splore",
+                                            "wsls": [
+                                                "Scottish"
+                                            ]
+                                        },
+                                        {
+                                            "wd": "squall"
+                                        },
+                                        {
+                                            "wd": "stew"
+                                        },
+                                        {
+                                            "wd": "stir"
+                                        },
+                                        {
+                                            "wd": "storm"
+                                        },
+                                        {
+                                            "wd": "to-do"
+                                        },
+                                        {
+                                            "wd": "tumult"
+                                        },
+                                        {
+                                            "wd": "turmoil"
+                                        },
+                                        {
+                                            "wd": "uproar"
+                                        },
+                                        {
+                                            "wd": "welter"
+                                        },
+                                        {
+                                            "wd": "whirl"
+                                        },
+                                        {
+                                            "wd": "williwaw"
+                                        },
+                                        {
+                                            "wd": "zoo"
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "cacophony"
+                                        },
+                                        {
+                                            "wd": "clamor"
+                                        },
+                                        {
+                                            "wd": "din"
+                                        },
+                                        {
+                                            "wd": "howl"
+                                        },
+                                        {
+                                            "wd": "hue and cry"
+                                        },
+                                        {
+                                            "wd": "noise"
+                                        },
+                                        {
+                                            "wd": "outcry"
+                                        },
+                                        {
+                                            "wd": "racket"
+                                        },
+                                        {
+                                            "wd": "roar"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "disorder"
+                                        },
+                                        {
+                                            "wd": "unrest"
+                                        },
+                                        {
+                                            "wd": "upheaval"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "eruption"
+                                        },
+                                        {
+                                            "wd": "flare-up"
+                                        },
+                                        {
+                                            "wd": "flurry"
+                                        },
+                                        {
+                                            "wd": "flutter"
+                                        },
+                                        {
+                                            "wd": "outbreak"
+                                        },
+                                        {
+                                            "wd": "outburst"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "brawl"
+                                        },
+                                        {
+                                            "wd": "fracas"
+                                        },
+                                        {
+                                            "wd": "fray"
+                                        },
+                                        {
+                                            "wd": "hassle"
+                                        },
+                                        {
+                                            "wd": "melee",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "mêlée"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "scuffle"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "dither"
+                                        },
+                                        {
+                                            "wd": "fever"
+                                        },
+                                        {
+                                            "wd": "fret"
+                                        },
+                                        {
+                                            "wd": "lather"
+                                        },
+                                        {
+                                            "wd": "tizzy"
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "calm"
+                                        },
+                                        {
+                                            "wd": "hush"
+                                        },
+                                        {
+                                            "wd": "peace"
+                                        },
+                                        {
+                                            "wd": "quiet"
+                                        },
+                                        {
+                                            "wd": "quietude"
+                                        },
+                                        {
+                                            "wd": "rest"
+                                        },
+                                        {
+                                            "wd": "stillness"
+                                        },
+                                        {
+                                            "wd": "tranquillity",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "or",
+                                                    "wva": "tranquility"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "order"
+                                        },
+                                        {
+                                            "wd": "orderliness"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "someone or something that provides amusement or enjoyment",
+            "an attitude or manner not to be taken seriously",
+            "activity engaged in to amuse oneself"
+        ]
+    },
+    {
+        "meta": {
+            "id": "fun",
+            "uuid": "7fdad9a1-8f0c-4d75-b67f-da83ce838631",
+            "src": "coll_thes",
+            "section": "alpha",
+            "target": {
+                "tuuid": "846e6bd5-6053-4cd4-855b-7e572d834a02",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "fun",
+                "funner",
+                "funnest"
+            ],
+            "syns": [
+                [
+                    "amusing",
+                    "delightful",
+                    "diverting",
+                    "enjoyable",
+                    "entertaining",
+                    "pleasurable"
+                ]
+            ],
+            "ants": [
+                [
+                    "boring",
+                    "drab",
+                    "dreary",
+                    "dull",
+                    "flat",
+                    "heavy",
+                    "humdrum",
+                    "jading",
+                    "leaden",
+                    "monotonous",
+                    "pedestrian",
+                    "pleasureless",
+                    "ponderous",
+                    "stodgy",
+                    "stuffy",
+                    "tedious",
+                    "tiresome",
+                    "tiring",
+                    "uninteresting",
+                    "wearisome",
+                    "weary",
+                    "wearying"
+                ]
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "fun"
+        },
+        "fl": "adjective",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "providing amusement or enjoyment "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "there were so many {it}fun{/it} things to do at summer camp that the kids really hated to leave"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "amusing"
+                                        },
+                                        {
+                                            "wd": "delightful"
+                                        },
+                                        {
+                                            "wd": "diverting"
+                                        },
+                                        {
+                                            "wd": "enjoyable"
+                                        },
+                                        {
+                                            "wd": "entertaining"
+                                        },
+                                        {
+                                            "wd": "pleasurable"
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "agreeable"
+                                        },
+                                        {
+                                            "wd": "beguiling"
+                                        },
+                                        {
+                                            "wd": "nice"
+                                        },
+                                        {
+                                            "wd": "pleasant"
+                                        },
+                                        {
+                                            "wd": "satisfying"
+                                        },
+                                        {
+                                            "wd": "welcome"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "recreational"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "antic"
+                                        },
+                                        {
+                                            "wd": "comic"
+                                        },
+                                        {
+                                            "wd": "comical"
+                                        },
+                                        {
+                                            "wd": "droll"
+                                        },
+                                        {
+                                            "wd": "farcical"
+                                        },
+                                        {
+                                            "wd": "funny"
+                                        },
+                                        {
+                                            "wd": "hilarious"
+                                        },
+                                        {
+                                            "wd": "humorous"
+                                        },
+                                        {
+                                            "wd": "laughable"
+                                        },
+                                        {
+                                            "wd": "ludicrous"
+                                        },
+                                        {
+                                            "wd": "ridiculous"
+                                        },
+                                        {
+                                            "wd": "riotous"
+                                        },
+                                        {
+                                            "wd": "risible"
+                                        },
+                                        {
+                                            "wd": "sidesplitting"
+                                        },
+                                        {
+                                            "wd": "uproarious"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "blithesome"
+                                        },
+                                        {
+                                            "wd": "gay"
+                                        },
+                                        {
+                                            "wd": "gleeful"
+                                        },
+                                        {
+                                            "wd": "happy"
+                                        },
+                                        {
+                                            "wd": "jocose"
+                                        },
+                                        {
+                                            "wd": "jocund"
+                                        },
+                                        {
+                                            "wd": "jolly"
+                                        },
+                                        {
+                                            "wd": "jovial"
+                                        },
+                                        {
+                                            "wd": "merry"
+                                        },
+                                        {
+                                            "wd": "mirthful"
+                                        },
+                                        {
+                                            "wd": "sunny"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "exciting"
+                                        },
+                                        {
+                                            "wd": "stimulating"
+                                        },
+                                        {
+                                            "wd": "thrilling"
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "disagreeable"
+                                        },
+                                        {
+                                            "wd": "displeasing"
+                                        },
+                                        {
+                                            "wd": "distasteful"
+                                        },
+                                        {
+                                            "wd": "uncongenial"
+                                        },
+                                        {
+                                            "wd": "unlovely"
+                                        },
+                                        {
+                                            "wd": "unpleasant"
+                                        },
+                                        {
+                                            "wd": "unpleasing"
+                                        },
+                                        {
+                                            "wd": "unwelcome"
+                                        }
+                                    ]
+                                ],
+                                "ant_list": [
+                                    [
+                                        {
+                                            "wd": "boring"
+                                        },
+                                        {
+                                            "wd": "drab"
+                                        },
+                                        {
+                                            "wd": "dreary"
+                                        },
+                                        {
+                                            "wd": "dull"
+                                        },
+                                        {
+                                            "wd": "flat"
+                                        },
+                                        {
+                                            "wd": "heavy"
+                                        },
+                                        {
+                                            "wd": "humdrum"
+                                        },
+                                        {
+                                            "wd": "jading"
+                                        },
+                                        {
+                                            "wd": "leaden"
+                                        },
+                                        {
+                                            "wd": "monotonous"
+                                        },
+                                        {
+                                            "wd": "pedestrian"
+                                        },
+                                        {
+                                            "wd": "pleasureless"
+                                        },
+                                        {
+                                            "wd": "ponderous"
+                                        },
+                                        {
+                                            "wd": "stodgy"
+                                        },
+                                        {
+                                            "wd": "stuffy"
+                                        },
+                                        {
+                                            "wd": "tedious"
+                                        },
+                                        {
+                                            "wd": "tiresome"
+                                        },
+                                        {
+                                            "wd": "tiring"
+                                        },
+                                        {
+                                            "wd": "uninteresting"
+                                        },
+                                        {
+                                            "wd": "wearisome"
+                                        },
+                                        {
+                                            "wd": "weary"
+                                        },
+                                        {
+                                            "wd": "wearying"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "providing amusement or enjoyment"
+        ]
+    },
+    {
+        "meta": {
+            "id": "fun",
+            "uuid": "e862b1ee-65cd-4d15-88fb-461a75ca3a77",
+            "src": "coll_thes",
+            "section": "alpha",
+            "target": {
+                "tuuid": "3ea02712-c6ab-46ca-acbd-25930e19a4df",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "fun",
+                "funned",
+                "funning",
+                "funs"
+            ],
+            "syns": [
+                [
+                    "banter",
+                    "chaff",
+                    "fool",
+                    "gag",
+                    "jape",
+                    "jest",
+                    "jive",
+                    "joke",
+                    "jolly",
+                    "josh",
+                    "kid",
+                    "quip",
+                    "wisecrack",
+                    "yuk"
+                ]
+            ],
+            "ants": [],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "fun"
+        },
+        "fl": "verb",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "to make jokes "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "just a couple of old friends {it}funning{/it} with each other"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "banter"
+                                        },
+                                        {
+                                            "wd": "chaff"
+                                        },
+                                        {
+                                            "wd": "fool"
+                                        },
+                                        {
+                                            "wd": "gag"
+                                        },
+                                        {
+                                            "wd": "jape"
+                                        },
+                                        {
+                                            "wd": "jest"
+                                        },
+                                        {
+                                            "wd": "jive"
+                                        },
+                                        {
+                                            "wd": "joke"
+                                        },
+                                        {
+                                            "wd": "jolly"
+                                        },
+                                        {
+                                            "wd": "josh"
+                                        },
+                                        {
+                                            "wd": "kid"
+                                        },
+                                        {
+                                            "wd": "quip"
+                                        },
+                                        {
+                                            "wd": "wisecrack"
+                                        },
+                                        {
+                                            "wd": "yuk",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "or",
+                                                    "wva": "yuck"
+                                                }
+                                            ],
+                                            "wsls": [
+                                                "slang"
+                                            ]
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "gibe",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "or",
+                                                    "wva": "jibe"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "haze"
+                                        },
+                                        {
+                                            "wd": "jeer"
+                                        },
+                                        {
+                                            "wd": "mock"
+                                        },
+                                        {
+                                            "wd": "rag"
+                                        },
+                                        {
+                                            "wd": "rally"
+                                        },
+                                        {
+                                            "wd": "razz"
+                                        },
+                                        {
+                                            "wd": "rib"
+                                        },
+                                        {
+                                            "wd": "ridicule"
+                                        },
+                                        {
+                                            "wd": "tease"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "caricature"
+                                        },
+                                        {
+                                            "wd": "lampoon"
+                                        },
+                                        {
+                                            "wd": "parody"
+                                        },
+                                        {
+                                            "wd": "satirize"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "amuse"
+                                        },
+                                        {
+                                            "wd": "divert"
+                                        },
+                                        {
+                                            "wd": "entertain"
+                                        }
+                                    ]
+                                ],
+                                "phrase_list": [
+                                    [
+                                        {
+                                            "wd": "crack wise"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "to make jokes"
+        ]
+    },
+    {
+        "meta": {
+            "id": "fun and games",
+            "uuid": "471bd3b5-818d-4716-a1a2-a56c1b1edc90",
+            "src": "coll_thes",
+            "section": "alpha",
+            "target": {
+                "tuuid": "b5aaf10d-ac60-4192-a9a4-115ac34ac6e1",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "fun and games"
+            ],
+            "syns": [
+                [
+                    "beer and skittles",
+                    "easy street",
+                    "hog heaven",
+                    "picnic"
+                ],
+                [
+                    "dalliance",
+                    "frolic",
+                    "frolicking",
+                    "fun",
+                    "play",
+                    "recreation",
+                    "relaxation",
+                    "rollicking",
+                    "sport"
+                ]
+            ],
+            "ants": [],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "fun and games"
+        },
+        "fl": "plural noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "a situation or state of carefree comfort "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "soon found out that owning and maintaining a yacht wasn't all {it}fun and games{/it}"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "beer and skittles"
+                                        },
+                                        {
+                                            "wd": "easy street"
+                                        },
+                                        {
+                                            "wd": "hog heaven"
+                                        },
+                                        {
+                                            "wd": "picnic"
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "primrose path"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "heaven"
+                                        },
+                                        {
+                                            "wd": "paradise"
+                                        },
+                                        {
+                                            "wd": "utopia"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "American dream"
+                                        },
+                                        {
+                                            "wd": "good life"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "ease"
+                                        },
+                                        {
+                                            "wd": "relaxation"
+                                        },
+                                        {
+                                            "wd": "rest"
+                                        }
+                                    ]
+                                ],
+                                "phrase_list": [
+                                    [
+                                        {
+                                            "wd": "bed of roses"
+                                        },
+                                        {
+                                            "wd": "the lap of luxury"
+                                        },
+                                        {
+                                            "wd": "life of Riley",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "life of Reilly"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "agony"
+                                        },
+                                        {
+                                            "wd": "hell"
+                                        },
+                                        {
+                                            "wd": "horror"
+                                        },
+                                        {
+                                            "wd": "misery"
+                                        },
+                                        {
+                                            "wd": "murder"
+                                        },
+                                        {
+                                            "wd": "nightmare"
+                                        },
+                                        {
+                                            "wd": "torment"
+                                        },
+                                        {
+                                            "wd": "torture"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "activity engaged in to amuse oneself "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "it's not all {it}fun and games{/it} at the summer music camp, where students are expected to take their studies seriously"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "dalliance"
+                                        },
+                                        {
+                                            "wd": "frolic"
+                                        },
+                                        {
+                                            "wd": "frolicking"
+                                        },
+                                        {
+                                            "wd": "fun"
+                                        },
+                                        {
+                                            "wd": "play"
+                                        },
+                                        {
+                                            "wd": "recreation"
+                                        },
+                                        {
+                                            "wd": "relaxation"
+                                        },
+                                        {
+                                            "wd": "rollicking"
+                                        },
+                                        {
+                                            "wd": "sport"
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "gamboling",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "or",
+                                                    "wva": "gambolling"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "romping"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "amusement"
+                                        },
+                                        {
+                                            "wd": "diversion"
+                                        },
+                                        {
+                                            "wd": "entertainment"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "hobby"
+                                        },
+                                        {
+                                            "wd": "hobbyhorse"
+                                        },
+                                        {
+                                            "wd": "pastime"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "delight"
+                                        },
+                                        {
+                                            "wd": "enjoyment"
+                                        },
+                                        {
+                                            "wd": "pleasance"
+                                        },
+                                        {
+                                            "wd": "pleasure"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "friskiness"
+                                        },
+                                        {
+                                            "wd": "playfulness"
+                                        },
+                                        {
+                                            "wd": "sportiveness"
+                                        },
+                                        {
+                                            "wd": "wantonness"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "devilment"
+                                        },
+                                        {
+                                            "wd": "devilry",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "or",
+                                                    "wva": "deviltry"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "hanky-panky"
+                                        },
+                                        {
+                                            "wd": "hob"
+                                        },
+                                        {
+                                            "wd": "impishness"
+                                        },
+                                        {
+                                            "wd": "jinks"
+                                        },
+                                        {
+                                            "wd": "knavery"
+                                        },
+                                        {
+                                            "wd": "mischief"
+                                        },
+                                        {
+                                            "wd": "mischievousness"
+                                        },
+                                        {
+                                            "wd": "rascality"
+                                        },
+                                        {
+                                            "wd": "roguishness"
+                                        },
+                                        {
+                                            "wd": "waggery"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "binge"
+                                        },
+                                        {
+                                            "wd": "fling"
+                                        },
+                                        {
+                                            "wd": "kick"
+                                        },
+                                        {
+                                            "wd": "lark"
+                                        },
+                                        {
+                                            "wd": "revel"
+                                        },
+                                        {
+                                            "wd": "rollick"
+                                        },
+                                        {
+                                            "wd": "spree"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "hilarity"
+                                        },
+                                        {
+                                            "wd": "merriment"
+                                        },
+                                        {
+                                            "wd": "merrymaking"
+                                        },
+                                        {
+                                            "wd": "revelry"
+                                        },
+                                        {
+                                            "wd": "whoopee"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "buffoonery"
+                                        },
+                                        {
+                                            "wd": "high jinks",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "hijinks"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "horseplay"
+                                        },
+                                        {
+                                            "wd": "tomfoolery"
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "drudgery"
+                                        },
+                                        {
+                                            "wd": "labor"
+                                        },
+                                        {
+                                            "wd": "work"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "duty"
+                                        },
+                                        {
+                                            "wd": "obligation"
+                                        },
+                                        {
+                                            "wd": "responsibility"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "a situation or state of carefree comfort",
+            "activity engaged in to amuse oneself"
+        ]
+    },
+    {
+        "meta": {
+            "id": "make fun of",
+            "uuid": "3c6d1108-2649-4bce-96f7-3d4f37126813",
+            "src": "CTenhance",
+            "section": "phrases",
+            "stems": [
+                "make fun of",
+                "making fun of",
+                "made fun of",
+                "makes fun of"
+            ],
+            "syns": [
+                [
+                    "deride",
+                    "gibe",
+                    "jeer",
+                    "laugh (at)",
+                    "mock",
+                    "ridicule",
+                    "scout",
+                    "shoot down",
+                    "skewer"
+                ]
+            ],
+            "ants": [],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "make fun of"
+        },
+        "fl": "phrase",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "to make (someone or something) the object of unkind laughter "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "It's cruel to {it}make fun of{/it} other people's imperfections."
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "deride"
+                                        },
+                                        {
+                                            "wd": "gibe",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "or",
+                                                    "wva": "jibe"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "jeer"
+                                        },
+                                        {
+                                            "wd": "laugh (at)"
+                                        },
+                                        {
+                                            "wd": "mock"
+                                        },
+                                        {
+                                            "wd": "ridicule"
+                                        },
+                                        {
+                                            "wd": "scout"
+                                        },
+                                        {
+                                            "wd": "shoot down"
+                                        },
+                                        {
+                                            "wd": "skewer"
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "scoff (at)"
+                                        },
+                                        {
+                                            "wd": "scorn"
+                                        },
+                                        {
+                                            "wd": "sneer (at)"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "bad-mouth"
+                                        },
+                                        {
+                                            "wd": "belittle"
+                                        },
+                                        {
+                                            "wd": "decry"
+                                        },
+                                        {
+                                            "wd": "disparage"
+                                        },
+                                        {
+                                            "wd": "pooh-pooh",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "pooh"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "put down"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "chaff"
+                                        },
+                                        {
+                                            "wd": "jive"
+                                        },
+                                        {
+                                            "wd": "josh"
+                                        },
+                                        {
+                                            "wd": "kid"
+                                        },
+                                        {
+                                            "wd": "quiz"
+                                        },
+                                        {
+                                            "wd": "rally"
+                                        },
+                                        {
+                                            "wd": "razz"
+                                        },
+                                        {
+                                            "wd": "rib"
+                                        },
+                                        {
+                                            "wd": "ride"
+                                        },
+                                        {
+                                            "wd": "tease"
+                                        },
+                                        {
+                                            "wd": "tweak"
+                                        },
+                                        {
+                                            "wd": "twit"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "bait"
+                                        },
+                                        {
+                                            "wd": "barrack",
+                                            "wsls": [
+                                                "chiefly British"
+                                            ]
+                                        },
+                                        {
+                                            "wd": "bug"
+                                        },
+                                        {
+                                            "wd": "catcall"
+                                        },
+                                        {
+                                            "wd": "harass"
+                                        },
+                                        {
+                                            "wd": "harry"
+                                        },
+                                        {
+                                            "wd": "hassle"
+                                        },
+                                        {
+                                            "wd": "heckle"
+                                        },
+                                        {
+                                            "wd": "needle"
+                                        },
+                                        {
+                                            "wd": "pester"
+                                        },
+                                        {
+                                            "wd": "rag"
+                                        },
+                                        {
+                                            "wd": "target"
+                                        },
+                                        {
+                                            "wd": "taunt"
+                                        },
+                                        {
+                                            "wd": "torment"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "ape"
+                                        },
+                                        {
+                                            "wd": "burlesque"
+                                        },
+                                        {
+                                            "wd": "caricature"
+                                        },
+                                        {
+                                            "wd": "imitate"
+                                        },
+                                        {
+                                            "wd": "lampoon"
+                                        },
+                                        {
+                                            "wd": "mimic"
+                                        },
+                                        {
+                                            "wd": "parody"
+                                        },
+                                        {
+                                            "wd": "parrot"
+                                        },
+                                        {
+                                            "wd": "pillory"
+                                        },
+                                        {
+                                            "wd": "satirize"
+                                        },
+                                        {
+                                            "wd": "take off (on)"
+                                        },
+                                        {
+                                            "wd": "travesty"
+                                        }
+                                    ]
+                                ],
+                                "phrase_list": [
+                                    [
+                                        {
+                                            "wd": "cock a snook (at)",
+                                            "wvbvrs": [
+                                                {
+                                                    "wvbvl": "also",
+                                                    "wvbva": "cock snooks (at)"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "make sport of"
+                                        },
+                                        {
+                                            "wd": "poke fun at"
+                                        },
+                                        {
+                                            "wd": "rag on"
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "applaud"
+                                        },
+                                        {
+                                            "wd": "approve"
+                                        },
+                                        {
+                                            "wd": "commend"
+                                        },
+                                        {
+                                            "wd": "endorse",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "indorse"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "sanction"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "to make (someone or something) the object of unkind laughter"
+        ]
+    },
+    {
+        "meta": {
+            "id": "poke fun at",
+            "uuid": "db3cf9a3-9d56-46e2-9164-135c4edd63f1",
+            "src": "CTenhance",
+            "section": "phrases",
+            "stems": [
+                "poke fun at",
+                "poking fun at",
+                "poked fun at",
+                "pokes fun at"
+            ],
+            "syns": [
+                [
+                    "deride",
+                    "gibe",
+                    "jeer",
+                    "laugh (at)",
+                    "mock",
+                    "ridicule",
+                    "scout",
+                    "shoot down",
+                    "skewer"
+                ]
+            ],
+            "ants": [],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "poke fun at"
+        },
+        "fl": "phrase",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "to make (someone or something) the object of unkind laughter "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "{it}Poking fun at{/it} the corny romantic comedies they watch is a favorite pleasure of theirs."
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "deride"
+                                        },
+                                        {
+                                            "wd": "gibe",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "or",
+                                                    "wva": "jibe"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "jeer"
+                                        },
+                                        {
+                                            "wd": "laugh (at)"
+                                        },
+                                        {
+                                            "wd": "mock"
+                                        },
+                                        {
+                                            "wd": "ridicule"
+                                        },
+                                        {
+                                            "wd": "scout"
+                                        },
+                                        {
+                                            "wd": "shoot down"
+                                        },
+                                        {
+                                            "wd": "skewer"
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "scoff (at)"
+                                        },
+                                        {
+                                            "wd": "scorn"
+                                        },
+                                        {
+                                            "wd": "sneer (at)"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "bad-mouth"
+                                        },
+                                        {
+                                            "wd": "belittle"
+                                        },
+                                        {
+                                            "wd": "decry"
+                                        },
+                                        {
+                                            "wd": "disparage"
+                                        },
+                                        {
+                                            "wd": "pooh-pooh",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "pooh"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "put down"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "chaff"
+                                        },
+                                        {
+                                            "wd": "jive"
+                                        },
+                                        {
+                                            "wd": "josh"
+                                        },
+                                        {
+                                            "wd": "kid"
+                                        },
+                                        {
+                                            "wd": "quiz"
+                                        },
+                                        {
+                                            "wd": "rally"
+                                        },
+                                        {
+                                            "wd": "razz"
+                                        },
+                                        {
+                                            "wd": "rib"
+                                        },
+                                        {
+                                            "wd": "ride"
+                                        },
+                                        {
+                                            "wd": "tease"
+                                        },
+                                        {
+                                            "wd": "tweak"
+                                        },
+                                        {
+                                            "wd": "twit"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "bait"
+                                        },
+                                        {
+                                            "wd": "barrack",
+                                            "wsls": [
+                                                "chiefly British"
+                                            ]
+                                        },
+                                        {
+                                            "wd": "bug"
+                                        },
+                                        {
+                                            "wd": "catcall"
+                                        },
+                                        {
+                                            "wd": "harass"
+                                        },
+                                        {
+                                            "wd": "harry"
+                                        },
+                                        {
+                                            "wd": "hassle"
+                                        },
+                                        {
+                                            "wd": "heckle"
+                                        },
+                                        {
+                                            "wd": "needle"
+                                        },
+                                        {
+                                            "wd": "pester"
+                                        },
+                                        {
+                                            "wd": "rag"
+                                        },
+                                        {
+                                            "wd": "target"
+                                        },
+                                        {
+                                            "wd": "taunt"
+                                        },
+                                        {
+                                            "wd": "torment"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "ape"
+                                        },
+                                        {
+                                            "wd": "burlesque"
+                                        },
+                                        {
+                                            "wd": "caricature"
+                                        },
+                                        {
+                                            "wd": "imitate"
+                                        },
+                                        {
+                                            "wd": "lampoon"
+                                        },
+                                        {
+                                            "wd": "mimic"
+                                        },
+                                        {
+                                            "wd": "parody"
+                                        },
+                                        {
+                                            "wd": "parrot"
+                                        },
+                                        {
+                                            "wd": "pillory"
+                                        },
+                                        {
+                                            "wd": "satirize"
+                                        },
+                                        {
+                                            "wd": "take off (on)"
+                                        },
+                                        {
+                                            "wd": "travesty"
+                                        }
+                                    ]
+                                ],
+                                "phrase_list": [
+                                    [
+                                        {
+                                            "wd": "cock a snook (at)",
+                                            "wvbvrs": [
+                                                {
+                                                    "wvbvl": "also",
+                                                    "wvbva": "cock snooks (at)"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "make fun of"
+                                        },
+                                        {
+                                            "wd": "make sport of"
+                                        },
+                                        {
+                                            "wd": "rag on"
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "applaud"
+                                        },
+                                        {
+                                            "wd": "approve"
+                                        },
+                                        {
+                                            "wd": "commend"
+                                        },
+                                        {
+                                            "wd": "endorse",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "indorse"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "sanction"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "to make (someone or something) the object of unkind laughter"
+        ]
+    },
+    {
+        "meta": {
+            "id": "made fun of",
+            "uuid": "37df4fe6-9427-4dae-a717-6b642dc42d07",
+            "src": "CTenhance",
+            "section": "phrases",
+            "stems": [
+                "made fun of"
+            ],
+            "syns": [
+                [
+                    "derided",
+                    "gibed",
+                    "jeered",
+                    "laughed (at)",
+                    "mocked",
+                    "ridiculed",
+                    "scouted",
+                    "shot down",
+                    "skewered"
+                ]
+            ],
+            "ants": [],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "made fun of"
+        },
+        "fl": "phrase",
+        "sls": [
+            "past tense of {d_link|make fun of|make fun of}"
+        ],
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "to make (someone or something) the object of unkind laughter "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "It's cruel to {it}make fun of{/it} other people's imperfections."
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "derided"
+                                        },
+                                        {
+                                            "wd": "gibed",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "or",
+                                                    "wva": "jibed"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "jeered"
+                                        },
+                                        {
+                                            "wd": "laughed (at)"
+                                        },
+                                        {
+                                            "wd": "mocked"
+                                        },
+                                        {
+                                            "wd": "ridiculed"
+                                        },
+                                        {
+                                            "wd": "scouted"
+                                        },
+                                        {
+                                            "wd": "shot down"
+                                        },
+                                        {
+                                            "wd": "skewered"
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "scoffed (at)"
+                                        },
+                                        {
+                                            "wd": "scorned"
+                                        },
+                                        {
+                                            "wd": "sneered (at)"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "bad-mouthed"
+                                        },
+                                        {
+                                            "wd": "belittled"
+                                        },
+                                        {
+                                            "wd": "decried"
+                                        },
+                                        {
+                                            "wd": "disparaged"
+                                        },
+                                        {
+                                            "wd": "pooh-poohed",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "poohed"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "put down"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "chaffed"
+                                        },
+                                        {
+                                            "wd": "jived"
+                                        },
+                                        {
+                                            "wd": "joshed"
+                                        },
+                                        {
+                                            "wd": "kidded"
+                                        },
+                                        {
+                                            "wd": "quizzed"
+                                        },
+                                        {
+                                            "wd": "rallied"
+                                        },
+                                        {
+                                            "wd": "razzed"
+                                        },
+                                        {
+                                            "wd": "ribbed"
+                                        },
+                                        {
+                                            "wd": "rode",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "or chiefly dialectal",
+                                                    "wva": "rid"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "teased"
+                                        },
+                                        {
+                                            "wd": "tweaked"
+                                        },
+                                        {
+                                            "wd": "twitted"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "baited"
+                                        },
+                                        {
+                                            "wd": "barracked",
+                                            "wsls": [
+                                                "chiefly British"
+                                            ]
+                                        },
+                                        {
+                                            "wd": "bugged"
+                                        },
+                                        {
+                                            "wd": "catcalled"
+                                        },
+                                        {
+                                            "wd": "harassed"
+                                        },
+                                        {
+                                            "wd": "harried"
+                                        },
+                                        {
+                                            "wd": "hassled"
+                                        },
+                                        {
+                                            "wd": "heckled"
+                                        },
+                                        {
+                                            "wd": "needled"
+                                        },
+                                        {
+                                            "wd": "pestered"
+                                        },
+                                        {
+                                            "wd": "ragged"
+                                        },
+                                        {
+                                            "wd": "targeted"
+                                        },
+                                        {
+                                            "wd": "taunted"
+                                        },
+                                        {
+                                            "wd": "tormented"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "aped"
+                                        },
+                                        {
+                                            "wd": "burlesqued"
+                                        },
+                                        {
+                                            "wd": "caricatured"
+                                        },
+                                        {
+                                            "wd": "imitated"
+                                        },
+                                        {
+                                            "wd": "lampooned"
+                                        },
+                                        {
+                                            "wd": "mimicked"
+                                        },
+                                        {
+                                            "wd": "parodied"
+                                        },
+                                        {
+                                            "wd": "parroted"
+                                        },
+                                        {
+                                            "wd": "pilloried"
+                                        },
+                                        {
+                                            "wd": "satirized"
+                                        },
+                                        {
+                                            "wd": "took off (on)"
+                                        },
+                                        {
+                                            "wd": "travestied"
+                                        }
+                                    ]
+                                ],
+                                "phrase_list": [
+                                    [
+                                        {
+                                            "wd": "cocked a snook (at)",
+                                            "wvbvrs": [
+                                                {
+                                                    "wvbvl": "also",
+                                                    "wvbva": "cocked snooks (at)"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "made sport of"
+                                        },
+                                        {
+                                            "wd": "poked fun at"
+                                        },
+                                        {
+                                            "wd": "ragged on"
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "applauded"
+                                        },
+                                        {
+                                            "wd": "approved"
+                                        },
+                                        {
+                                            "wd": "commended"
+                                        },
+                                        {
+                                            "wd": "endorsed",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "indorsed"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "sanctioned"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "to make (someone or something) the object of unkind laughter"
+        ]
+    },
+    {
+        "meta": {
+            "id": "poked fun at",
+            "uuid": "259bf68c-0bd8-4df8-97e2-05deb1b2e1d0",
+            "src": "CTenhance",
+            "section": "phrases",
+            "stems": [
+                "poked fun at"
+            ],
+            "syns": [
+                [
+                    "derided",
+                    "gibed",
+                    "jeered",
+                    "laughed (at)",
+                    "mocked",
+                    "ridiculed",
+                    "scouted",
+                    "shot down",
+                    "skewered"
+                ]
+            ],
+            "ants": [],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "poked fun at"
+        },
+        "fl": "phrase",
+        "sls": [
+            "past tense of {d_link|poke fun at|poke fun at}"
+        ],
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "to make (someone or something) the object of unkind laughter "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "{it}Poking fun at{/it} the corny romantic comedies they watch is a favorite pleasure of theirs."
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "derided"
+                                        },
+                                        {
+                                            "wd": "gibed",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "or",
+                                                    "wva": "jibed"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "jeered"
+                                        },
+                                        {
+                                            "wd": "laughed (at)"
+                                        },
+                                        {
+                                            "wd": "mocked"
+                                        },
+                                        {
+                                            "wd": "ridiculed"
+                                        },
+                                        {
+                                            "wd": "scouted"
+                                        },
+                                        {
+                                            "wd": "shot down"
+                                        },
+                                        {
+                                            "wd": "skewered"
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "scoffed (at)"
+                                        },
+                                        {
+                                            "wd": "scorned"
+                                        },
+                                        {
+                                            "wd": "sneered (at)"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "bad-mouthed"
+                                        },
+                                        {
+                                            "wd": "belittled"
+                                        },
+                                        {
+                                            "wd": "decried"
+                                        },
+                                        {
+                                            "wd": "disparaged"
+                                        },
+                                        {
+                                            "wd": "pooh-poohed",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "poohed"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "put down"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "chaffed"
+                                        },
+                                        {
+                                            "wd": "jived"
+                                        },
+                                        {
+                                            "wd": "joshed"
+                                        },
+                                        {
+                                            "wd": "kidded"
+                                        },
+                                        {
+                                            "wd": "quizzed"
+                                        },
+                                        {
+                                            "wd": "rallied"
+                                        },
+                                        {
+                                            "wd": "razzed"
+                                        },
+                                        {
+                                            "wd": "ribbed"
+                                        },
+                                        {
+                                            "wd": "rode",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "or chiefly dialectal",
+                                                    "wva": "rid"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "teased"
+                                        },
+                                        {
+                                            "wd": "tweaked"
+                                        },
+                                        {
+                                            "wd": "twitted"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "baited"
+                                        },
+                                        {
+                                            "wd": "barracked",
+                                            "wsls": [
+                                                "chiefly British"
+                                            ]
+                                        },
+                                        {
+                                            "wd": "bugged"
+                                        },
+                                        {
+                                            "wd": "catcalled"
+                                        },
+                                        {
+                                            "wd": "harassed"
+                                        },
+                                        {
+                                            "wd": "harried"
+                                        },
+                                        {
+                                            "wd": "hassled"
+                                        },
+                                        {
+                                            "wd": "heckled"
+                                        },
+                                        {
+                                            "wd": "needled"
+                                        },
+                                        {
+                                            "wd": "pestered"
+                                        },
+                                        {
+                                            "wd": "ragged"
+                                        },
+                                        {
+                                            "wd": "targeted"
+                                        },
+                                        {
+                                            "wd": "taunted"
+                                        },
+                                        {
+                                            "wd": "tormented"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "aped"
+                                        },
+                                        {
+                                            "wd": "burlesqued"
+                                        },
+                                        {
+                                            "wd": "caricatured"
+                                        },
+                                        {
+                                            "wd": "imitated"
+                                        },
+                                        {
+                                            "wd": "lampooned"
+                                        },
+                                        {
+                                            "wd": "mimicked"
+                                        },
+                                        {
+                                            "wd": "parodied"
+                                        },
+                                        {
+                                            "wd": "parroted"
+                                        },
+                                        {
+                                            "wd": "pilloried"
+                                        },
+                                        {
+                                            "wd": "satirized"
+                                        },
+                                        {
+                                            "wd": "took off (on)"
+                                        },
+                                        {
+                                            "wd": "travestied"
+                                        }
+                                    ]
+                                ],
+                                "phrase_list": [
+                                    [
+                                        {
+                                            "wd": "cocked a snook (at)",
+                                            "wvbvrs": [
+                                                {
+                                                    "wvbvl": "also",
+                                                    "wvbva": "cocked snooks (at)"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "made fun of"
+                                        },
+                                        {
+                                            "wd": "made sport of"
+                                        },
+                                        {
+                                            "wd": "ragged on"
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "applauded"
+                                        },
+                                        {
+                                            "wd": "approved"
+                                        },
+                                        {
+                                            "wd": "commended"
+                                        },
+                                        {
+                                            "wd": "endorsed",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "indorsed"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "sanctioned"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "to make (someone or something) the object of unkind laughter"
+        ]
+    },
+    {
+        "meta": {
+            "id": "makes fun of",
+            "uuid": "b253796c-439a-4c8b-8441-9aa71ce434d2",
+            "src": "CTenhance",
+            "section": "phrases",
+            "stems": [
+                "makes fun of"
+            ],
+            "syns": [
+                [
+                    "derides",
+                    "gibes",
+                    "jeers",
+                    "laughs (at)",
+                    "mocks",
+                    "ridicules",
+                    "scouts",
+                    "shoots down",
+                    "skewers"
+                ]
+            ],
+            "ants": [],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "makes fun of"
+        },
+        "fl": "phrase",
+        "sls": [
+            "present tense third-person singular of {d_link|make fun of|make fun of}"
+        ],
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "to make (someone or something) the object of unkind laughter "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "It's cruel to {it}make fun of{/it} other people's imperfections."
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "derides"
+                                        },
+                                        {
+                                            "wd": "gibes",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "or",
+                                                    "wva": "jibes"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "jeers"
+                                        },
+                                        {
+                                            "wd": "laughs (at)"
+                                        },
+                                        {
+                                            "wd": "mocks"
+                                        },
+                                        {
+                                            "wd": "ridicules"
+                                        },
+                                        {
+                                            "wd": "scouts"
+                                        },
+                                        {
+                                            "wd": "shoots down"
+                                        },
+                                        {
+                                            "wd": "skewers"
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "scoffs (at)"
+                                        },
+                                        {
+                                            "wd": "scorns"
+                                        },
+                                        {
+                                            "wd": "sneers (at)"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "bad-mouths"
+                                        },
+                                        {
+                                            "wd": "belittles"
+                                        },
+                                        {
+                                            "wd": "decries"
+                                        },
+                                        {
+                                            "wd": "disparages"
+                                        },
+                                        {
+                                            "wd": "pooh-poohs",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "poohs"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "puts down"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "chaffs"
+                                        },
+                                        {
+                                            "wd": "jives"
+                                        },
+                                        {
+                                            "wd": "joshes"
+                                        },
+                                        {
+                                            "wd": "kids"
+                                        },
+                                        {
+                                            "wd": "quizzes"
+                                        },
+                                        {
+                                            "wd": "rallies"
+                                        },
+                                        {
+                                            "wd": "razzes"
+                                        },
+                                        {
+                                            "wd": "ribs"
+                                        },
+                                        {
+                                            "wd": "rides"
+                                        },
+                                        {
+                                            "wd": "teases"
+                                        },
+                                        {
+                                            "wd": "tweaks"
+                                        },
+                                        {
+                                            "wd": "twits"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "baits"
+                                        },
+                                        {
+                                            "wd": "barracks",
+                                            "wsls": [
+                                                "chiefly British"
+                                            ]
+                                        },
+                                        {
+                                            "wd": "bugs"
+                                        },
+                                        {
+                                            "wd": "catcalls"
+                                        },
+                                        {
+                                            "wd": "harasses"
+                                        },
+                                        {
+                                            "wd": "harries"
+                                        },
+                                        {
+                                            "wd": "hassles"
+                                        },
+                                        {
+                                            "wd": "heckles"
+                                        },
+                                        {
+                                            "wd": "needles"
+                                        },
+                                        {
+                                            "wd": "pesters"
+                                        },
+                                        {
+                                            "wd": "rags"
+                                        },
+                                        {
+                                            "wd": "targets"
+                                        },
+                                        {
+                                            "wd": "taunts"
+                                        },
+                                        {
+                                            "wd": "torments"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "apes"
+                                        },
+                                        {
+                                            "wd": "burlesques"
+                                        },
+                                        {
+                                            "wd": "caricatures"
+                                        },
+                                        {
+                                            "wd": "imitates"
+                                        },
+                                        {
+                                            "wd": "lampoons"
+                                        },
+                                        {
+                                            "wd": "mimics"
+                                        },
+                                        {
+                                            "wd": "parodies"
+                                        },
+                                        {
+                                            "wd": "parrots"
+                                        },
+                                        {
+                                            "wd": "pillories"
+                                        },
+                                        {
+                                            "wd": "satirizes"
+                                        },
+                                        {
+                                            "wd": "takes off (on)"
+                                        },
+                                        {
+                                            "wd": "travesties"
+                                        }
+                                    ]
+                                ],
+                                "phrase_list": [
+                                    [
+                                        {
+                                            "wd": "cocks a snook (at)",
+                                            "wvbvrs": [
+                                                {
+                                                    "wvbvl": "also",
+                                                    "wvbva": "cocks snooks (at)"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "makes sport of"
+                                        },
+                                        {
+                                            "wd": "pokes fun at"
+                                        },
+                                        {
+                                            "wd": "rags on"
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "applauds"
+                                        },
+                                        {
+                                            "wd": "approves"
+                                        },
+                                        {
+                                            "wd": "commends"
+                                        },
+                                        {
+                                            "wd": "endorses",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "indorses"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "sanctions"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "to make (someone or something) the object of unkind laughter"
+        ]
+    },
+    {
+        "meta": {
+            "id": "pokes fun at",
+            "uuid": "d32b758b-5635-41cd-8c9b-a1b96e99c9a6",
+            "src": "CTenhance",
+            "section": "phrases",
+            "stems": [
+                "pokes fun at"
+            ],
+            "syns": [
+                [
+                    "derides",
+                    "gibes",
+                    "jeers",
+                    "laughs (at)",
+                    "mocks",
+                    "ridicules",
+                    "scouts",
+                    "shoots down",
+                    "skewers"
+                ]
+            ],
+            "ants": [],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "pokes fun at"
+        },
+        "fl": "phrase",
+        "sls": [
+            "present tense third-person singular of {d_link|poke fun at|poke fun at}"
+        ],
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "to make (someone or something) the object of unkind laughter "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "{it}Poking fun at{/it} the corny romantic comedies they watch is a favorite pleasure of theirs."
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "derides"
+                                        },
+                                        {
+                                            "wd": "gibes",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "or",
+                                                    "wva": "jibes"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "jeers"
+                                        },
+                                        {
+                                            "wd": "laughs (at)"
+                                        },
+                                        {
+                                            "wd": "mocks"
+                                        },
+                                        {
+                                            "wd": "ridicules"
+                                        },
+                                        {
+                                            "wd": "scouts"
+                                        },
+                                        {
+                                            "wd": "shoots down"
+                                        },
+                                        {
+                                            "wd": "skewers"
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "scoffs (at)"
+                                        },
+                                        {
+                                            "wd": "scorns"
+                                        },
+                                        {
+                                            "wd": "sneers (at)"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "bad-mouths"
+                                        },
+                                        {
+                                            "wd": "belittles"
+                                        },
+                                        {
+                                            "wd": "decries"
+                                        },
+                                        {
+                                            "wd": "disparages"
+                                        },
+                                        {
+                                            "wd": "pooh-poohs",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "poohs"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "puts down"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "chaffs"
+                                        },
+                                        {
+                                            "wd": "jives"
+                                        },
+                                        {
+                                            "wd": "joshes"
+                                        },
+                                        {
+                                            "wd": "kids"
+                                        },
+                                        {
+                                            "wd": "quizzes"
+                                        },
+                                        {
+                                            "wd": "rallies"
+                                        },
+                                        {
+                                            "wd": "razzes"
+                                        },
+                                        {
+                                            "wd": "ribs"
+                                        },
+                                        {
+                                            "wd": "rides"
+                                        },
+                                        {
+                                            "wd": "teases"
+                                        },
+                                        {
+                                            "wd": "tweaks"
+                                        },
+                                        {
+                                            "wd": "twits"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "baits"
+                                        },
+                                        {
+                                            "wd": "barracks",
+                                            "wsls": [
+                                                "chiefly British"
+                                            ]
+                                        },
+                                        {
+                                            "wd": "bugs"
+                                        },
+                                        {
+                                            "wd": "catcalls"
+                                        },
+                                        {
+                                            "wd": "harasses"
+                                        },
+                                        {
+                                            "wd": "harries"
+                                        },
+                                        {
+                                            "wd": "hassles"
+                                        },
+                                        {
+                                            "wd": "heckles"
+                                        },
+                                        {
+                                            "wd": "needles"
+                                        },
+                                        {
+                                            "wd": "pesters"
+                                        },
+                                        {
+                                            "wd": "rags"
+                                        },
+                                        {
+                                            "wd": "targets"
+                                        },
+                                        {
+                                            "wd": "taunts"
+                                        },
+                                        {
+                                            "wd": "torments"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "apes"
+                                        },
+                                        {
+                                            "wd": "burlesques"
+                                        },
+                                        {
+                                            "wd": "caricatures"
+                                        },
+                                        {
+                                            "wd": "imitates"
+                                        },
+                                        {
+                                            "wd": "lampoons"
+                                        },
+                                        {
+                                            "wd": "mimics"
+                                        },
+                                        {
+                                            "wd": "parodies"
+                                        },
+                                        {
+                                            "wd": "parrots"
+                                        },
+                                        {
+                                            "wd": "pillories"
+                                        },
+                                        {
+                                            "wd": "satirizes"
+                                        },
+                                        {
+                                            "wd": "takes off (on)"
+                                        },
+                                        {
+                                            "wd": "travesties"
+                                        }
+                                    ]
+                                ],
+                                "phrase_list": [
+                                    [
+                                        {
+                                            "wd": "cocks a snook (at)",
+                                            "wvbvrs": [
+                                                {
+                                                    "wvbvl": "also",
+                                                    "wvbva": "cocks snooks (at)"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "makes fun of"
+                                        },
+                                        {
+                                            "wd": "makes sport of"
+                                        },
+                                        {
+                                            "wd": "rags on"
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "applauds"
+                                        },
+                                        {
+                                            "wd": "approves"
+                                        },
+                                        {
+                                            "wd": "commends"
+                                        },
+                                        {
+                                            "wd": "endorses",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "indorses"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "sanctions"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "to make (someone or something) the object of unkind laughter"
+        ]
+    }
+]

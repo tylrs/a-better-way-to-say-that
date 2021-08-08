@@ -1,0 +1,3885 @@
+[
+    {
+        "meta": {
+            "id": "happy",
+            "uuid": "b65296ca-07a7-44ff-9f4f-e12c92ac96d7",
+            "src": "coll_thes",
+            "section": "alpha",
+            "target": {
+                "tuuid": "bea1b580-e5aa-49c2-8823-40174d5fd750",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "happy",
+                "happier",
+                "happiest"
+            ],
+            "syns": [
+                [
+                    "fluky",
+                    "fortuitous",
+                    "fortunate",
+                    "heaven-sent",
+                    "lucky",
+                    "providential"
+                ],
+                [
+                    "blissful",
+                    "chuffed",
+                    "delighted",
+                    "glad",
+                    "gratified",
+                    "joyful",
+                    "joyous",
+                    "pleased",
+                    "satisfied",
+                    "thankful",
+                    "tickled"
+                ],
+                [
+                    "content",
+                    "contented",
+                    "gratified",
+                    "pleased",
+                    "satisfied"
+                ],
+                [
+                    "fortunate",
+                    "lucky"
+                ],
+                [
+                    "applicable",
+                    "appropriate",
+                    "apt",
+                    "becoming",
+                    "befitting",
+                    "felicitous",
+                    "fit",
+                    "fitted",
+                    "fitting",
+                    "good",
+                    "meet",
+                    "pretty",
+                    "proper",
+                    "right",
+                    "suitable"
+                ],
+                [
+                    "hung up",
+                    "obsessed",
+                    "queer"
+                ]
+            ],
+            "ants": [
+                [
+                    "hapless",
+                    "ill-fated",
+                    "ill-starred",
+                    "luckless",
+                    "star-crossed",
+                    "unfortunate",
+                    "unhappy",
+                    "unlucky"
+                ],
+                [
+                    "displeased",
+                    "dissatisfied",
+                    "joyless",
+                    "sad",
+                    "unhappy",
+                    "unpleased",
+                    "unsatisfied"
+                ],
+                [
+                    "discontent",
+                    "discontented",
+                    "displeased",
+                    "dissatisfied",
+                    "malcontent",
+                    "malcontented",
+                    "unhappy"
+                ],
+                [
+                    "hapless",
+                    "ill-fated",
+                    "ill-starred",
+                    "luckless",
+                    "snakebit",
+                    "star-crossed",
+                    "unfortunate",
+                    "unhappy",
+                    "unlucky"
+                ],
+                [
+                    "improper",
+                    "inapplicable",
+                    "inapposite",
+                    "inappropriate",
+                    "inapt",
+                    "incongruous",
+                    "indecent",
+                    "infelicitous",
+                    "malapropos",
+                    "misbecoming",
+                    "unapt",
+                    "unbecoming",
+                    "unbeseeming",
+                    "unfit",
+                    "unfitting",
+                    "unhappy",
+                    "unmeet",
+                    "unseemly",
+                    "unsuitable",
+                    "wrong"
+                ]
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "happy"
+        },
+        "fl": "adjective",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "coming or happening by good luck especially unexpectedly "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "a {it}happy{/it} discovery, finding the letter that would prove her innocence"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "fluky",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "flukey"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "fortuitous"
+                                        },
+                                        {
+                                            "wd": "fortunate"
+                                        },
+                                        {
+                                            "wd": "heaven-sent"
+                                        },
+                                        {
+                                            "wd": "lucky"
+                                        },
+                                        {
+                                            "wd": "providential"
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "convenient"
+                                        },
+                                        {
+                                            "wd": "opportune"
+                                        },
+                                        {
+                                            "wd": "seasonable"
+                                        },
+                                        {
+                                            "wd": "timely"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "unexpected"
+                                        },
+                                        {
+                                            "wd": "unforeseen"
+                                        },
+                                        {
+                                            "wd": "unlooked-for"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "accidental"
+                                        },
+                                        {
+                                            "wd": "chance"
+                                        },
+                                        {
+                                            "wd": "coincidental"
+                                        },
+                                        {
+                                            "wd": "serendipitous"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "auspicious"
+                                        },
+                                        {
+                                            "wd": "bright"
+                                        },
+                                        {
+                                            "wd": "encouraging"
+                                        },
+                                        {
+                                            "wd": "fair"
+                                        },
+                                        {
+                                            "wd": "heartening"
+                                        },
+                                        {
+                                            "wd": "hopeful"
+                                        },
+                                        {
+                                            "wd": "promising"
+                                        },
+                                        {
+                                            "wd": "propitious"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "benign"
+                                        },
+                                        {
+                                            "wd": "favorable"
+                                        },
+                                        {
+                                            "wd": "golden"
+                                        },
+                                        {
+                                            "wd": "good"
+                                        },
+                                        {
+                                            "wd": "halcyon"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "advantageous"
+                                        },
+                                        {
+                                            "wd": "beneficial"
+                                        },
+                                        {
+                                            "wd": "profitable"
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "inconvenient"
+                                        },
+                                        {
+                                            "wd": "inopportune"
+                                        },
+                                        {
+                                            "wd": "unseasonable"
+                                        },
+                                        {
+                                            "wd": "untimely"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "anticipated"
+                                        },
+                                        {
+                                            "wd": "expected"
+                                        },
+                                        {
+                                            "wd": "foreseen"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "deliberate"
+                                        },
+                                        {
+                                            "wd": "intentional"
+                                        },
+                                        {
+                                            "wd": "planned"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "inauspicious"
+                                        },
+                                        {
+                                            "wd": "unpromising"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "calamitous"
+                                        },
+                                        {
+                                            "wd": "catastrophic"
+                                        },
+                                        {
+                                            "wd": "disastrous"
+                                        }
+                                    ]
+                                ],
+                                "ant_list": [
+                                    [
+                                        {
+                                            "wd": "hapless"
+                                        },
+                                        {
+                                            "wd": "ill-fated"
+                                        },
+                                        {
+                                            "wd": "ill-starred"
+                                        },
+                                        {
+                                            "wd": "luckless"
+                                        },
+                                        {
+                                            "wd": "star-crossed"
+                                        },
+                                        {
+                                            "wd": "unfortunate"
+                                        },
+                                        {
+                                            "wd": "unhappy"
+                                        },
+                                        {
+                                            "wd": "unlucky"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "experiencing pleasure, satisfaction, or delight "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "made bread for the first time and was {it}happy{/it} with the tasty result"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "blissful"
+                                        },
+                                        {
+                                            "wd": "chuffed",
+                                            "wsls": [
+                                                "British"
+                                            ]
+                                        },
+                                        {
+                                            "wd": "delighted"
+                                        },
+                                        {
+                                            "wd": "glad"
+                                        },
+                                        {
+                                            "wd": "gratified"
+                                        },
+                                        {
+                                            "wd": "joyful"
+                                        },
+                                        {
+                                            "wd": "joyous"
+                                        },
+                                        {
+                                            "wd": "pleased"
+                                        },
+                                        {
+                                            "wd": "satisfied"
+                                        },
+                                        {
+                                            "wd": "thankful"
+                                        },
+                                        {
+                                            "wd": "tickled"
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "beaming"
+                                        },
+                                        {
+                                            "wd": "blithe"
+                                        },
+                                        {
+                                            "wd": "blithesome"
+                                        },
+                                        {
+                                            "wd": "buoyant"
+                                        },
+                                        {
+                                            "wd": "cheerful"
+                                        },
+                                        {
+                                            "wd": "cheery"
+                                        },
+                                        {
+                                            "wd": "gay"
+                                        },
+                                        {
+                                            "wd": "gladsome"
+                                        },
+                                        {
+                                            "wd": "lighthearted"
+                                        },
+                                        {
+                                            "wd": "sunny"
+                                        },
+                                        {
+                                            "wd": "upbeat"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "gleeful"
+                                        },
+                                        {
+                                            "wd": "jocund"
+                                        },
+                                        {
+                                            "wd": "jolly"
+                                        },
+                                        {
+                                            "wd": "jovial"
+                                        },
+                                        {
+                                            "wd": "laughing"
+                                        },
+                                        {
+                                            "wd": "merry"
+                                        },
+                                        {
+                                            "wd": "mirthful"
+                                        },
+                                        {
+                                            "wd": "smiling"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "beatific"
+                                        },
+                                        {
+                                            "wd": "ecstatic"
+                                        },
+                                        {
+                                            "wd": "elated"
+                                        },
+                                        {
+                                            "wd": "enraptured"
+                                        },
+                                        {
+                                            "wd": "entranced"
+                                        },
+                                        {
+                                            "wd": "euphoric"
+                                        },
+                                        {
+                                            "wd": "exhilarated"
+                                        },
+                                        {
+                                            "wd": "intoxicated"
+                                        },
+                                        {
+                                            "wd": "rapturous"
+                                        },
+                                        {
+                                            "wd": "rhapsodic",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "rhapsodical"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "exuberant"
+                                        },
+                                        {
+                                            "wd": "exultant"
+                                        },
+                                        {
+                                            "wd": "jubilant"
+                                        },
+                                        {
+                                            "wd": "rapt"
+                                        },
+                                        {
+                                            "wd": "rejoicing"
+                                        },
+                                        {
+                                            "wd": "thrilled"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "hopeful"
+                                        },
+                                        {
+                                            "wd": "optimistic"
+                                        },
+                                        {
+                                            "wd": "rosy"
+                                        },
+                                        {
+                                            "wd": "sanguine"
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "abject"
+                                        },
+                                        {
+                                            "wd": "aggrieved"
+                                        },
+                                        {
+                                            "wd": "anguished"
+                                        },
+                                        {
+                                            "wd": "blue"
+                                        },
+                                        {
+                                            "wd": "brokenhearted"
+                                        },
+                                        {
+                                            "wd": "dejected"
+                                        },
+                                        {
+                                            "wd": "depressed"
+                                        },
+                                        {
+                                            "wd": "despondent"
+                                        },
+                                        {
+                                            "wd": "disconsolate"
+                                        },
+                                        {
+                                            "wd": "disheartened"
+                                        },
+                                        {
+                                            "wd": "downcast"
+                                        },
+                                        {
+                                            "wd": "downhearted"
+                                        },
+                                        {
+                                            "wd": "forlorn"
+                                        },
+                                        {
+                                            "wd": "melancholy"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "doleful"
+                                        },
+                                        {
+                                            "wd": "dolorous"
+                                        },
+                                        {
+                                            "wd": "lachrymose"
+                                        },
+                                        {
+                                            "wd": "mournful"
+                                        },
+                                        {
+                                            "wd": "plaintive"
+                                        },
+                                        {
+                                            "wd": "sorrowful"
+                                        },
+                                        {
+                                            "wd": "sorry"
+                                        },
+                                        {
+                                            "wd": "woeful"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "black"
+                                        },
+                                        {
+                                            "wd": "dark"
+                                        },
+                                        {
+                                            "wd": "desolate"
+                                        },
+                                        {
+                                            "wd": "dispirited"
+                                        },
+                                        {
+                                            "wd": "gloomy"
+                                        },
+                                        {
+                                            "wd": "glum"
+                                        },
+                                        {
+                                            "wd": "gray",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "grey"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "grieved"
+                                        },
+                                        {
+                                            "wd": "heartbroken"
+                                        },
+                                        {
+                                            "wd": "heartsick"
+                                        },
+                                        {
+                                            "wd": "miserable"
+                                        },
+                                        {
+                                            "wd": "woebegone"
+                                        },
+                                        {
+                                            "wd": "wretched"
+                                        }
+                                    ]
+                                ],
+                                "ant_list": [
+                                    [
+                                        {
+                                            "wd": "displeased"
+                                        },
+                                        {
+                                            "wd": "dissatisfied"
+                                        },
+                                        {
+                                            "wd": "joyless"
+                                        },
+                                        {
+                                            "wd": "sad"
+                                        },
+                                        {
+                                            "wd": "unhappy"
+                                        },
+                                        {
+                                            "wd": "unpleased"
+                                        },
+                                        {
+                                            "wd": "unsatisfied"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "3",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "feeling that one's needs or desires have been met "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "has been much {it}happier{/it} ever since she moved"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "content"
+                                        },
+                                        {
+                                            "wd": "contented"
+                                        },
+                                        {
+                                            "wd": "gratified"
+                                        },
+                                        {
+                                            "wd": "pleased"
+                                        },
+                                        {
+                                            "wd": "satisfied"
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "blissful"
+                                        },
+                                        {
+                                            "wd": "delighted"
+                                        },
+                                        {
+                                            "wd": "glad"
+                                        },
+                                        {
+                                            "wd": "joyful"
+                                        },
+                                        {
+                                            "wd": "joyous"
+                                        },
+                                        {
+                                            "wd": "jubilant"
+                                        },
+                                        {
+                                            "wd": "rejoicing"
+                                        },
+                                        {
+                                            "wd": "tickled"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "ecstatic"
+                                        },
+                                        {
+                                            "wd": "elated"
+                                        },
+                                        {
+                                            "wd": "enraptured"
+                                        },
+                                        {
+                                            "wd": "euphoric"
+                                        },
+                                        {
+                                            "wd": "overjoyed"
+                                        },
+                                        {
+                                            "wd": "rapturous"
+                                        },
+                                        {
+                                            "wd": "thrilled"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "appeased"
+                                        },
+                                        {
+                                            "wd": "mollified"
+                                        },
+                                        {
+                                            "wd": "pacified"
+                                        },
+                                        {
+                                            "wd": "placated"
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "disaffected"
+                                        },
+                                        {
+                                            "wd": "disgruntled"
+                                        },
+                                        {
+                                            "wd": "displeased"
+                                        },
+                                        {
+                                            "wd": "unsatisfied"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "abject"
+                                        },
+                                        {
+                                            "wd": "aggrieved"
+                                        },
+                                        {
+                                            "wd": "anguished"
+                                        },
+                                        {
+                                            "wd": "brokenhearted"
+                                        },
+                                        {
+                                            "wd": "dejected"
+                                        },
+                                        {
+                                            "wd": "depressed"
+                                        },
+                                        {
+                                            "wd": "despondent"
+                                        },
+                                        {
+                                            "wd": "disconsolate"
+                                        },
+                                        {
+                                            "wd": "discouraged"
+                                        },
+                                        {
+                                            "wd": "disheartened"
+                                        },
+                                        {
+                                            "wd": "dispirited"
+                                        },
+                                        {
+                                            "wd": "downcast"
+                                        },
+                                        {
+                                            "wd": "downhearted"
+                                        }
+                                    ]
+                                ],
+                                "ant_list": [
+                                    [
+                                        {
+                                            "wd": "discontent"
+                                        },
+                                        {
+                                            "wd": "discontented"
+                                        },
+                                        {
+                                            "wd": "displeased"
+                                        },
+                                        {
+                                            "wd": "dissatisfied"
+                                        },
+                                        {
+                                            "wd": "malcontent"
+                                        },
+                                        {
+                                            "wd": "malcontented"
+                                        },
+                                        {
+                                            "wd": "unhappy"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "4",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "having good luck "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "the {it}happy{/it} person who is both appreciated and rewarded for all his hard work"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "fortunate"
+                                        },
+                                        {
+                                            "wd": "lucky"
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "blessed",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "blest"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "favored"
+                                        },
+                                        {
+                                            "wd": "gifted"
+                                        },
+                                        {
+                                            "wd": "privileged"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "fair"
+                                        },
+                                        {
+                                            "wd": "golden"
+                                        },
+                                        {
+                                            "wd": "promising"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "hot"
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "cursed",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "curst"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "disadvantaged"
+                                        }
+                                    ]
+                                ],
+                                "ant_list": [
+                                    [
+                                        {
+                                            "wd": "hapless"
+                                        },
+                                        {
+                                            "wd": "ill-fated"
+                                        },
+                                        {
+                                            "wd": "ill-starred"
+                                        },
+                                        {
+                                            "wd": "luckless"
+                                        },
+                                        {
+                                            "wd": "snakebit",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "or",
+                                                    "wva": "snakebitten"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "star-crossed"
+                                        },
+                                        {
+                                            "wd": "unfortunate"
+                                        },
+                                        {
+                                            "wd": "unhappy"
+                                        },
+                                        {
+                                            "wd": "unlucky"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "5",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "meeting the requirements of a purpose or situation "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "the wine was a {it}happy{/it} complement to such a fine meal"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "applicable"
+                                        },
+                                        {
+                                            "wd": "appropriate"
+                                        },
+                                        {
+                                            "wd": "apt"
+                                        },
+                                        {
+                                            "wd": "becoming"
+                                        },
+                                        {
+                                            "wd": "befitting"
+                                        },
+                                        {
+                                            "wd": "felicitous"
+                                        },
+                                        {
+                                            "wd": "fit"
+                                        },
+                                        {
+                                            "wd": "fitted"
+                                        },
+                                        {
+                                            "wd": "fitting"
+                                        },
+                                        {
+                                            "wd": "good"
+                                        },
+                                        {
+                                            "wd": "meet"
+                                        },
+                                        {
+                                            "wd": "pretty"
+                                        },
+                                        {
+                                            "wd": "proper"
+                                        },
+                                        {
+                                            "wd": "right"
+                                        },
+                                        {
+                                            "wd": "suitable"
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "condign"
+                                        },
+                                        {
+                                            "wd": "deserved"
+                                        },
+                                        {
+                                            "wd": "just"
+                                        },
+                                        {
+                                            "wd": "justified"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "needed"
+                                        },
+                                        {
+                                            "wd": "required"
+                                        },
+                                        {
+                                            "wd": "requisite"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "able"
+                                        },
+                                        {
+                                            "wd": "capable"
+                                        },
+                                        {
+                                            "wd": "competent"
+                                        },
+                                        {
+                                            "wd": "cut out"
+                                        },
+                                        {
+                                            "wd": "qualified"
+                                        },
+                                        {
+                                            "wd": "trained"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "pitch-perfect"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "acceptable"
+                                        },
+                                        {
+                                            "wd": "adequate"
+                                        },
+                                        {
+                                            "wd": "decent"
+                                        },
+                                        {
+                                            "wd": "kosher"
+                                        },
+                                        {
+                                            "wd": "satisfactory"
+                                        },
+                                        {
+                                            "wd": "serviceable"
+                                        },
+                                        {
+                                            "wd": "tolerable"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "correct"
+                                        },
+                                        {
+                                            "wd": "decorous"
+                                        },
+                                        {
+                                            "wd": "respectable"
+                                        },
+                                        {
+                                            "wd": "seemly"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "balanced"
+                                        },
+                                        {
+                                            "wd": "companionate"
+                                        },
+                                        {
+                                            "wd": "congruous"
+                                        },
+                                        {
+                                            "wd": "consonant"
+                                        },
+                                        {
+                                            "wd": "harmonious"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "rightful"
+                                        }
+                                    ]
+                                ],
+                                "phrase_list": [
+                                    [
+                                        {
+                                            "wd": "in order"
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "incapable"
+                                        },
+                                        {
+                                            "wd": "incompetent"
+                                        },
+                                        {
+                                            "wd": "inept"
+                                        },
+                                        {
+                                            "wd": "inexpert"
+                                        },
+                                        {
+                                            "wd": "unqualified"
+                                        },
+                                        {
+                                            "wd": "unskilled"
+                                        },
+                                        {
+                                            "wd": "unskillful"
+                                        },
+                                        {
+                                            "wd": "untrained"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "inadequate"
+                                        },
+                                        {
+                                            "wd": "intolerable"
+                                        },
+                                        {
+                                            "wd": "unacceptable"
+                                        },
+                                        {
+                                            "wd": "unsatisfactory"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "graceless"
+                                        },
+                                        {
+                                            "wd": "incorrect"
+                                        },
+                                        {
+                                            "wd": "indecorous"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "incompatible"
+                                        },
+                                        {
+                                            "wd": "uncongenial"
+                                        }
+                                    ]
+                                ],
+                                "ant_list": [
+                                    [
+                                        {
+                                            "wd": "improper"
+                                        },
+                                        {
+                                            "wd": "inapplicable"
+                                        },
+                                        {
+                                            "wd": "inapposite"
+                                        },
+                                        {
+                                            "wd": "inappropriate"
+                                        },
+                                        {
+                                            "wd": "inapt"
+                                        },
+                                        {
+                                            "wd": "incongruous"
+                                        },
+                                        {
+                                            "wd": "indecent"
+                                        },
+                                        {
+                                            "wd": "infelicitous"
+                                        },
+                                        {
+                                            "wd": "malapropos"
+                                        },
+                                        {
+                                            "wd": "misbecoming"
+                                        },
+                                        {
+                                            "wd": "unapt"
+                                        },
+                                        {
+                                            "wd": "unbecoming"
+                                        },
+                                        {
+                                            "wd": "unbeseeming"
+                                        },
+                                        {
+                                            "wd": "unfit"
+                                        },
+                                        {
+                                            "wd": "unfitting"
+                                        },
+                                        {
+                                            "wd": "unhappy"
+                                        },
+                                        {
+                                            "wd": "unmeet"
+                                        },
+                                        {
+                                            "wd": "unseemly"
+                                        },
+                                        {
+                                            "wd": "unsuitable"
+                                        },
+                                        {
+                                            "wd": "wrong"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "6",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "having extreme or relentless concern "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "poll-{it}happy{/it} pundits just care about which political candidate is winning, and never about the issues"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "hung up"
+                                        },
+                                        {
+                                            "wd": "obsessed"
+                                        },
+                                        {
+                                            "wd": "queer"
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "absorbed"
+                                        },
+                                        {
+                                            "wd": "anxious"
+                                        },
+                                        {
+                                            "wd": "concerned"
+                                        },
+                                        {
+                                            "wd": "distracted"
+                                        },
+                                        {
+                                            "wd": "engaged"
+                                        },
+                                        {
+                                            "wd": "engrossed"
+                                        },
+                                        {
+                                            "wd": "full"
+                                        },
+                                        {
+                                            "wd": "involved"
+                                        },
+                                        {
+                                            "wd": "knee-deep"
+                                        },
+                                        {
+                                            "wd": "occupied"
+                                        },
+                                        {
+                                            "wd": "preoccupied"
+                                        },
+                                        {
+                                            "wd": "prepossessed"
+                                        },
+                                        {
+                                            "wd": "worried"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "ardent"
+                                        },
+                                        {
+                                            "wd": "crazy"
+                                        },
+                                        {
+                                            "wd": "dotty"
+                                        },
+                                        {
+                                            "wd": "fervent"
+                                        },
+                                        {
+                                            "wd": "fervid"
+                                        },
+                                        {
+                                            "wd": "feverish"
+                                        },
+                                        {
+                                            "wd": "foolish"
+                                        },
+                                        {
+                                            "wd": "impassioned"
+                                        },
+                                        {
+                                            "wd": "nuts"
+                                        },
+                                        {
+                                            "wd": "passionate"
+                                        },
+                                        {
+                                            "wd": "silly"
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "apathetic"
+                                        },
+                                        {
+                                            "wd": "casual"
+                                        },
+                                        {
+                                            "wd": "cool"
+                                        },
+                                        {
+                                            "wd": "detached"
+                                        },
+                                        {
+                                            "wd": "disinterested"
+                                        },
+                                        {
+                                            "wd": "dispassionate"
+                                        },
+                                        {
+                                            "wd": "incurious"
+                                        },
+                                        {
+                                            "wd": "indifferent"
+                                        },
+                                        {
+                                            "wd": "insouciant"
+                                        },
+                                        {
+                                            "wd": "nonchalant"
+                                        },
+                                        {
+                                            "wd": "unconcerned"
+                                        },
+                                        {
+                                            "wd": "uncurious"
+                                        },
+                                        {
+                                            "wd": "unenthusiastic"
+                                        },
+                                        {
+                                            "wd": "uninterested"
+                                        },
+                                        {
+                                            "wd": "uninvolved"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "coming or happening by good luck especially unexpectedly",
+            "experiencing pleasure, satisfaction, or delight",
+            "feeling that one's needs or desires have been met"
+        ]
+    },
+    {
+        "meta": {
+            "id": "happy-go-lucky",
+            "uuid": "9597eaf6-3944-483a-9f54-25c02356bfa3",
+            "src": "coll_thes",
+            "section": "alpha",
+            "target": {
+                "tuuid": "26352061-8c60-4d34-a877-81baf5236ec4",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "happy-go-lucky"
+            ],
+            "syns": [
+                [
+                    "affable",
+                    "breezy",
+                    "devil-may-care",
+                    "easygoing",
+                    "laid-back",
+                    "low-pressure",
+                    "mellow"
+                ],
+                [
+                    "blithe",
+                    "carefree",
+                    "debonair",
+                    "devil-may-care",
+                    "gay",
+                    "insouciant",
+                    "lighthearted",
+                    "lightsome",
+                    "slaphappy",
+                    "unconcerned"
+                ]
+            ],
+            "ants": [
+                [
+                    "high-strung",
+                    "uptight"
+                ],
+                [
+                    "careworn"
+                ]
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "happy-go-lucky"
+        },
+        "fl": "adjective",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "having a relaxed, casual manner "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "he is completely {it}happy-go-lucky{/it} on fishing trips—if he catches something, fine; if he doesn't, that's fine, too"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "affable"
+                                        },
+                                        {
+                                            "wd": "breezy"
+                                        },
+                                        {
+                                            "wd": "devil-may-care"
+                                        },
+                                        {
+                                            "wd": "easygoing"
+                                        },
+                                        {
+                                            "wd": "laid-back"
+                                        },
+                                        {
+                                            "wd": "low-pressure"
+                                        },
+                                        {
+                                            "wd": "mellow"
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "carefree"
+                                        },
+                                        {
+                                            "wd": "casual"
+                                        },
+                                        {
+                                            "wd": "dégagé"
+                                        },
+                                        {
+                                            "wd": "lackadaisical"
+                                        },
+                                        {
+                                            "wd": "nonchalant"
+                                        },
+                                        {
+                                            "wd": "unaffected"
+                                        },
+                                        {
+                                            "wd": "unconcerned"
+                                        },
+                                        {
+                                            "wd": "unfussy"
+                                        },
+                                        {
+                                            "wd": "unperturbed"
+                                        },
+                                        {
+                                            "wd": "untroubled"
+                                        },
+                                        {
+                                            "wd": "unworried"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "familiar"
+                                        },
+                                        {
+                                            "wd": "homey",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "homy"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "informal"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "flexible"
+                                        },
+                                        {
+                                            "wd": "lax"
+                                        },
+                                        {
+                                            "wd": "lenient"
+                                        },
+                                        {
+                                            "wd": "permissive"
+                                        },
+                                        {
+                                            "wd": "pliable"
+                                        },
+                                        {
+                                            "wd": "pliant"
+                                        },
+                                        {
+                                            "wd": "soft"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "accessible"
+                                        },
+                                        {
+                                            "wd": "approachable"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "imperturbable"
+                                        },
+                                        {
+                                            "wd": "nerveless"
+                                        },
+                                        {
+                                            "wd": "unflappable"
+                                        },
+                                        {
+                                            "wd": "unshakable"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "amicable"
+                                        },
+                                        {
+                                            "wd": "companionable"
+                                        },
+                                        {
+                                            "wd": "comradely"
+                                        },
+                                        {
+                                            "wd": "cordial"
+                                        },
+                                        {
+                                            "wd": "genial"
+                                        },
+                                        {
+                                            "wd": "hail-fellow-well-met"
+                                        },
+                                        {
+                                            "wd": "hearty"
+                                        },
+                                        {
+                                            "wd": "neighborly"
+                                        },
+                                        {
+                                            "wd": "warm"
+                                        },
+                                        {
+                                            "wd": "warmhearted"
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "ceremonious"
+                                        },
+                                        {
+                                            "wd": "decorous"
+                                        },
+                                        {
+                                            "wd": "formal"
+                                        },
+                                        {
+                                            "wd": "rigid"
+                                        },
+                                        {
+                                            "wd": "strict"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "anxious"
+                                        },
+                                        {
+                                            "wd": "bothered"
+                                        },
+                                        {
+                                            "wd": "distressed"
+                                        },
+                                        {
+                                            "wd": "worried"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "jittery"
+                                        },
+                                        {
+                                            "wd": "jumpy"
+                                        },
+                                        {
+                                            "wd": "nervous"
+                                        },
+                                        {
+                                            "wd": "skittish"
+                                        },
+                                        {
+                                            "wd": "tense"
+                                        }
+                                    ]
+                                ],
+                                "ant_list": [
+                                    [
+                                        {
+                                            "wd": "high-strung"
+                                        },
+                                        {
+                                            "wd": "uptight"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "having or showing freedom from worries or trouble "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "went on her {it}happy-go-lucky{/it} way, totally unaware that she was strewing litter behind her"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "blithe"
+                                        },
+                                        {
+                                            "wd": "carefree"
+                                        },
+                                        {
+                                            "wd": "debonair"
+                                        },
+                                        {
+                                            "wd": "devil-may-care"
+                                        },
+                                        {
+                                            "wd": "gay"
+                                        },
+                                        {
+                                            "wd": "insouciant"
+                                        },
+                                        {
+                                            "wd": "lighthearted"
+                                        },
+                                        {
+                                            "wd": "lightsome"
+                                        },
+                                        {
+                                            "wd": "slaphappy"
+                                        },
+                                        {
+                                            "wd": "unconcerned"
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "blasé",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "blase"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "breezy"
+                                        },
+                                        {
+                                            "wd": "cavalier"
+                                        },
+                                        {
+                                            "wd": "nonchalant"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "casual"
+                                        },
+                                        {
+                                            "wd": "easygoing"
+                                        },
+                                        {
+                                            "wd": "informal"
+                                        },
+                                        {
+                                            "wd": "laid-back"
+                                        },
+                                        {
+                                            "wd": "low-pressure"
+                                        },
+                                        {
+                                            "wd": "relaxed"
+                                        },
+                                        {
+                                            "wd": "unfussy"
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "earnest"
+                                        },
+                                        {
+                                            "wd": "grave"
+                                        },
+                                        {
+                                            "wd": "serious"
+                                        },
+                                        {
+                                            "wd": "serious-minded"
+                                        },
+                                        {
+                                            "wd": "somber",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "or",
+                                                    "wva": "sombre"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "careful"
+                                        },
+                                        {
+                                            "wd": "cautious"
+                                        },
+                                        {
+                                            "wd": "heedful"
+                                        },
+                                        {
+                                            "wd": "wary"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "anxious"
+                                        },
+                                        {
+                                            "wd": "concerned"
+                                        },
+                                        {
+                                            "wd": "upset"
+                                        },
+                                        {
+                                            "wd": "worried"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "long-suffering"
+                                        },
+                                        {
+                                            "wd": "overburdened"
+                                        },
+                                        {
+                                            "wd": "sorrowful"
+                                        }
+                                    ]
+                                ],
+                                "ant_list": [
+                                    [
+                                        {
+                                            "wd": "careworn"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "having a relaxed, casual manner",
+            "having or showing freedom from worries or trouble"
+        ]
+    },
+    {
+        "meta": {
+            "id": "happy camper",
+            "uuid": "468c8367-89c1-4d1a-9f0b-6ece3ca5b92b",
+            "src": "CTcompile",
+            "section": "alpha",
+            "stems": [
+                "happy camper"
+            ],
+            "syns": [
+                [
+                    "optimist",
+                    "Pollyanna"
+                ]
+            ],
+            "ants": [
+                [
+                    "bear",
+                    "bellyacher",
+                    "complainer",
+                    "crab",
+                    "crank",
+                    "croaker",
+                    "crosspatch",
+                    "curmudgeon",
+                    "fusser",
+                    "griper",
+                    "grouch",
+                    "grouser",
+                    "growler",
+                    "grumbler",
+                    "grump",
+                    "murmurer",
+                    "mutterer",
+                    "sourpuss",
+                    "whiner",
+                    "hunks",
+                    "malcontent",
+                    "sorehead"
+                ]
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "happy camper"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "as in {it}optimist{/it}, {it}Pollyanna{/it}"
+                                    ]
+                                ],
+                                "sim_list": [
+                                    [
+                                        {
+                                            "wd": "optimist"
+                                        },
+                                        {
+                                            "wd": "Pollyanna"
+                                        }
+                                    ]
+                                ],
+                                "opp_list": [
+                                    [
+                                        {
+                                            "wd": "bear"
+                                        },
+                                        {
+                                            "wd": "bellyacher"
+                                        },
+                                        {
+                                            "wd": "complainer"
+                                        },
+                                        {
+                                            "wd": "crab"
+                                        },
+                                        {
+                                            "wd": "crank"
+                                        },
+                                        {
+                                            "wd": "croaker"
+                                        },
+                                        {
+                                            "wd": "crosspatch"
+                                        },
+                                        {
+                                            "wd": "curmudgeon"
+                                        },
+                                        {
+                                            "wd": "fusser"
+                                        },
+                                        {
+                                            "wd": "griper"
+                                        },
+                                        {
+                                            "wd": "grouch"
+                                        },
+                                        {
+                                            "wd": "grouser"
+                                        },
+                                        {
+                                            "wd": "growler"
+                                        },
+                                        {
+                                            "wd": "grumbler"
+                                        },
+                                        {
+                                            "wd": "grump"
+                                        },
+                                        {
+                                            "wd": "murmurer"
+                                        },
+                                        {
+                                            "wd": "mutterer"
+                                        },
+                                        {
+                                            "wd": "sourpuss"
+                                        },
+                                        {
+                                            "wd": "whiner"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "hunks"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "malcontent"
+                                        },
+                                        {
+                                            "wd": "sorehead"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "as in optimist, Pollyanna"
+        ]
+    },
+    {
+        "meta": {
+            "id": "happy campers",
+            "uuid": "fd41cabc-2e0f-48a9-8892-aca3ace061ca",
+            "src": "CTcompile",
+            "section": "alpha",
+            "stems": [
+                "happy campers"
+            ],
+            "syns": [
+                [
+                    "optimists",
+                    "Pollyannas"
+                ]
+            ],
+            "ants": [
+                [
+                    "bears",
+                    "bellyachers",
+                    "complainers",
+                    "crabs",
+                    "cranks",
+                    "croakers",
+                    "crosspatches",
+                    "curmudgeons",
+                    "fussers",
+                    "gripers",
+                    "grouches",
+                    "grousers",
+                    "growlers",
+                    "grumblers",
+                    "grumps",
+                    "murmurers",
+                    "mutterers",
+                    "sourpusses",
+                    "whiners",
+                    "hunks",
+                    "malcontents",
+                    "soreheads"
+                ]
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "happy campers"
+        },
+        "fl": "noun",
+        "sls": [
+            "plural of {d_link|happy camper|happy camper}"
+        ],
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "as in {it}optimists{/it}, {it}Pollyannas{/it}"
+                                    ]
+                                ],
+                                "sim_list": [
+                                    [
+                                        {
+                                            "wd": "optimists"
+                                        },
+                                        {
+                                            "wd": "Pollyannas"
+                                        }
+                                    ]
+                                ],
+                                "opp_list": [
+                                    [
+                                        {
+                                            "wd": "bears"
+                                        },
+                                        {
+                                            "wd": "bellyachers"
+                                        },
+                                        {
+                                            "wd": "complainers"
+                                        },
+                                        {
+                                            "wd": "crabs"
+                                        },
+                                        {
+                                            "wd": "cranks"
+                                        },
+                                        {
+                                            "wd": "croakers"
+                                        },
+                                        {
+                                            "wd": "crosspatches"
+                                        },
+                                        {
+                                            "wd": "curmudgeons"
+                                        },
+                                        {
+                                            "wd": "fussers"
+                                        },
+                                        {
+                                            "wd": "gripers"
+                                        },
+                                        {
+                                            "wd": "grouches"
+                                        },
+                                        {
+                                            "wd": "grousers"
+                                        },
+                                        {
+                                            "wd": "growlers"
+                                        },
+                                        {
+                                            "wd": "grumblers"
+                                        },
+                                        {
+                                            "wd": "grumps"
+                                        },
+                                        {
+                                            "wd": "murmurers"
+                                        },
+                                        {
+                                            "wd": "mutterers"
+                                        },
+                                        {
+                                            "wd": "sourpusses"
+                                        },
+                                        {
+                                            "wd": "whiners"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "hunks"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "malcontents"
+                                        },
+                                        {
+                                            "wd": "soreheads"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "as in optimists, Pollyannas"
+        ]
+    },
+    {
+        "meta": {
+            "id": "happy hunting ground",
+            "uuid": "98e27e15-f427-4deb-b349-27b80af7edab",
+            "src": "CTcompile",
+            "section": "alpha",
+            "stems": [
+                "happy hunting ground"
+            ],
+            "syns": [
+                [
+                    "Beulah",
+                    "glory",
+                    "nirvana",
+                    "promised land",
+                    "Valhalla",
+                    "above",
+                    "bliss",
+                    "elysian fields",
+                    "Elysium",
+                    "empyrean",
+                    "heaven",
+                    "kingdom come",
+                    "New Jerusalem",
+                    "paradise",
+                    "sky",
+                    "Zion",
+                    "afterlife",
+                    "afterworld",
+                    "hereafter",
+                    "otherworld"
+                ],
+                [
+                    "hive",
+                    "hotbed",
+                    "hot spot",
+                    "playground",
+                    "playland",
+                    "headquarters",
+                    "kernel",
+                    "nub",
+                    "pith",
+                    "axis",
+                    "base",
+                    "capital",
+                    "center",
+                    "central",
+                    "core",
+                    "cynosure",
+                    "epicenter",
+                    "eye",
+                    "focus",
+                    "ground zero",
+                    "heart",
+                    "hub",
+                    "locus",
+                    "mecca",
+                    "navel",
+                    "nerve center",
+                    "nexus",
+                    "nucleus",
+                    "omphalos",
+                    "seat",
+                    "deep",
+                    "thick",
+                    "essence",
+                    "quintessence",
+                    "soul",
+                    "attraction",
+                    "lodestone",
+                    "magnet",
+                    "polestar"
+                ]
+            ],
+            "ants": [
+                [
+                    "Gehenna",
+                    "hell",
+                    "Pandemonium",
+                    "perdition",
+                    "inferno",
+                    "limbo",
+                    "purgatory",
+                    "hades",
+                    "netherworld",
+                    "underworld",
+                    "abyss",
+                    "pit"
+                ]
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "happy hunting ground"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "as in {it}glory{/it}, {it}promised land{/it}"
+                                    ]
+                                ],
+                                "sim_list": [
+                                    [
+                                        {
+                                            "wd": "Beulah"
+                                        },
+                                        {
+                                            "wd": "glory"
+                                        },
+                                        {
+                                            "wd": "nirvana"
+                                        },
+                                        {
+                                            "wd": "promised land"
+                                        },
+                                        {
+                                            "wd": "Valhalla"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "above"
+                                        },
+                                        {
+                                            "wd": "bliss"
+                                        },
+                                        {
+                                            "wd": "elysian fields"
+                                        },
+                                        {
+                                            "wd": "Elysium"
+                                        },
+                                        {
+                                            "wd": "empyrean"
+                                        },
+                                        {
+                                            "wd": "heaven"
+                                        },
+                                        {
+                                            "wd": "kingdom come"
+                                        },
+                                        {
+                                            "wd": "New Jerusalem"
+                                        },
+                                        {
+                                            "wd": "paradise"
+                                        },
+                                        {
+                                            "wd": "sky"
+                                        },
+                                        {
+                                            "wd": "Zion",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "Sion"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "afterlife"
+                                        },
+                                        {
+                                            "wd": "afterworld"
+                                        },
+                                        {
+                                            "wd": "hereafter"
+                                        },
+                                        {
+                                            "wd": "otherworld"
+                                        }
+                                    ]
+                                ],
+                                "opp_list": [
+                                    [
+                                        {
+                                            "wd": "Gehenna"
+                                        },
+                                        {
+                                            "wd": "hell"
+                                        },
+                                        {
+                                            "wd": "Pandemonium"
+                                        },
+                                        {
+                                            "wd": "perdition"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "inferno"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "limbo"
+                                        },
+                                        {
+                                            "wd": "purgatory"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "hades"
+                                        },
+                                        {
+                                            "wd": "netherworld"
+                                        },
+                                        {
+                                            "wd": "underworld"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "abyss"
+                                        },
+                                        {
+                                            "wd": "pit"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "as in {it}playground{/it}, {it}hot spot{/it}"
+                                    ]
+                                ],
+                                "sim_list": [
+                                    [
+                                        {
+                                            "wd": "hive"
+                                        },
+                                        {
+                                            "wd": "hotbed"
+                                        },
+                                        {
+                                            "wd": "hot spot"
+                                        },
+                                        {
+                                            "wd": "playground"
+                                        },
+                                        {
+                                            "wd": "playland"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "headquarters"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "kernel"
+                                        },
+                                        {
+                                            "wd": "nub"
+                                        },
+                                        {
+                                            "wd": "pith"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "axis"
+                                        },
+                                        {
+                                            "wd": "base"
+                                        },
+                                        {
+                                            "wd": "capital"
+                                        },
+                                        {
+                                            "wd": "center"
+                                        },
+                                        {
+                                            "wd": "central"
+                                        },
+                                        {
+                                            "wd": "core"
+                                        },
+                                        {
+                                            "wd": "cynosure"
+                                        },
+                                        {
+                                            "wd": "epicenter"
+                                        },
+                                        {
+                                            "wd": "eye"
+                                        },
+                                        {
+                                            "wd": "focus"
+                                        },
+                                        {
+                                            "wd": "ground zero"
+                                        },
+                                        {
+                                            "wd": "heart"
+                                        },
+                                        {
+                                            "wd": "hub"
+                                        },
+                                        {
+                                            "wd": "locus"
+                                        },
+                                        {
+                                            "wd": "mecca"
+                                        },
+                                        {
+                                            "wd": "navel"
+                                        },
+                                        {
+                                            "wd": "nerve center"
+                                        },
+                                        {
+                                            "wd": "nexus"
+                                        },
+                                        {
+                                            "wd": "nucleus"
+                                        },
+                                        {
+                                            "wd": "omphalos"
+                                        },
+                                        {
+                                            "wd": "seat"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "deep"
+                                        },
+                                        {
+                                            "wd": "thick"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "essence"
+                                        },
+                                        {
+                                            "wd": "quintessence"
+                                        },
+                                        {
+                                            "wd": "soul"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "attraction"
+                                        },
+                                        {
+                                            "wd": "lodestone",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "loadstone"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "magnet"
+                                        },
+                                        {
+                                            "wd": "polestar"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "as in glory, promised land",
+            "as in playground, hot spot"
+        ]
+    },
+    {
+        "meta": {
+            "id": "happy hunting grounds",
+            "uuid": "d1ee64e8-c2b3-4564-af1e-70089c78ba05",
+            "src": "CTcompile",
+            "section": "alpha",
+            "stems": [
+                "happy hunting grounds"
+            ],
+            "syns": [
+                [
+                    "glories",
+                    "nirvanas",
+                    "promised lands",
+                    "Valhallas",
+                    "above",
+                    "blisses",
+                    "elysian fields",
+                    "Elysiums",
+                    "empyreans",
+                    "heavens",
+                    "kingdom comes",
+                    "New Jerusalems",
+                    "paradises",
+                    "skies",
+                    "Zions",
+                    "afterlives",
+                    "afterworlds",
+                    "hereafters",
+                    "otherworlds"
+                ],
+                [
+                    "hives",
+                    "hotbeds",
+                    "hot spots",
+                    "playgrounds",
+                    "playlands",
+                    "headquarters",
+                    "kernels",
+                    "nubs",
+                    "piths",
+                    "axes",
+                    "bases",
+                    "capitals",
+                    "centers",
+                    "centrals",
+                    "cores",
+                    "cynosures",
+                    "epicenters",
+                    "eyes",
+                    "foci",
+                    "ground zeros",
+                    "hearts",
+                    "hubs",
+                    "loci",
+                    "meccas",
+                    "navels",
+                    "nerve centers",
+                    "nexuses",
+                    "nuclei",
+                    "omphali",
+                    "seats",
+                    "deeps",
+                    "thicks",
+                    "essences",
+                    "quintessences",
+                    "souls",
+                    "attractions",
+                    "lodestones",
+                    "magnets",
+                    "polestars"
+                ]
+            ],
+            "ants": [
+                [
+                    "Gehennas",
+                    "hells",
+                    "Pandemoniums",
+                    "perditions",
+                    "infernos",
+                    "limbos",
+                    "purgatories",
+                    "netherworlds",
+                    "underworlds",
+                    "abysses",
+                    "pits"
+                ]
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "happy hunting grounds"
+        },
+        "fl": "noun",
+        "sls": [
+            "plural of {d_link|happy hunting ground|happy hunting ground}"
+        ],
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "as in {it}glories{/it}, {it}promised lands{/it}"
+                                    ]
+                                ],
+                                "sim_list": [
+                                    [
+                                        {
+                                            "wd": "glories"
+                                        },
+                                        {
+                                            "wd": "nirvanas"
+                                        },
+                                        {
+                                            "wd": "promised lands"
+                                        },
+                                        {
+                                            "wd": "Valhallas"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "above"
+                                        },
+                                        {
+                                            "wd": "blisses"
+                                        },
+                                        {
+                                            "wd": "elysian fields"
+                                        },
+                                        {
+                                            "wd": "Elysiums",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "or",
+                                                    "wva": "Elysia"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "empyreans"
+                                        },
+                                        {
+                                            "wd": "heavens"
+                                        },
+                                        {
+                                            "wd": "kingdom comes"
+                                        },
+                                        {
+                                            "wd": "New Jerusalems"
+                                        },
+                                        {
+                                            "wd": "paradises"
+                                        },
+                                        {
+                                            "wd": "skies"
+                                        },
+                                        {
+                                            "wd": "Zions",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "Sions"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "afterlives"
+                                        },
+                                        {
+                                            "wd": "afterworlds"
+                                        },
+                                        {
+                                            "wd": "hereafters"
+                                        },
+                                        {
+                                            "wd": "otherworlds"
+                                        }
+                                    ]
+                                ],
+                                "opp_list": [
+                                    [
+                                        {
+                                            "wd": "Gehennas"
+                                        },
+                                        {
+                                            "wd": "hells"
+                                        },
+                                        {
+                                            "wd": "Pandemoniums"
+                                        },
+                                        {
+                                            "wd": "perditions"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "infernos"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "limbos"
+                                        },
+                                        {
+                                            "wd": "purgatories"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "netherworlds"
+                                        },
+                                        {
+                                            "wd": "underworlds"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "abysses"
+                                        },
+                                        {
+                                            "wd": "pits"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "as in {it}playgrounds{/it}, {it}hot spots{/it}"
+                                    ]
+                                ],
+                                "sim_list": [
+                                    [
+                                        {
+                                            "wd": "hives"
+                                        },
+                                        {
+                                            "wd": "hotbeds"
+                                        },
+                                        {
+                                            "wd": "hot spots"
+                                        },
+                                        {
+                                            "wd": "playgrounds"
+                                        },
+                                        {
+                                            "wd": "playlands"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "headquarters"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "kernels"
+                                        },
+                                        {
+                                            "wd": "nubs"
+                                        },
+                                        {
+                                            "wd": "piths"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "axes"
+                                        },
+                                        {
+                                            "wd": "bases"
+                                        },
+                                        {
+                                            "wd": "capitals"
+                                        },
+                                        {
+                                            "wd": "centers"
+                                        },
+                                        {
+                                            "wd": "centrals"
+                                        },
+                                        {
+                                            "wd": "cores"
+                                        },
+                                        {
+                                            "wd": "cynosures"
+                                        },
+                                        {
+                                            "wd": "epicenters"
+                                        },
+                                        {
+                                            "wd": "eyes"
+                                        },
+                                        {
+                                            "wd": "foci",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "focuses"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "ground zeros"
+                                        },
+                                        {
+                                            "wd": "hearts"
+                                        },
+                                        {
+                                            "wd": "hubs"
+                                        },
+                                        {
+                                            "wd": "loci"
+                                        },
+                                        {
+                                            "wd": "meccas"
+                                        },
+                                        {
+                                            "wd": "navels"
+                                        },
+                                        {
+                                            "wd": "nerve centers"
+                                        },
+                                        {
+                                            "wd": "nexuses",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "or",
+                                                    "wva": "nexus"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "nuclei",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "nucleuses"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "omphali"
+                                        },
+                                        {
+                                            "wd": "seats"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "deeps"
+                                        },
+                                        {
+                                            "wd": "thicks"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "essences"
+                                        },
+                                        {
+                                            "wd": "quintessences"
+                                        },
+                                        {
+                                            "wd": "souls"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "attractions"
+                                        },
+                                        {
+                                            "wd": "lodestones",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "loadstones"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "magnets"
+                                        },
+                                        {
+                                            "wd": "polestars"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "as in glories, promised lands",
+            "as in playgrounds, hot spots"
+        ]
+    },
+    {
+        "meta": {
+            "id": "happy talk",
+            "uuid": "bc7a801b-b386-4543-8d3a-5e8eb48dfcf0",
+            "src": "CTcompile",
+            "section": "alpha",
+            "stems": [
+                "happy talk"
+            ],
+            "syns": [
+                [
+                    "crosstalk",
+                    "debate",
+                    "dialogue",
+                    "exchange",
+                    "give-and-take",
+                    "yak",
+                    "yammer",
+                    "yap",
+                    "colloquy",
+                    "conference",
+                    "discourse",
+                    "parley",
+                    "symposium",
+                    "backchat",
+                    "cackle",
+                    "causerie",
+                    "chat",
+                    "chatter",
+                    "chin music",
+                    "chin-wag",
+                    "chitchat",
+                    "confab",
+                    "confabulation",
+                    "gab",
+                    "gabfest",
+                    "gossip",
+                    "jangle",
+                    "jaw",
+                    "natter",
+                    "palaver",
+                    "patter",
+                    "rap",
+                    "schmooze",
+                    "small talk",
+                    "table talk",
+                    "talk",
+                    "tête-à-tête"
+                ]
+            ],
+            "ants": [],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "happy talk"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "as in {it}crosstalk{/it}"
+                                    ]
+                                ],
+                                "sim_list": [
+                                    [
+                                        {
+                                            "wd": "crosstalk"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "debate"
+                                        },
+                                        {
+                                            "wd": "dialogue",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "dialog"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "exchange"
+                                        },
+                                        {
+                                            "wd": "give-and-take"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "yak",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "yack"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "yammer"
+                                        },
+                                        {
+                                            "wd": "yap"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "colloquy"
+                                        },
+                                        {
+                                            "wd": "conference"
+                                        },
+                                        {
+                                            "wd": "discourse"
+                                        },
+                                        {
+                                            "wd": "parley"
+                                        },
+                                        {
+                                            "wd": "symposium"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "backchat"
+                                        },
+                                        {
+                                            "wd": "cackle"
+                                        },
+                                        {
+                                            "wd": "causerie"
+                                        },
+                                        {
+                                            "wd": "chat"
+                                        },
+                                        {
+                                            "wd": "chatter"
+                                        },
+                                        {
+                                            "wd": "chin music"
+                                        },
+                                        {
+                                            "wd": "chin-wag",
+                                            "wsls": [
+                                                "slang"
+                                            ]
+                                        },
+                                        {
+                                            "wd": "chitchat"
+                                        },
+                                        {
+                                            "wd": "confab"
+                                        },
+                                        {
+                                            "wd": "confabulation"
+                                        },
+                                        {
+                                            "wd": "gab"
+                                        },
+                                        {
+                                            "wd": "gabfest"
+                                        },
+                                        {
+                                            "wd": "gossip"
+                                        },
+                                        {
+                                            "wd": "jangle"
+                                        },
+                                        {
+                                            "wd": "jaw"
+                                        },
+                                        {
+                                            "wd": "natter",
+                                            "wsls": [
+                                                "chiefly British"
+                                            ]
+                                        },
+                                        {
+                                            "wd": "palaver"
+                                        },
+                                        {
+                                            "wd": "patter"
+                                        },
+                                        {
+                                            "wd": "rap"
+                                        },
+                                        {
+                                            "wd": "schmooze"
+                                        },
+                                        {
+                                            "wd": "small talk"
+                                        },
+                                        {
+                                            "wd": "table talk"
+                                        },
+                                        {
+                                            "wd": "talk"
+                                        },
+                                        {
+                                            "wd": "tête-à-tête"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "as in crosstalk"
+        ]
+    },
+    {
+        "meta": {
+            "id": "trigger-happy",
+            "uuid": "150d747f-b402-4cf1-8dd3-acb08855dffe",
+            "src": "CTcompile",
+            "section": "alpha",
+            "stems": [
+                "trigger-happy"
+            ],
+            "syns": [
+                [
+                    "argumentative",
+                    "bellicose",
+                    "belligerent",
+                    "combative",
+                    "contentious",
+                    "discordant",
+                    "disputatious",
+                    "gladiatorial",
+                    "pugnacious",
+                    "quarrelsome",
+                    "truculent",
+                    "warlike",
+                    "aggressive",
+                    "ambitious",
+                    "assertive",
+                    "enterprising",
+                    "fierce",
+                    "go-getting",
+                    "high-pressure",
+                    "in-your-face",
+                    "militant",
+                    "pushy",
+                    "self-asserting",
+                    "self-assertive",
+                    "hyperaggressive",
+                    "overambitious",
+                    "dynamic",
+                    "energetic",
+                    "gung ho",
+                    "hustling",
+                    "strenuous",
+                    "vigorous",
+                    "emphatic",
+                    "obtrusive",
+                    "adventuresome",
+                    "adventurous",
+                    "daring",
+                    "dashing",
+                    "emboldened",
+                    "gutsy",
+                    "venturesome",
+                    "venturous",
+                    "audacious",
+                    "bold",
+                    "brash",
+                    "brassy",
+                    "bumptious",
+                    "cheeky",
+                    "cocksure",
+                    "cocky",
+                    "confident",
+                    "determined",
+                    "forward",
+                    "impudent",
+                    "insolent",
+                    "overconfident",
+                    "presumptuous",
+                    "unapologetic",
+                    "unsubdued",
+                    "unyielding",
+                    "bare-knuckle",
+                    "feisty",
+                    "scrappy",
+                    "dominating",
+                    "domineering",
+                    "imperious",
+                    "lordly",
+                    "magisterial",
+                    "overbearing"
+                ]
+            ],
+            "ants": [
+                [
+                    "ambitionless",
+                    "low-pressure",
+                    "nonassertive",
+                    "unaggressive",
+                    "unambitious",
+                    "unassertive",
+                    "unenterprising",
+                    "easygoing",
+                    "laid-back",
+                    "relaxed",
+                    "acquiescent",
+                    "amenable",
+                    "compliant",
+                    "deferential",
+                    "docile",
+                    "resigned",
+                    "submissive",
+                    "tractable",
+                    "yielding",
+                    "cowering",
+                    "cringing",
+                    "groveling",
+                    "shrinking",
+                    "bashful",
+                    "demure",
+                    "diffident",
+                    "humble",
+                    "lowly",
+                    "meek",
+                    "mild",
+                    "modest",
+                    "mousy",
+                    "overmodest",
+                    "passive",
+                    "quiet",
+                    "reserved",
+                    "retiring",
+                    "shy",
+                    "subdued",
+                    "timid",
+                    "unobtrusive",
+                    "obsequious",
+                    "servile",
+                    "slavish",
+                    "subservient"
+                ]
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "trigger-happy"
+        },
+        "fl": "adjective",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "as in {it}belligerent{/it}, {it}combative{/it}"
+                                    ]
+                                ],
+                                "sim_list": [
+                                    [
+                                        {
+                                            "wd": "argumentative"
+                                        },
+                                        {
+                                            "wd": "bellicose"
+                                        },
+                                        {
+                                            "wd": "belligerent"
+                                        },
+                                        {
+                                            "wd": "combative"
+                                        },
+                                        {
+                                            "wd": "contentious"
+                                        },
+                                        {
+                                            "wd": "discordant"
+                                        },
+                                        {
+                                            "wd": "disputatious"
+                                        },
+                                        {
+                                            "wd": "gladiatorial"
+                                        },
+                                        {
+                                            "wd": "pugnacious"
+                                        },
+                                        {
+                                            "wd": "quarrelsome"
+                                        },
+                                        {
+                                            "wd": "truculent"
+                                        },
+                                        {
+                                            "wd": "warlike"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "aggressive"
+                                        },
+                                        {
+                                            "wd": "ambitious"
+                                        },
+                                        {
+                                            "wd": "assertive"
+                                        },
+                                        {
+                                            "wd": "enterprising"
+                                        },
+                                        {
+                                            "wd": "fierce"
+                                        },
+                                        {
+                                            "wd": "go-getting"
+                                        },
+                                        {
+                                            "wd": "high-pressure"
+                                        },
+                                        {
+                                            "wd": "in-your-face"
+                                        },
+                                        {
+                                            "wd": "militant"
+                                        },
+                                        {
+                                            "wd": "pushy"
+                                        },
+                                        {
+                                            "wd": "self-asserting"
+                                        },
+                                        {
+                                            "wd": "self-assertive"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "hyperaggressive"
+                                        },
+                                        {
+                                            "wd": "overambitious"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "dynamic"
+                                        },
+                                        {
+                                            "wd": "energetic"
+                                        },
+                                        {
+                                            "wd": "gung ho"
+                                        },
+                                        {
+                                            "wd": "hustling"
+                                        },
+                                        {
+                                            "wd": "strenuous"
+                                        },
+                                        {
+                                            "wd": "vigorous"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "emphatic"
+                                        },
+                                        {
+                                            "wd": "obtrusive"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "adventuresome"
+                                        },
+                                        {
+                                            "wd": "adventurous"
+                                        },
+                                        {
+                                            "wd": "daring"
+                                        },
+                                        {
+                                            "wd": "dashing"
+                                        },
+                                        {
+                                            "wd": "emboldened"
+                                        },
+                                        {
+                                            "wd": "gutsy"
+                                        },
+                                        {
+                                            "wd": "venturesome"
+                                        },
+                                        {
+                                            "wd": "venturous"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "audacious"
+                                        },
+                                        {
+                                            "wd": "bold"
+                                        },
+                                        {
+                                            "wd": "brash"
+                                        },
+                                        {
+                                            "wd": "brassy"
+                                        },
+                                        {
+                                            "wd": "bumptious"
+                                        },
+                                        {
+                                            "wd": "cheeky"
+                                        },
+                                        {
+                                            "wd": "cocksure"
+                                        },
+                                        {
+                                            "wd": "cocky"
+                                        },
+                                        {
+                                            "wd": "confident"
+                                        },
+                                        {
+                                            "wd": "determined"
+                                        },
+                                        {
+                                            "wd": "forward"
+                                        },
+                                        {
+                                            "wd": "impudent"
+                                        },
+                                        {
+                                            "wd": "insolent"
+                                        },
+                                        {
+                                            "wd": "overconfident"
+                                        },
+                                        {
+                                            "wd": "presumptuous"
+                                        },
+                                        {
+                                            "wd": "unapologetic"
+                                        },
+                                        {
+                                            "wd": "unsubdued"
+                                        },
+                                        {
+                                            "wd": "unyielding"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "bare-knuckle",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "also",
+                                                    "wva": "bare-knuckled"
+                                                },
+                                                {
+                                                    "wvl": "or",
+                                                    "wva": "bare-knuckles"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "feisty"
+                                        },
+                                        {
+                                            "wd": "scrappy"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "dominating"
+                                        },
+                                        {
+                                            "wd": "domineering"
+                                        },
+                                        {
+                                            "wd": "imperious"
+                                        },
+                                        {
+                                            "wd": "lordly"
+                                        },
+                                        {
+                                            "wd": "magisterial"
+                                        },
+                                        {
+                                            "wd": "overbearing"
+                                        }
+                                    ]
+                                ],
+                                "opp_list": [
+                                    [
+                                        {
+                                            "wd": "ambitionless"
+                                        },
+                                        {
+                                            "wd": "low-pressure"
+                                        },
+                                        {
+                                            "wd": "nonassertive"
+                                        },
+                                        {
+                                            "wd": "unaggressive"
+                                        },
+                                        {
+                                            "wd": "unambitious"
+                                        },
+                                        {
+                                            "wd": "unassertive"
+                                        },
+                                        {
+                                            "wd": "unenterprising"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "easygoing"
+                                        },
+                                        {
+                                            "wd": "laid-back"
+                                        },
+                                        {
+                                            "wd": "relaxed"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "acquiescent"
+                                        },
+                                        {
+                                            "wd": "amenable"
+                                        },
+                                        {
+                                            "wd": "compliant"
+                                        },
+                                        {
+                                            "wd": "deferential"
+                                        },
+                                        {
+                                            "wd": "docile"
+                                        },
+                                        {
+                                            "wd": "resigned"
+                                        },
+                                        {
+                                            "wd": "submissive"
+                                        },
+                                        {
+                                            "wd": "tractable"
+                                        },
+                                        {
+                                            "wd": "yielding"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "cowering"
+                                        },
+                                        {
+                                            "wd": "cringing"
+                                        },
+                                        {
+                                            "wd": "groveling",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "or",
+                                                    "wva": "grovelling"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "shrinking"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "bashful"
+                                        },
+                                        {
+                                            "wd": "demure"
+                                        },
+                                        {
+                                            "wd": "diffident"
+                                        },
+                                        {
+                                            "wd": "humble"
+                                        },
+                                        {
+                                            "wd": "lowly"
+                                        },
+                                        {
+                                            "wd": "meek"
+                                        },
+                                        {
+                                            "wd": "mild"
+                                        },
+                                        {
+                                            "wd": "modest"
+                                        },
+                                        {
+                                            "wd": "mousy",
+                                            "wvrs": [
+                                                {
+                                                    "wvl": "or",
+                                                    "wva": "mousey"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "wd": "overmodest"
+                                        },
+                                        {
+                                            "wd": "passive"
+                                        },
+                                        {
+                                            "wd": "quiet"
+                                        },
+                                        {
+                                            "wd": "reserved"
+                                        },
+                                        {
+                                            "wd": "retiring"
+                                        },
+                                        {
+                                            "wd": "shy"
+                                        },
+                                        {
+                                            "wd": "subdued"
+                                        },
+                                        {
+                                            "wd": "timid"
+                                        },
+                                        {
+                                            "wd": "unobtrusive"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "obsequious"
+                                        },
+                                        {
+                                            "wd": "servile"
+                                        },
+                                        {
+                                            "wd": "slavish"
+                                        },
+                                        {
+                                            "wd": "subservient"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "as in belligerent, combative"
+        ]
+    }
+]
