@@ -4,7 +4,14 @@ export const cleanSentence = (sentence) => {
 }
 
 const cleanWord = (word) => {
-    let newWord = word.replaceAll(/[^a-zA-Z ]/g, '');
+    if (word.includes('(')) {
+      let splitWord = word.split('');
+      let index1 = splitWord.indexOf('(');
+      let index2 = splitWord.indexOf(')');
+      splitWord.splice(index1, index2 - index1 + 1, '');
+      word = splitWord.join('');
+    }
+    let newWord = word.replaceAll(/[^a-zA-Z]/g, '');
     if (newWord.includes('V')) {
       let splitWord = newWord.split('');
       let index = splitWord.indexOf('V');
