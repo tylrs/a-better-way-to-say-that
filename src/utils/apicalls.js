@@ -84,7 +84,6 @@ export const submitSentence = async (sentence) => {
 
 export const submitWords = async (words, directionChange, wordType) => {
     let newWords = await Promise.all(words.map(async (word) => {
-        console.log("this is one of the selected words>>>>",  word)
         try {
             const response = await fetch(`https://dictionaryapi.com/api/v3/references/thesaurus/json/${word.text}?key=9691e0fb-dd4a-4c0f-b4e2-b340a964a4bb`)
             if (!response.ok) {
