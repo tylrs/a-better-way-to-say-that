@@ -43,7 +43,6 @@ const App = () => {
       let newNegativeWords = []
       if (positiveWords.length) newPositiveWords = await submitWords(positiveWords, directionChange, 'positive')
       if (negativeWords.length) newNegativeWords = await submitWords(negativeWords, directionChange, 'negative')
-      console.log(newPositiveWords, newNegativeWords)
       const newSentence = await createNewSentence(originalSentence, newPositiveWords, newNegativeWords)
       setNewSentence(newSentence)
       setNewSentenceSentiment(directionChange)
@@ -76,7 +75,6 @@ const App = () => {
     setSavedSentences([...savedSentences, newSavedSentence])
     setSavedMessage('displayed')
     setTimer(setTimeout(() => setSavedMessage('hidden'), 3000))
-    console.log('sentence saved')
   }
 
   return (

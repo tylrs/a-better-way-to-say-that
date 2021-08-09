@@ -1,6 +1,5 @@
 export const cleanSentence = (sentence) => {
     let newSentence = sentence.replaceAll(/[^a-zA-Z ]/g,'')
-    console.log('Cleaned sentence', newSentence)
     return newSentence
 }
 
@@ -14,13 +13,11 @@ export const cleanSentimentAnalysis = (result) => {
             if (word.text.includes('@')) {
                 word.text = word.text.replace('@V', 'ing')
             }
-            console.log(word);
             wordSentiment.includes('positive') 
             ? positiveTerms.push({text: word.text, wordSentiment})
             : negativeTerms.push({text: word.text, wordSentiment})
         })
     })
-    
     return {
         sentiment,
         positiveTerms,
@@ -57,11 +54,8 @@ export const findNewWord = (result, directionChange, wordType) => {
     console.log("this is the direction change>>", directionChange, "this is the word type>>>>", wordType)
     let newWordType;
     directionChange !== wordType ? newWordType = 'ants' : newWordType = 'syns'
-
     let random1 = randomizer(result[0].meta[newWordType].length)
-    console.log("This is the first random number>>>", random1)
     let random2 = randomizer(result[0].meta[newWordType][random1].length)
-    console.log("This is the second random number>>>", random2)
     let newWord = result[0].meta[newWordType][random1][random2]
     console.log(`This is the new word which is a ${newWordType}>>>>`,newWord)
     return newWord;
@@ -90,7 +84,6 @@ export const findIndices = (positiveTerms, negativeTerms, originalSentence) => {
         updatedNegativeTerms.push(term)
        }
     })
-    // console.log(updatedPositiveTerms, updatedNegativeTerms)
     return {updatedPositiveTerms, updatedNegativeTerms};
 }
 
