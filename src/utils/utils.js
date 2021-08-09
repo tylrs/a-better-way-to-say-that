@@ -109,3 +109,18 @@ export const createNewSentence = (originalSentence, newPositiveWords, newNegativ
     let newSentence = splitOriginalSentence.join(' ')
     return newSentence
 }
+
+export const checkPanelLength = (panelContent, panel) => {
+    let length1, length2, sum, overflowClass
+    if (Array.isArray(panelContent[3]) && Array.isArray(panelContent[5])) {
+        length1 = panelContent[3].length;
+        length2 = panelContent[5].length;
+        sum = length1 + length2
+    } else if (Array.isArray(panelContent[3])) {
+        sum = panelContent[3].length
+    } else if (Array.isArray(panelContent[5])) {
+        sum = panelContent[5].length
+    }
+    overflowClass = sum > 5 ? `num${panel}` : ''
+    return overflowClass
+}

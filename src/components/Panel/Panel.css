@@ -31,7 +31,7 @@
 
 .positive {
     animation: fadeIn 0s;
-    background-image: linear-gradient(135deg, rgba(131,58,180,1) -2%, rgba(253,29,29,1) 30%, rgba(252,176,69,1) 105%);
+    background-image: linear-gradient(135deg, rgba(131,58,180,1) -2%, rgba(253,29,29,1) 30%, rgba(252,176,69,1) 65%);
     background-clip: text;
     color: transparent;
 }

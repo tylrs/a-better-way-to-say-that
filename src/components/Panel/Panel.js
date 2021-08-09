@@ -1,6 +1,7 @@
 import './Panel.css';
 import React from 'react';
 import PropTypes from 'prop-types';
+import { checkPanelLength } from '../../utils/utils';
 
 const Panel = ({info, panel, currentPanel}) => {
     const generateWords = (content) => {
@@ -34,9 +35,10 @@ const Panel = ({info, panel, currentPanel}) => {
         }
         return element;
     })
+    let overflowClass = checkPanelLength(panelContent, panel)
 
     return (
-        <article className={panel === currentPanel ? `panel current-panel num${panel}` : 'panel'}>
+        <article className={panel === currentPanel ? `panel current-panel ${overflowClass}` : 'panel'}>
             {panelContent}
         </article>
     )
