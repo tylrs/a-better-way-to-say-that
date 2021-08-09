@@ -77,7 +77,7 @@ const PanelContainer = (props) => {
         {type: 'result', content: newSentence, styling: newSentenceSentiment},
         {type: 'text', content: 'You can now:'},
         {type: 'button', content: 'Save this', func: saveSentence},
-        {type: 'message', content: 'Sentence Saved!', styling: savedMessage},
+        {type: 'message', content: savedMessage.message, styling: savedMessage.isDisplayed},
         {type: 'button', content: 'Start over', func: switchPanels}
     ]
 
@@ -110,6 +110,6 @@ PanelContainer.propTypes = {
     switchPanels: PropTypes.func,
     saveSentence: PropTypes.func,
     newSentenceSentiment: PropTypes.string,
-    savedMessage: PropTypes.string,
+    savedMessage: PropTypes.object,
     error: PropTypes.string
 }
