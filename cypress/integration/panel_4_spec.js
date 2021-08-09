@@ -59,7 +59,35 @@ describe('Panel 4 User Flows', () => {
             .get('.panel.current-panel > :nth-child(4)')
             .click()
             .get('.panel.current-panel > :nth-child(5)')
-            .contains('Sentence Saved!')
+            .contains('Successfully Saved')
+    })
+
+    it('Should be able to click Save This on an already saved message and see a message indicating this', () => {
+        cy.fixture('mixed-sentiment.json').then((mixedSentimentAnalysis) => {
+            cy.intercept('POST', 'https://api.meaningcloud.com/sentiment-2.1', mixedSentimentAnalysis)
+        })
+        cy.fixture('mixed-thesaurus-word1.json').then((thesaurusResponse) => {
+            cy.intercept('https://dictionaryapi.com/api/v3/references/thesaurus/json/angry?key=9691e0fb-dd4a-4c0f-b4e2-b340a964a4bb', thesaurusResponse).as('thesaurus1')
+        })
+        cy.fixture('mixed-thesaurus-word2.json').then((thesaurusResponse) => {
+            cy.intercept('https://dictionaryapi.com/api/v3/references/thesaurus/json/fun?key=9691e0fb-dd4a-4c0f-b4e2-b340a964a4bb', thesaurusResponse).as('thesaurus2')
+        })
+        cy
+            .get('textarea')
+            .type('I get angry when I see other people having fun')
+            .get('.current-panel > button')
+            .click()
+            .get('.current-panel.negative')
+            .click()
+            .wait(['@thesaurus1', '@thesaurus2'])
+            .get('.panel.current-panel > .negative + button')
+            .click()
+            .get('.panel.current-panel > :nth-child(4)')
+            .click()
+            .get('.panel.current-panel > :nth-child(4)')
+            .click()
+            .get('.panel.current-panel > :nth-child(5)')
+            .contains('You\'ve already saved this message')
   
     })
 
