@@ -76,7 +76,6 @@ const App = () => {
       return sentence.sentence === newSavedSentence.sentence
     })
     if (alreadySaved) {
-      console.log('Already there')
       setSavedMessage({isDisplayed: 'displayed', message: 'You\'ve already saved this message'})
       setTimer(setTimeout(() => setSavedMessage({isDisplayed: 'hidden', message: ''}), 3000))
     } else {
