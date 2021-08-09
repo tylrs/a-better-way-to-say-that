@@ -55,6 +55,7 @@
 }
 
 .displayed {
+    animation: fadeIn 2s;
     color: red;
 }
 
