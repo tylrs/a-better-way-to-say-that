@@ -20,7 +20,6 @@ const App = () => {
   const [timer, setTimer] = useState('')
 
   const handleSubmit = async(sentence) => {
-    console.log("original sentence>>>>",sentence)
     setError('')
     try {
       const {sentiment, positiveTerms, negativeTerms} = await submitSentence(sentence)
@@ -46,7 +45,6 @@ const App = () => {
       const newSentence = await createNewSentence(originalSentence, newPositiveWords, newNegativeWords)
       setNewSentence(newSentence)
       setNewSentenceSentiment(directionChange)
-      console.log(newSentence)
       setCurrentPanel('3')
     } catch(err) {
       setError('We\'re sorry, we had trouble replacing words in your sentence, please refresh.') 
