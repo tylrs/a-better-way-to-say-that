@@ -1,8 +1,8 @@
-import './PanelContainer.css'
-import React from 'react'
-import Panel from '../Panel/Panel'
-import Form from '../Form/Form'
-import PropTypes from 'prop-types'
+import './PanelContainer.css';
+import React from 'react';
+import Panel from '../Panel/Panel';
+import Form from '../Form/Form';
+import PropTypes from 'prop-types';
 
 
 const PanelContainer = (props) => {
