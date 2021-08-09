@@ -26,7 +26,6 @@ const App = () => {
       setOriginalSentence(sentence)
       setTotalSentiment(sentiment)
       const {updatedPositiveTerms, updatedNegativeTerms} = await findIndices(positiveTerms, negativeTerms, sentence)
-      console.log("These should have updated indices in them>>>", updatedPositiveTerms, updatedNegativeTerms)
       setPositiveWords(updatedPositiveTerms)
       setNegativeWords(updatedNegativeTerms)
       setCurrentPanel('2')

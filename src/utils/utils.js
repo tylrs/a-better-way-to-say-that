@@ -85,7 +85,6 @@ const randomizer = (max) => {
 export const findIndices = (positiveTerms, negativeTerms, originalSentence) => {
     const allTerms = positiveTerms.concat(negativeTerms)
     const splitOriginalSentence = originalSentence.split(' ')
-    console.log("Here's the original split sentence>>>>", splitOriginalSentence)
     let updatedPositiveTerms = []
     let updatedNegativeTerms = []
     allTerms.forEach(term => {
