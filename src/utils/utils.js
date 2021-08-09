@@ -3,6 +3,17 @@ export const cleanSentence = (sentence) => {
     return newSentence
 }
 
+const cleanWord = (word) => {
+    let newWord = word.replaceAll(/[^a-zA-Z ]/g, '');
+    if (newWord.includes('V')) {
+      let splitWord = newWord.split('');
+      let index = splitWord.indexOf('V');
+      splitWord.splice(index, 1, '');
+      newWord = splitWord.join('');
+    }
+    return newWord;
+  };
+
 export const cleanSentimentAnalysis = (result) => {
     const sentiment = convertToFullSentiment(result.score_tag)
     let positiveTerms = []
@@ -10,12 +21,10 @@ export const cleanSentimentAnalysis = (result) => {
     result.sentence_list[0].segment_list.forEach(segment => {
         segment.polarity_term_list.forEach(word => {
             let wordSentiment = convertToFullSentiment(word.score_tag)
-            if (word.text.includes('@')) {
-                word.text = word.text.replace('@V', 'ing')
-            }
+            let cleanedText = cleanWord(word.text)
             wordSentiment.includes('positive') 
-            ? positiveTerms.push({text: word.text, wordSentiment})
-            : negativeTerms.push({text: word.text, wordSentiment})
+            ? positiveTerms.push({text: cleanedText, wordSentiment})
+            : negativeTerms.push({text: cleanedText, wordSentiment})
         })
     })
     return {
