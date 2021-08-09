@@ -1,7 +1,7 @@
-import '../Panel/Panel.css'
-import {cleanSentence} from '../../utils/utils'
-import React, {useState} from 'react'
-import PropTypes from 'prop-types'
+import '../Panel/Panel.css';
+import {cleanSentence} from '../../utils/utils';
+import React, {useState} from 'react';
+import PropTypes from 'prop-types';
 
 const Form = ({handleSubmit, panel, currentPanel}) => {
     const [sentence, setSentence] = useState('')

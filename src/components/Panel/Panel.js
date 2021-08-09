@@ -1,6 +1,6 @@
-import './Panel.css'
-import React from 'react'
-import PropTypes from 'prop-types'
+import './Panel.css';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 const Panel = ({info, panel, currentPanel}) => {
     const generateWords = (content) => {
