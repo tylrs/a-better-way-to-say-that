@@ -89,7 +89,11 @@ export const findIndices = (positiveTerms, negativeTerms, originalSentence) => {
     let updatedNegativeTerms = []
     allTerms.forEach(term => {
        let index = splitOriginalSentence.indexOf(term.text)
-       if (index !== -1) term.originalIndex = index;
+       if (index !== -1) {
+           term.originalIndex = index;
+       } else {
+           term.originalIndex = -1
+       }
        if (term.wordSentiment === 'positive') {
         updatedPositiveTerms.push(term)
        } else {
@@ -103,7 +107,9 @@ export const createNewSentence = (originalSentence, newPositiveWords, newNegativ
     const allNewWords = newPositiveWords.concat(newNegativeWords)
     const splitOriginalSentence = originalSentence.split(' ')
     allNewWords.forEach(word => {
-        splitOriginalSentence.splice(word.originalIndex, 1, word.text)
+        if (word.originalIndex !== -1) {
+            splitOriginalSentence.splice(word.originalIndex, 1, word.text)
+        }
     })
     let newSentence = splitOriginalSentence.join(' ')
     return newSentence
