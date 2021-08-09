@@ -1,6 +1,7 @@
 import React from 'react';
-import Sentence from '../Sentence/Sentence'
+import Sentence from '../Sentence/Sentence';
 import './SavedSentences.css';
+import PropTypes from 'prop-types';
 
 const SavedSentences = ({savedSentences}) => {
     const sentences = savedSentences.map(item => 
@@ -17,3 +18,7 @@ const SavedSentences = ({savedSentences}) => {
 }
 
 export default SavedSentences
+
+SavedSentences.propTypes = {
+    savedSentences: PropTypes.array
+}
