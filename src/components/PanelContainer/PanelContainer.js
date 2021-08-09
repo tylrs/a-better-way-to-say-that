@@ -40,11 +40,6 @@ const PanelContainer = (props) => {
         {type: 'words', content: negativeWords}
     ]
 
-    let neutralSection = [
-        {type: 'text', content: 'You did not have any positive or negative words'},
-        {type: 'button', content: 'Start over', func: switchPanels}
-    ]
-
     if (positiveWords.length && negativeWords.length) {
         negativeSection.forEach((item, index) => {
             panel2.splice(index + 2, 0, item)

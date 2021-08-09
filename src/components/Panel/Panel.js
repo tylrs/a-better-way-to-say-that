@@ -1,7 +1,6 @@
 import './Panel.css'
 import React from 'react'
 import PropTypes from 'prop-types'
-import randomizer from '../../utils/utils'
 
 const Panel = ({info, panel, currentPanel}) => {
     const generateWords = (content) => {
@@ -14,7 +13,6 @@ const Panel = ({info, panel, currentPanel}) => {
 
     const panelContent = info.map(({type, content, styling, func}, index) => {
         let element;
-        // console.log("heres index", index);
         switch(type) {
             case 'text':
                 element = <h2 key={index}>{content}</h2>
@@ -23,7 +21,7 @@ const Panel = ({info, panel, currentPanel}) => {
                 element = <h3 key={index} className={panel === currentPanel ? `result ${styling}` : undefined}>{content}</h3>
                 break;
             case 'button':
-                element = <button key={index} onClick={() => func(content, currentPanel)} className={panel === currentPanel && `current-panel ${styling}`}>{content}</button>
+                element = <button key={index} onClick={() => func(content, currentPanel)} className={panel === currentPanel ? `current-panel ${styling}` : undefined}>{content}</button>
                 break;
             case 'words':
                 element = generateWords(content)
@@ -38,7 +36,7 @@ const Panel = ({info, panel, currentPanel}) => {
     })
 
     return (
-        <article className={(panel === currentPanel) ? 'panel current-panel' : 'panel'}>
+        <article className={panel === currentPanel ? 'panel current-panel' : 'panel'}>
             {panelContent}
         </article>
     )
