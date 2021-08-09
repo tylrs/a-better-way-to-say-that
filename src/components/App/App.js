@@ -15,7 +15,7 @@ const App = () => {
   const [negativeWords, setNegativeWords] = useState([])
   const [currentPanel, setCurrentPanel] = useState('1')
   const [savedSentences, setSavedSentences] = useState([])
-  const [savedMessage, setSavedMessage] = useState('hidden')
+  const [savedMessage, setSavedMessage] = useState({isDisplayed: 'hidden', message: ''})
   const [error, setError] = useState('')
   const [timer, setTimer] = useState('')
 
@@ -72,9 +72,18 @@ const App = () => {
       sentence: newSentence,
       sentenceSentiment: newSentenceSentiment
     }
-    setSavedSentences([...savedSentences, newSavedSentence])
-    setSavedMessage('displayed')
-    setTimer(setTimeout(() => setSavedMessage('hidden'), 3000))
+    let alreadySaved = savedSentences.some(sentence => {
+      return sentence.sentence === newSavedSentence.sentence
+    })
+    if (alreadySaved) {
+      console.log('Already there')
+      setSavedMessage({isDisplayed: 'displayed', message: 'You\'ve already saved this message'})
+      setTimer(setTimeout(() => setSavedMessage({isDisplayed: 'hidden', message: ''}), 3000))
+    } else {
+      setSavedSentences([...savedSentences, newSavedSentence])
+      setSavedMessage({isDisplayed: 'displayed', message: 'Successfully Saved'})
+      setTimer(setTimeout(() => setSavedMessage({isDisplayed: 'hidden', message: ''}), 3000))
+    }
   }
 
   return (
