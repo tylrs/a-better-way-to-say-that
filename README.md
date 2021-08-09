@@ -14,7 +14,7 @@
 
 ## Overview 
 
-A Better Way To Say That uses a Sentiment Analysis API from [Meaning Cloud](https://www.meaningcloud.com/developer/sentiment-analysis) and the Collegiate Thesaurus API from [Merriam Webster](https://dictionaryapi.com/products/api-collegiate-thesaurus) to help users think of more positive or negative ways to say what they want to say. The sentiment analysis API identifies a sentence's overall tone and sorts out positive and negative words from that sentence. The Thesaurus API helps to replace positive or negative words in the sentence with randomly chosen synonyms or antonyms depending on how the user wants to change their sentence.
+A Better Way To Say That uses the Sentiment Analysis API from [Meaning Cloud](https://www.meaningcloud.com/developer/sentiment-analysis) and the Collegiate Thesaurus API from [Merriam Webster](https://dictionaryapi.com/products/api-collegiate-thesaurus) to help users think of more positive or negative ways to say what they want to say. The sentiment analysis API identifies a sentence's overall tone and sorts out positive and negative words from that sentence. The Thesaurus API helps to replace positive or negative words in the sentence with randomly chosen synonyms or antonyms depending on how the user wants to change their sentence.
 
 View original project spec here: [project](https://frontend.turing.edu/projects/module-3/niche-audience.html)
 
