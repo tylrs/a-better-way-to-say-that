@@ -17,20 +17,22 @@
     visibility: visible;
 }
 
-.result {
-    animation: fadeIn 5s;
-}
-
 .positive {
+    animation: fadeIn 0s;
     background-image: linear-gradient(135deg, rgba(131,58,180,1) -2%, rgba(253,29,29,1) 30%, rgba(252,176,69,1) 105%);
     background-clip: text;
     color: transparent;
 }
 
 .negative {
+    animation: fadeIn 0s;
     background-image: linear-gradient(20deg, rgba(131,58,180,1) 31%, rgba(253,29,29,1) 91%, rgba(252,176,69,1) 100%);
     background-clip: text;
     color: transparent;
+}
+
+.result {
+    animation: fadeIn 5s;
 }
 
 .neutral {
@@ -65,22 +67,16 @@ button {
     height: 3rem;
     margin-top: 3%;
     text-transform: capitalize;
-    /* transition: 1s; */
     width: 6rem;    
 }
 
+.current-panel > button {
+    animation: fadeIn 0s;
+}
+
 button:hover {
-    background-image: linear-gradient(20deg, rgb(188 122 232) 7%, rgb(255 118 118) 60%, rgb(255 206 136) 90%);
-    /* border: .5px solid linear-gradient(20deg, rgb(188 122 232) 7%, rgb(255 118 118) 60%, rgb(255 206 136) 90%); */
-    color: white;
-    /* border-radius: 10px; */
-    font-size: 1.1rem;
-    /* height: 3.7rem; */
-    margin-top: 3%;
+    animation: fadeIn3 3s;    
     cursor: pointer;
-    /* text-transform: capitalize; */
-    /* transition: 300ms; */
-    /* width: 6.5rem;     */
 }
 
 h2, label {
@@ -112,3 +108,8 @@ textarea:focus-visible, textarea:focus {
     0% {opacity: 0;}
     100% {opacity: 1;}
 }
+
+@keyframes fadeIn3 {
+    0% {opacity: .6;}
+    100% {opacity: 1;}
+  }
