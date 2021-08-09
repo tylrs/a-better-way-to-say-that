@@ -12,7 +12,7 @@ main {
 }
 
 .title {
-  background-image: linear-gradient(20deg, rgba(131,58,180,1) 31%, rgba(253,29,29,1) 91%, rgba(252,176,69,1) 100%);
+  background-image: linear-gradient(353deg, rgba(131,58,180,1) 31%, rgba(253,29,29,1) 91%, rgba(252,176,69,1) 100%);;
   background-clip: text;
   color: transparent;
   font-size: 1rem;
@@ -25,7 +25,7 @@ main {
 }
 
 .saved-button {
-  background-image: linear-gradient(135deg, rgba(253,29,29,1) 30%, rgba(252,176,69,1) 105%);
+  background-image: linear-gradient(307deg, rgba(253,29,29,1) 30%, rgba(252,176,69,1) 105%);
   background-clip: text;
   color: transparent;
   font-size: 1rem;
