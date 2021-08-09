@@ -22,7 +22,7 @@ const Form = ({handleSubmit, panel, currentPanel}) => {
                 onChange={(e) => setSentence(e.target.value)}
                 maxLength='50'
             />
-           {sentence.length > 49 && <p className='displayed'>Your sentence cannot have more than 50 characters</p>}
+           {sentence.length > 49 && <p className='displayed'>Your sentence cannot have more than 49 characters</p>}
             <button onClick={(e) => handleClick(e)}>Submit</button>
         </form>
     )
