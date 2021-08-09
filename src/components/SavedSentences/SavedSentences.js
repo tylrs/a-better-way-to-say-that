@@ -9,10 +9,15 @@ const SavedSentences = ({savedSentences}) => {
     )
     return (
         <>
-            <h2>Your Saved Sentences</h2>
-            <section className='saved-sentences'>
-                {sentences}
-            </section>
+            {sentences.length 
+            ? <>
+                <h2 className='saved-sentences-title'>Your Saved Sentences</h2>
+                <section className='saved-sentences'>
+                    {sentences}
+                </section>
+              </>
+            : <p className='error'>No saved sentences yet. Go back and add some!</p>
+            }   
         </>
     )
 }
