@@ -1,70 +1,80 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# *A Better Way To Say That*
 
-## Available Scripts
+## Deployed Here: []()
 
-In the project directory, you can run:
+### Table of Contents
+- [Overview](#overview-and-project-goals)
+- [Installation & Viewing](#installation-and-viewing)
+- [Learning Goals](#learning-goals)
+- [Technologies Used](#technologies-used)
+- [Functionality](#functionality)
+- [Future Additions](#future-additions)
+- [Contributors](#contributors)
 
-### `npm start`
+## Overview and Project Goals
+Ever had something you wanted to say, but wanted to say it better? 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The goal of this Mod3 solo [project](https://frontend.turing.edu/projects/module-3/niche-audience.html) was 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Installation and Viewing 
 
-### `npm test`
+My application is deployed to Heroku. You may view the live application [here]()
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To view our application on your local device:
 
-### `npm run build`
+- Clone down this repository
+- Run `npm i` in your terminal
+- Run `npm start` in your terminal
+- To view Cypress tests open a separate tab in your terminal and run `npm run cypress`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Learning Goals
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To solidify and demonstrate the understanding of:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Technologies Used
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p text-align="center"> 
+    <img alt="React Badge" src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=000&style=flat-square)" />
+    <img alt="JavaScript Badge" src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=flat-square" />
+    <img alt="HTML5 Badge" src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=fff&style=flat-square" />
+    <img alt="CSS3 Badge" src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=fff&style=flat-square" />
+    <img alt="Cypress Badge" src="https://img.shields.io/badge/Cypress-17202C?logo=cypress&logoColor=fff&style=flat-square" />
+</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Functionality 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### Submit a sentence, get feedback on the overall sentiment of your sentence, and see which words in your sentence are positive or negative
+- A user may view all tip cards previously added<br>
+![Demo browsing tips on main page]()
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Choose whether to make your submitted sentence more positive or negative and see your new sentence
+- The user may fill out the input fields and click submit to add a tip<br>
+![Demo adding tip to main page]()
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+#### You can save a sentence you like and view it later
+- The user may click on a module button in the header to search tips by module number<br>
+![Demo searching for tips by module]()
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Future Additions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- *Add login functionality so that users can view their personalized dashboard (edit or delete their own tips)
+- *Add upvotes so that users can upvote and down vote tips once they are logged in 
+- *Share*: ability to share tips via social media or email 
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contributors
+### Authors
+- [Taylor Galloway](https://github.com/tylrs)
 
-### Deployment
+**************************************************************************
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**[Back to top](#table-of-contents)**
