@@ -1,5 +1,5 @@
 import './App.css';
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import PanelContainer from '../PanelContainer/PanelContainer'
 import { NavLink, Link, Route, Switch } from 'react-router-dom';
 import { submitSentence, submitWords } from '../../utils/apicalls';
@@ -45,7 +45,6 @@ const App = () => {
       if (negativeWords.length) newNegativeWords = await submitWords(negativeWords, directionChange, 'negative')
       console.log(newPositiveWords, newNegativeWords)
       const newSentence = await createNewSentence(originalSentence, newPositiveWords, newNegativeWords)
-      // setOriginalSentence('')
       setNewSentence(newSentence)
       setNewSentenceSentiment(directionChange)
       console.log(newSentence)
