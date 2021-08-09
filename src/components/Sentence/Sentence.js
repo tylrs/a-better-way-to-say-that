@@ -1,5 +1,6 @@
-import React from 'react'
-import './Sentence.css'
+import React from 'react';
+import './Sentence.css';
+import PropTypes from 'prop-types';
 
 const Sentence = ({sentence, sentenceSentiment}) => {
     return (
@@ -13,3 +14,8 @@ const Sentence = ({sentence, sentenceSentiment}) => {
 }
 
 export default Sentence
+
+Sentence.propTypes = {
+    sentence: PropTypes.string,
+    sentenceSentiment: PropTypes.string
+}
