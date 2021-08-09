@@ -1,7 +1,7 @@
 
 # *A Better Way To Say That*
 
-## Deployed Here: []()
+## Deployed Here: [https://a-better-way-to-say-that.herokuapp.com/](https://a-better-way-to-say-that.herokuapp.com/)
 
 ### Table of Contents
 - [Overview](#overview-and-project-goals)
@@ -19,9 +19,9 @@ The goal of this Mod3 solo [project](https://frontend.turing.edu/projects/module
 
 ## Installation and Viewing 
 
-My application is deployed to Heroku. You may view the live application [here]()
+My application is deployed to Heroku. You may view the live application [here](https://a-better-way-to-say-that.herokuapp.com/)
 
-To view our application on your local device:
+To view this application on your local device:
 
 - Clone down this repository
 - Run `npm i` in your terminal
