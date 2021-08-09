@@ -4,18 +4,36 @@
 ## Deployed Here: [https://a-better-way-to-say-that.herokuapp.com/](https://a-better-way-to-say-that.herokuapp.com/)
 
 ### Table of Contents
-- [Overview](#overview-and-project-goals)
+- [Overview](#overview)
 - [Installation & Viewing](#installation-and-viewing)
-- [Learning Goals](#learning-goals)
 - [Technologies Used](#technologies-used)
 - [Functionality](#functionality)
 - [Future Additions](#future-additions)
-- [Contributors](#contributors)
+- [Author](#author)
 
-## Overview and Project Goals
-Ever had something you wanted to say, but wanted to say it better? 
+## Overview 
 
-The goal of this Mod3 solo [project](https://frontend.turing.edu/projects/module-3/niche-audience.html) was 
+A Better Way To Say That uses a Sentiment Analysis API from [Meaning Cloud](https://www.meaningcloud.com/developer/sentiment-analysis) and the Collegiate Thesaurus API from [Merriam Webster](https://dictionaryapi.com/products/api-collegiate-thesaurus) to help users think of more positive or negative ways to say what they want to say. The sentiment analysis API identifies a sentence's overall tone and sorts out positive and negative words from that sentence. The Thesaurus API helps to replace positive or negative words in the sentence with randomly chosen synonyms or antonyms depending on how the user wants to change their sentence.
+
+Here are some sample sentence transformations:
+
+Original: 
+
+## I think you are funny, beautiful, and nice 
+
+New: 
+
+## I think you are ordinary, pathetic, and ill-natured
+
+Original:
+
+## Taylor is an inept and weak programmer
+
+New:
+
+## Taylor is a prudent and rational programmer 
+
+View original project spec here: [project](https://frontend.turing.edu/projects/module-3/niche-audience.html)
 
 ## Installation and Viewing 
 
@@ -27,13 +45,6 @@ To view this application on your local device:
 - Run `npm i` in your terminal
 - Run `npm start` in your terminal
 - To view Cypress tests open a separate tab in your terminal and run `npm run cypress`
-
-### Learning Goals
-
-To solidify and demonstrate the understanding of:
-
-- 
-
 
 ### Technologies Used
 
@@ -47,32 +58,35 @@ To solidify and demonstrate the understanding of:
 
 ## Functionality 
 
-#### Submit a sentence, get feedback on the overall sentiment of your sentence, and see which words in your sentence are positive or negative
-- A user may view all tip cards previously added<br>
-![Demo browsing tips on main page]()
+#### See sentence analyzed
+- A user may submit a sentence, see their sentence analyzed for overall tone, and see which words in their sentence were positive or negative <br>
+![Demo showing analyzed sentence](./gifs/sentence-analyzed.gif)
 
+#### Make sentence negative
+- A user can choose to make their submitted sentence more negative<br>
+![Demo showing sentence turning negative](./gifs/convert-to-negative.gif)
 
+#### Make sentence positive
+- A user can choose to make their submitted sentence more positive<br>
+![Demo showing sentence turning positive](./gifs/convert-to-positive.gif)
 
-#### Choose whether to make your submitted sentence more positive or negative and see your new sentence
-- The user may fill out the input fields and click submit to add a tip<br>
-![Demo adding tip to main page]()
+#### Save a sentence
+- A user can choose to save their new sentence<br>
+![Demo saving a sentence](./gifs/save-a-sentence.gif)
 
-
-
-#### You can save a sentence you like and view it later
-- The user may click on a module button in the header to search tips by module number<br>
-![Demo searching for tips by module]()
+#### View saved sentences
+- A user can view their saved sentences<br>
+![Demo viewing saved sentences](./gifs/view-saved-sentences.gif)
 
 
 ## Future Additions
 
-- *Add login functionality so that users can view their personalized dashboard (edit or delete their own tips)
-- *Add upvotes so that users can upvote and down vote tips once they are logged in 
-- *Share*: ability to share tips via social media or email 
+- Add the ability to adjust which words get changed and which stay the same when converting sentences
+- Allow user to convert multiple sentences at once
+- Allow user to swap out any word in their sentence for random synonyms or antonmys
+- Allow user to choose from a list of synonyms or antonyms to replace words in their sentence with 
 
-
-## Contributors
-### Authors
+### Author
 - [Taylor Galloway](https://github.com/tylrs)
 
 **************************************************************************
