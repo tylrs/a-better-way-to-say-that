@@ -1,7 +1,7 @@
 import '../Panel/Panel.css'
 import {cleanSentence} from '../../utils/utils'
-
 import React, {useState} from 'react'
+import PropTypes from 'prop-types'
 
 const Form = ({handleSubmit, panel, currentPanel}) => {
     const [sentence, setSentence] = useState('')
@@ -28,3 +28,9 @@ const Form = ({handleSubmit, panel, currentPanel}) => {
 }
 
 export default Form
+
+Form.propTypes = {
+    handleSubmit: PropTypes.func,
+    panel: PropTypes.string,
+    currentPanel: PropTypes.string
+}
