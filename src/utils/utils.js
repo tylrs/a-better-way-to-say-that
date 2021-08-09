@@ -51,13 +51,11 @@ const convertToFullSentiment = (tag) => {
 }
 
 export const findNewWord = (result, directionChange, wordType) => {
-    console.log("this is the direction change>>", directionChange, "this is the word type>>>>", wordType)
     let newWordType;
     directionChange !== wordType ? newWordType = 'ants' : newWordType = 'syns'
     let random1 = randomizer(result[0].meta[newWordType].length)
     let random2 = randomizer(result[0].meta[newWordType][random1].length)
     let newWord = result[0].meta[newWordType][random1][random2]
-    console.log(`This is the new word which is a ${newWordType}>>>>`,newWord)
     return newWord;
 }
 
@@ -70,7 +68,6 @@ const randomizer = (max) => {
 
 export const findIndices = (positiveTerms, negativeTerms, originalSentence) => {
     const allTerms = positiveTerms.concat(negativeTerms)
-    console.log("Heres the original sentence before splitting>>>", originalSentence)
     const splitOriginalSentence = originalSentence.split(' ')
     console.log("Here's the original split sentence>>>>", splitOriginalSentence)
     let updatedPositiveTerms = []
@@ -91,10 +88,8 @@ export const createNewSentence = (originalSentence, newPositiveWords, newNegativ
     const allNewWords = newPositiveWords.concat(newNegativeWords)
     const splitOriginalSentence = originalSentence.split(' ')
     allNewWords.forEach(word => {
-        console.log(word)
         splitOriginalSentence.splice(word.originalIndex, 1, word.text)
     })
     let newSentence = splitOriginalSentence.join(' ')
-    console.log("new sentence>>>>>", newSentence)
     return newSentence
 }
