@@ -1,4 +1,5 @@
 import '../Panel/Panel.css'
+import {cleanSentence} from '../../utils/utils'
 
 import React, {useState} from 'react'
 
@@ -7,13 +8,13 @@ const Form = ({handleSubmit, panel, currentPanel}) => {
 
     const handleClick = (e) => {
         e.preventDefault()
-        handleSubmit(sentence)
+        let cleanedSentence = cleanSentence(sentence)
+        handleSubmit(cleanedSentence)
         setSentence('')
     }
 
     return (
         <form className={panel === currentPanel ? 'panel current-panel' : 'panel'}>
-            {/* <label>Enter your sentence here</label> */}
             <textarea 
                 type='text' 
                 placeholder='Enter Sentence Here'

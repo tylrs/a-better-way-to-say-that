@@ -1,3 +1,9 @@
+export const cleanSentence = (sentence) => {
+    let newSentence = sentence.replaceAll(/[^a-zA-Z ]/g,'')
+    console.log('Cleaned sentence', newSentence)
+    return newSentence
+}
+
 export const cleanSentimentAnalysis = (result) => {
     const sentiment = convertToFullSentiment(result.score_tag)
     let positiveTerms = []
