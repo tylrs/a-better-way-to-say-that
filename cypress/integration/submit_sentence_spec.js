@@ -44,12 +44,12 @@ describe('Submit Sentence', () => {
             .contains('negative')
     })
 
-    it('Should not be able to type in more than 49 characters', () => {
+    it('Should not be able to type in more than 74 characters', () => {
         cy
         .get('textarea')
-        .type('Bunnies make me feel happy calm ecstatic melancholy')
+        .type('Bunnies make me feel happy calm ecstatic melancholy Bunnies make me feel happy calm ecstatic melancholy')
         .get('.panel-container > :nth-child(1) > :nth-child(2)')
-        .contains('Your sentence cannot have more than 49 characters')
+        .contains('Your sentence cannot have more than 74 characters')
     })
 
     it('Should be able to submit a positive sentence, click the positive option, and see a new positive sentence', () => {
