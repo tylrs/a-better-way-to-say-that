@@ -1,0 +1,453 @@
+{
+    "status": {
+        "code": "0",
+        "msg": "OK",
+        "credits": "1",
+        "remaining_credits": "19890"
+    },
+    "model": "general_en",
+    "score_tag": "P",
+    "agreement": "DISAGREEMENT",
+    "subjectivity": "SUBJECTIVE",
+    "confidence": "82",
+    "irony": "IRONIC",
+    "sentence_list": [
+        {
+            "text": "happy sad banana love great cute attractive funny laughter happy angry",
+            "inip": "0",
+            "endp": "69",
+            "bop": "y",
+            "confidence": "92",
+            "score_tag": "P",
+            "agreement": "DISAGREEMENT",
+            "segment_list": [
+                {
+                    "text": "happy sad banana love great cute attractive funny laughter happy angry",
+                    "segment_type": "main",
+                    "inip": "0",
+                    "endp": "69",
+                    "confidence": "98",
+                    "score_tag": "P",
+                    "agreement": "DISAGREEMENT",
+                    "polarity_term_list": [
+                        {
+                            "text": "happy",
+                            "inip": "0",
+                            "endp": "4",
+                            "confidence": "100",
+                            "score_tag": "P",
+                            "sentimented_concept_list": [
+                                {
+                                    "form": "banana",
+                                    "id": "04829d79a9",
+                                    "variant": "banana",
+                                    "inip": "10",
+                                    "endp": "15",
+                                    "type": "Top>Product>Food>FruitOrVegetable",
+                                    "score_tag": "P"
+                                },
+                                {
+                                    "form": "love",
+                                    "id": "4389870a4a",
+                                    "variant": "love",
+                                    "inip": "17",
+                                    "endp": "20",
+                                    "type": "Top>Person",
+                                    "score_tag": "P"
+                                },
+                                {
+                                    "form": "love",
+                                    "id": "d6a74cda8b",
+                                    "variant": "love",
+                                    "inip": "17",
+                                    "endp": "20",
+                                    "type": "Top>Person",
+                                    "score_tag": "P"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "(great) sad",
+                            "inip": "6",
+                            "endp": "8",
+                            "confidence": "98",
+                            "score_tag": "N+",
+                            "sentimented_concept_list": [
+                                {
+                                    "form": "banana",
+                                    "id": "04829d79a9",
+                                    "variant": "banana",
+                                    "inip": "10",
+                                    "endp": "15",
+                                    "type": "Top>Product>Food>FruitOrVegetable",
+                                    "score_tag": "N+"
+                                },
+                                {
+                                    "form": "love",
+                                    "id": "4389870a4a",
+                                    "variant": "love",
+                                    "inip": "17",
+                                    "endp": "20",
+                                    "type": "Top>Person",
+                                    "score_tag": "N+"
+                                },
+                                {
+                                    "form": "love",
+                                    "id": "d6a74cda8b",
+                                    "variant": "love",
+                                    "inip": "17",
+                                    "endp": "20",
+                                    "type": "Top>Person",
+                                    "score_tag": "N+"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "love",
+                            "inip": "17",
+                            "endp": "20",
+                            "confidence": "100",
+                            "score_tag": "P",
+                            "sentimented_concept_list": [
+                                {
+                                    "form": "banana",
+                                    "id": "04829d79a9",
+                                    "variant": "banana",
+                                    "inip": "10",
+                                    "endp": "15",
+                                    "type": "Top>Product>Food>FruitOrVegetable",
+                                    "score_tag": "P"
+                                },
+                                {
+                                    "form": "love",
+                                    "id": "4389870a4a",
+                                    "variant": "love",
+                                    "inip": "17",
+                                    "endp": "20",
+                                    "type": "Top>Person",
+                                    "score_tag": "P"
+                                },
+                                {
+                                    "form": "love",
+                                    "id": "d6a74cda8b",
+                                    "variant": "love",
+                                    "inip": "17",
+                                    "endp": "20",
+                                    "type": "Top>Person",
+                                    "score_tag": "P"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "cute",
+                            "inip": "28",
+                            "endp": "31",
+                            "confidence": "100",
+                            "score_tag": "P",
+                            "sentimented_concept_list": [
+                                {
+                                    "form": "banana",
+                                    "id": "04829d79a9",
+                                    "variant": "banana",
+                                    "inip": "10",
+                                    "endp": "15",
+                                    "type": "Top>Product>Food>FruitOrVegetable",
+                                    "score_tag": "P"
+                                },
+                                {
+                                    "form": "love",
+                                    "id": "4389870a4a",
+                                    "variant": "love",
+                                    "inip": "17",
+                                    "endp": "20",
+                                    "type": "Top>Person",
+                                    "score_tag": "P"
+                                },
+                                {
+                                    "form": "love",
+                                    "id": "d6a74cda8b",
+                                    "variant": "love",
+                                    "inip": "17",
+                                    "endp": "20",
+                                    "type": "Top>Person",
+                                    "score_tag": "P"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "attractive",
+                            "inip": "33",
+                            "endp": "42",
+                            "confidence": "100",
+                            "score_tag": "P",
+                            "sentimented_concept_list": [
+                                {
+                                    "form": "banana",
+                                    "id": "04829d79a9",
+                                    "variant": "banana",
+                                    "inip": "10",
+                                    "endp": "15",
+                                    "type": "Top>Product>Food>FruitOrVegetable",
+                                    "score_tag": "P"
+                                },
+                                {
+                                    "form": "love",
+                                    "id": "4389870a4a",
+                                    "variant": "love",
+                                    "inip": "17",
+                                    "endp": "20",
+                                    "type": "Top>Person",
+                                    "score_tag": "P"
+                                },
+                                {
+                                    "form": "love",
+                                    "id": "d6a74cda8b",
+                                    "variant": "love",
+                                    "inip": "17",
+                                    "endp": "20",
+                                    "type": "Top>Person",
+                                    "score_tag": "P"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "funny",
+                            "inip": "44",
+                            "endp": "48",
+                            "confidence": "100",
+                            "score_tag": "P",
+                            "sentimented_concept_list": [
+                                {
+                                    "form": "banana",
+                                    "id": "04829d79a9",
+                                    "variant": "banana",
+                                    "inip": "10",
+                                    "endp": "15",
+                                    "type": "Top>Product>Food>FruitOrVegetable",
+                                    "score_tag": "P"
+                                },
+                                {
+                                    "form": "love",
+                                    "id": "4389870a4a",
+                                    "variant": "love",
+                                    "inip": "17",
+                                    "endp": "20",
+                                    "type": "Top>Person",
+                                    "score_tag": "P"
+                                },
+                                {
+                                    "form": "love",
+                                    "id": "d6a74cda8b",
+                                    "variant": "love",
+                                    "inip": "17",
+                                    "endp": "20",
+                                    "type": "Top>Person",
+                                    "score_tag": "P"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "happy",
+                            "inip": "59",
+                            "endp": "63",
+                            "confidence": "100",
+                            "score_tag": "P",
+                            "sentimented_concept_list": [
+                                {
+                                    "form": "banana",
+                                    "id": "04829d79a9",
+                                    "variant": "banana",
+                                    "inip": "10",
+                                    "endp": "15",
+                                    "type": "Top>Product>Food>FruitOrVegetable",
+                                    "score_tag": "P"
+                                },
+                                {
+                                    "form": "love",
+                                    "id": "4389870a4a",
+                                    "variant": "love",
+                                    "inip": "17",
+                                    "endp": "20",
+                                    "type": "Top>Person",
+                                    "score_tag": "P"
+                                },
+                                {
+                                    "form": "love",
+                                    "id": "d6a74cda8b",
+                                    "variant": "love",
+                                    "inip": "17",
+                                    "endp": "20",
+                                    "type": "Top>Person",
+                                    "score_tag": "P"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "angry",
+                            "inip": "65",
+                            "endp": "69",
+                            "confidence": "100",
+                            "score_tag": "N",
+                            "sentimented_concept_list": [
+                                {
+                                    "form": "banana",
+                                    "id": "04829d79a9",
+                                    "variant": "banana",
+                                    "inip": "10",
+                                    "endp": "15",
+                                    "type": "Top>Product>Food>FruitOrVegetable",
+                                    "score_tag": "N"
+                                },
+                                {
+                                    "form": "love",
+                                    "id": "4389870a4a",
+                                    "variant": "love",
+                                    "inip": "17",
+                                    "endp": "20",
+                                    "type": "Top>Person",
+                                    "score_tag": "N"
+                                },
+                                {
+                                    "form": "love",
+                                    "id": "d6a74cda8b",
+                                    "variant": "love",
+                                    "inip": "17",
+                                    "endp": "20",
+                                    "type": "Top>Person",
+                                    "score_tag": "N"
+                                }
+                            ]
+                        }
+                    ],
+                    "segment_list": [
+                        {
+                            "text": "sad banana love great",
+                            "segment_type": "main",
+                            "inip": "6",
+                            "endp": "26",
+                            "confidence": "98",
+                            "score_tag": "P+",
+                            "agreement": "AGREEMENT",
+                            "polarity_term_list": [
+                                {
+                                    "text": "(great) sad",
+                                    "inip": "6",
+                                    "endp": "8",
+                                    "confidence": "98",
+                                    "score_tag": "N+",
+                                    "sentimented_concept_list": [
+                                        {
+                                            "form": "banana",
+                                            "id": "04829d79a9",
+                                            "variant": "banana",
+                                            "inip": "10",
+                                            "endp": "15",
+                                            "type": "Top>Product>Food>FruitOrVegetable",
+                                            "score_tag": "N+"
+                                        },
+                                        {
+                                            "form": "love",
+                                            "id": "4389870a4a",
+                                            "variant": "love",
+                                            "inip": "17",
+                                            "endp": "20",
+                                            "type": "Top>Person",
+                                            "score_tag": "N+"
+                                        },
+                                        {
+                                            "form": "love",
+                                            "id": "d6a74cda8b",
+                                            "variant": "love",
+                                            "inip": "17",
+                                            "endp": "20",
+                                            "type": "Top>Person",
+                                            "score_tag": "N+"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "love",
+                                    "inip": "17",
+                                    "endp": "20",
+                                    "confidence": "100",
+                                    "score_tag": "P",
+                                    "sentimented_concept_list": [
+                                        {
+                                            "form": "banana",
+                                            "id": "04829d79a9",
+                                            "variant": "banana",
+                                            "inip": "10",
+                                            "endp": "15",
+                                            "type": "Top>Product>Food>FruitOrVegetable",
+                                            "score_tag": "P"
+                                        },
+                                        {
+                                            "form": "love",
+                                            "id": "4389870a4a",
+                                            "variant": "love",
+                                            "inip": "17",
+                                            "endp": "20",
+                                            "type": "Top>Person",
+                                            "score_tag": "P"
+                                        },
+                                        {
+                                            "form": "love",
+                                            "id": "d6a74cda8b",
+                                            "variant": "love",
+                                            "inip": "17",
+                                            "endp": "20",
+                                            "type": "Top>Person",
+                                            "score_tag": "P"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "sentimented_entity_list": [],
+            "sentimented_concept_list": [
+                {
+                    "form": "banana",
+                    "id": "04829d79a9",
+                    "type": "Top>Product>Food>FruitOrVegetable",
+                    "score_tag": "P+"
+                },
+                {
+                    "form": "love",
+                    "id": "4389870a4a",
+                    "type": "Top>Person",
+                    "score_tag": "P+"
+                },
+                {
+                    "form": "love",
+                    "id": "d6a74cda8b",
+                    "type": "Top>Person",
+                    "score_tag": "P+"
+                }
+            ]
+        }
+    ],
+    "sentimented_entity_list": [],
+    "sentimented_concept_list": [
+        {
+            "form": "banana",
+            "id": "04829d79a9",
+            "type": "Top>Product>Food>FruitOrVegetable",
+            "score_tag": "P+"
+        },
+        {
+            "form": "love",
+            "id": "4389870a4a",
+            "type": "Top>Person",
+            "score_tag": "P+"
+        },
+        {
+            "form": "love",
+            "id": "d6a74cda8b",
+            "type": "Top>Person",
+            "score_tag": "P+"
+        }
+    ]
+}
