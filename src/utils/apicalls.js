@@ -89,6 +89,7 @@ export const submitWords = async (words, directionChange, wordType) => {
                 throw Error('Thesaurus fetch error')
             } else {
                 const result = await response.json()
+                console.log("Thesaurus result>>>>", result)
                 let newWord = {text: '', originalIndex: word.originalIndex}
                 newWord.text = findNewWord(result, directionChange, wordType)
                 return newWord
