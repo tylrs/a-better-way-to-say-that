@@ -17,6 +17,18 @@
     visibility: visible;
 }
 
+.num2 {
+    display: block;
+}
+
+.num2 > button.positive {
+    margin-right: 2%;
+}
+
+.num2 > button.negative {
+    margin-left: 2%;
+}
+
 .positive {
     animation: fadeIn 0s;
     background-image: linear-gradient(135deg, rgba(131,58,180,1) -2%, rgba(253,29,29,1) 30%, rgba(252,176,69,1) 105%);

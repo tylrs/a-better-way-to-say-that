@@ -36,7 +36,7 @@ const Panel = ({info, panel, currentPanel}) => {
     })
 
     return (
-        <article className={panel === currentPanel ? 'panel current-panel' : 'panel'}>
+        <article className={panel === currentPanel ? `panel current-panel num${panel}` : 'panel'}>
             {panelContent}
         </article>
     )
