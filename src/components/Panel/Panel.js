@@ -1,33 +1,35 @@
 import './Panel.css'
 import React from 'react'
 import PropTypes from 'prop-types'
+import randomizer from '../../utils/utils'
 
 const Panel = ({info, panel, currentPanel}) => {
     const generateWords = (content) => {
-        return content.map(word => {
+        return content.map((word, index) => {
             return (
-                <p className={panel === currentPanel ? `result ${word.wordSentiment}` : word.wordSentiment}>{word.text}</p>
+                <p key={index} className={panel === currentPanel ? `result ${word.wordSentiment}` : `${word.wordSentiment}`}>{word.text}</p>
             )   
         })
     }
 
-    const panelContent = info.map(({type, content, styling, func}) => {
+    const panelContent = info.map(({type, content, styling, func}, index) => {
         let element;
+        // console.log("heres index", index);
         switch(type) {
             case 'text':
-                element = <h2>{content}</h2>
+                element = <h2 key={index}>{content}</h2>
                 break;
             case 'result': 
-                element = <h3 className={panel === currentPanel && `result ${styling}`}>{content}</h3>
+                element = <h3 key={index} className={panel === currentPanel ? `result ${styling}` : undefined}>{content}</h3>
                 break;
             case 'button':
-                element = <button onClick={() => func(content, currentPanel)} className={panel === currentPanel && `current-panel ${styling}`}>{content}</button>
+                element = <button key={index} onClick={() => func(content, currentPanel)} className={panel === currentPanel && `current-panel ${styling}`}>{content}</button>
                 break;
             case 'words':
                 element = generateWords(content)
                 break;   
             case 'message':
-                element = <p className={styling}>{content}</p>
+                element = <p key={index} className={styling}>{content}</p>
                 break;   
             default:
                 element = <hr />    
@@ -36,7 +38,7 @@ const Panel = ({info, panel, currentPanel}) => {
     })
 
     return (
-        <article className={panel === currentPanel ? 'panel current-panel' : 'panel'}>
+        <article className={(panel === currentPanel) ? 'panel current-panel' : 'panel'}>
             {panelContent}
         </article>
     )
