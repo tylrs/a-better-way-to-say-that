@@ -18,6 +18,12 @@ A Better Way To Say That uses a Sentiment Analysis API from [Meaning Cloud](http
 
 View original project spec here: [project](https://frontend.turing.edu/projects/module-3/niche-audience.html)
 
+Learning Goals:
+
+-  Apply everything learned so far about React, Cypress, and fetching from APis by building a React app in one week 
+-  Go beyond a simple Ideabox React App by posting data to two APIs and combining / manipulating returned API data
+-  Use conditional styling and gradients to enhance the UI of the app
+
 ## Installation and Viewing 
 
 My application is deployed to Heroku. You may view the live application [here](https://a-better-way-to-say-that.herokuapp.com/)
