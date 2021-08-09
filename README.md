@@ -19,27 +19,33 @@ Here are some sample sentence transformations:
 
 Original: 
 
-### I think you are funny, beautiful, and nice 
+### "I think you are funny, admirable, and nice" 
 
 New: 
 
-### I think you are ordinary, pathetic, and ill-natured
+### "I think you are ordinary, pathetic, and ill-natured"
+
+---
 
 Original:
 
-### Taylor is an inept and weak programmer
+### "Taylor is an inept and weak programmer"
 
 New:
 
-### Taylor is a prudent and rational programmer 
+### "Taylor is a prudent and rational programmer" 
+
+---
 
 Original:
 
-### Bananas are healthy and good for you
+### "Bananas are healthy and good for you"
 
 New:
 
-### Bananas are unprosperous and uncertain for you
+### "Bananas are unprosperous and uncertain for you"
+
+---
 
 View original project spec here: [project](https://frontend.turing.edu/projects/module-3/niche-audience.html)
 
