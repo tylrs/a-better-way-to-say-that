@@ -34,7 +34,7 @@ main {
 }
 
 .saved-button:hover {
-  animation: fadeIn2 3s;
+  animation: fadeIn1 3s;
 }
 
 .error {
@@ -44,11 +44,6 @@ main {
 }
 
 @keyframes fadeIn1 {
-  0% {opacity: .6; background-image: linear-gradient(20deg, rgba(131,58,180,1) 31%, rgba(253,29,29,1) 91%, rgba(252,176,69,1) 100%);}
-  100% {opacity: 1;}
-}
-
-@keyframes fadeIn2 {
-  0% {opacity: .6; background-image: linear-gradient(135deg, rgba(253,29,29,1) 30%, rgba(252,176,69,1) 105%);}
+  0% {opacity: .6;} 
   100% {opacity: 1;}
 }
