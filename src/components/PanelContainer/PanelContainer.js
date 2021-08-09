@@ -2,9 +2,26 @@ import './PanelContainer.css'
 import React from 'react'
 import Panel from '../Panel/Panel'
 import Form from '../Form/Form'
+import PropTypes from 'prop-types'
 
 
-const PanelContainer = ({totalSentiment, currentPanel, positiveWords, negativeWords, handleSubmit, generateNewSentence, originalSentence, newSentence, switchPanels, saveSentence, newSentenceSentiment, savedMessage, error}) => {
+const PanelContainer = (props) => {
+    const {
+        totalSentiment, 
+        currentPanel, 
+        positiveWords, 
+        negativeWords, 
+        handleSubmit, 
+        generateNewSentence, 
+        originalSentence, 
+        newSentence, 
+        switchPanels, 
+        saveSentence, 
+        newSentenceSentiment, 
+        savedMessage, 
+        error
+        } = props
+
     let panel2 = [
         {type: 'text', content: 'Sentence Analysis:'},
         {type: 'result', content: totalSentiment, styling: totalSentiment},
@@ -85,3 +102,19 @@ const PanelContainer = ({totalSentiment, currentPanel, positiveWords, negativeWo
 }
 
 export default PanelContainer
+
+PanelContainer.propTypes = {
+    totalSentiment: PropTypes.string,
+    currentPanel: PropTypes.string,
+    positiveWords: PropTypes.array,
+    negativeWords: PropTypes.array,
+    handleSubmit: PropTypes.func,
+    generateNewSentence: PropTypes.func,
+    originalSentence: PropTypes.string,
+    newSentence: PropTypes.string,
+    switchPanels: PropTypes.func,
+    saveSentence: PropTypes.func,
+    newSentenceSentiment: PropTypes.string,
+    savedMessage: PropTypes.string,
+    error: PropTypes.string
+}

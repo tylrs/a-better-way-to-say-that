@@ -1,5 +1,6 @@
 import './Panel.css'
 import React from 'react'
+import PropTypes from 'prop-types'
 
 const Panel = ({info, panel, currentPanel}) => {
     const generateWords = (content) => {
@@ -42,3 +43,9 @@ const Panel = ({info, panel, currentPanel}) => {
 }
 
 export default Panel
+
+Panel.propTypes = {
+    currentPanel: PropTypes.string,
+    panel: PropTypes.string,
+    info: PropTypes.array
+}
