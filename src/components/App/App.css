@@ -18,6 +18,11 @@ main {
   color: transparent;
   font-size: 1rem;
   text-decoration: none;
+  transition: 1s;
+}
+
+.title:hover {
+  animation: fadeIn1 3s;
 }
 
 .saved-button {
@@ -26,10 +31,25 @@ main {
   color: transparent;
   font-size: 1rem;
   text-decoration: none;
+  transition: 1s;
+}
+
+.saved-button:hover {
+  animation: fadeIn2 3s;
 }
 
 .error {
   color:white;
   font-size: 2rem;
   text-align: center;
+}
+
+@keyframes fadeIn1 {
+  0% {opacity: .6; background-image: linear-gradient(20deg, rgba(131,58,180,1) 31%, rgba(253,29,29,1) 91%, rgba(252,176,69,1) 100%);}
+  100% {opacity: 1;}
+}
+
+@keyframes fadeIn2 {
+  0% {opacity: .6; background-image: linear-gradient(135deg, rgba(253,29,29,1) 30%, rgba(252,176,69,1) 105%);}
+  100% {opacity: 1;}
 }
