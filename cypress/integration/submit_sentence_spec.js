@@ -1,6 +1,6 @@
 describe('Submit Sentence', () => {
     beforeEach(() => {
-        cy.visit('localhost:3000')
+        cy.visit('localhost:3001')
     })
 
     it('Should load the homepage on page load', () => {
