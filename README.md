@@ -2,6 +2,7 @@
 # *A Better Way To Say That*
 
 ## Deployed Here: [https://a-better-way-to-say-that.herokuapp.com/](https://a-better-way-to-say-that.herokuapp.com/)
+### Deployment Status: [![CircleCI](https://circleci.com/gh/tylrs/a-better-way-to-say-that/tree/main.svg?style=svg)](https://circleci.com/gh/tylrs/a-better-way-to-say-that/tree/main)
 
 ### Table of Contents
 - [Overview](#overview)
