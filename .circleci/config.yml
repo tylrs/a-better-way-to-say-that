@@ -1,4 +1,3 @@
-//circle ci config
 version: 2.1
 
 orbs:
